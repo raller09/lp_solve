@@ -17,6 +17,14 @@
 
 #define FORCED_EXIT 255
 
+#if !defined MIN
+# define MIN(a, b) ((a) < (b) ? (a) : (b))
+#endif
+
+#if !defined MAX
+# define MAX(a, b) ((a) > (b) ? (a) : (b))
+#endif
+
 int EndOfPgr(int i)
 {
 #   if defined FORTIFY
@@ -453,7 +461,7 @@ static void print_statistics(lprec *lp)
 
 	col = (REAL *)malloc((1 + m) * sizeof(*col));
 	row = (REAL *)malloc((1 + n) * sizeof(*row));
-	nz = (int *)malloc((1 + (max(m, n))) * sizeof(*RHSmin));
+	nz = (int *)malloc((1 + (MAX(m, n))) * sizeof(*RHSmin));
 	RHSmin = (REAL *)malloc(nstats * sizeof(*RHSmin));
 	RHSmax = (REAL *)malloc(nstats * sizeof(*RHSmax));
 	rowRHSmin = (int *)malloc(nstats * sizeof(*RHSmin));
@@ -531,10 +539,10 @@ static void print_statistics(lprec *lp)
 
 			for (k = 0; k < nMATrowmax && MATrowdiff[k] >= a; k++)
 				;
-				
+
 			if (k < nstats)
 			{
-				l = min(nMATrowmax, nstats - 1) - k;
+				l = MIN(nMATrowmax, nstats - 1) - k;
 				if (l > 0)
 				{
 					memmove(MATrowdiff + k + 1, MATrowdiff + k, l * sizeof(*MATrowdiff));
@@ -585,7 +593,7 @@ static void print_statistics(lprec *lp)
 	printminmax(lp, "A", MATrowmin, MATrowmax, nMATrowmax, nMATrowmax, rowMATrowmax, rowMATrowmax, rowMATcolmin, rowMATcolmax);
 
 	printf("\nObj. Vector (ratios): (");
-	for (k = 0; k < min(nOBJmin, nOBJmax); k++)
+	for (k = 0; k < MIN(nOBJmin, nOBJmax); k++)
 		printf("%s%g", k > 0 ? ", " : "", fabs(OBJmax[k] / OBJmin[k]));
 	printf(")\n");
 	printminmax(lp, "c", OBJmin, OBJmax, nOBJmin, nOBJmax, NULL, NULL, colOBJmin, colOBJmax);
