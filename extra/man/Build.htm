@@ -77,7 +77,7 @@
 					  <p>lpsolve is separated from the application. So there are two separate compilations. One
 					  of the application and one of the lpsolve library. Most people will not compile the
 					  lpsolve library themselves since it is provided for several popular platforms.
-					  The files are in <b>lpsolve_5.5.2.13_dev.zip</b> for Windows and <b>lp_solve_5.5_dev.gz</b> for Linux.
+					  The files are in <b>lp_solve_5.5.2.13_dev.zip</b> for Windows and <b>lp_solve_5.5_dev.gz</b> for Linux.
 					  Therefore it
 					  is first explained how to access the lpsolve library in your application. This depends
 					  on the OS and the calling language. The most common are described here.</p>
@@ -127,7 +127,7 @@
 
 					  <p>Microsoft Visual C/C++ and GNU gcc support both Implicit and Explicit linking.
 					  In both cases, some header files are also needed. They are included with the archive
-					  where the libraries are also in <b>lpsolve_5.5.2.13_dev.zip</b> and <b>lp_solve_5.5_dev.gz</b>.
+					  where the libraries are also in <b>lp_solve_5.5.2.13_dev.zip</b> and <b>lp_solve_5.5_dev.gz</b>.
 					  Only lp_lib.h must be included in your source code. The other header files are included
 					  by this master include file.</p>
 
@@ -139,7 +139,7 @@
 					  the same extension for both. A static library contains code and it is statically linked to the executable.
 					  An import library only contains symbol definitions so that the linker can resolve the symbols. An import
 					  library will thus be much smaller in size than a static library.
-					  This file is provided with the lpsolve dll and is called <b>lpsolve55.lib</b> (both in archive <b>lpsolve_5.5.2.13_dev.zip</b>).
+					  This file is provided with the lpsolve dll and is called <b>lpsolve55.lib</b> (both in archive <b>lp_solve_5.5.2.13_dev.zip</b>).
 					  It depends on the environment and the version how to
 					  do this. Via the link.exe command, this is done by just specifying the lpsolve55.lib file at
 					  the command line. Via the .NET environment, this can be done via:
@@ -305,7 +305,7 @@ main()
 					  application. It must at least be a programming environment with a linker such
 					  that the lpsolve code can be linked with your code. Some header files are also needed.
 					  They are included with the archive
-					  where the libraries are also in <b>lpsolve_5.5.2.13_dev.zip</b> and <b>lp_solve_5.5_dev.gz</b>.
+					  where the libraries are also in <b>lp_solve_5.5.2.13_dev.zip</b> and <b>lp_solve_5.5_dev.gz</b>.
 					  Only lp_lib.h must be included in your source code. The other header files are included
 					  by this master include file.</p>
 
@@ -316,7 +316,7 @@ main()
 						<a name="Implicit linking with the lpsolve static library"></a>
 						<h5><u>Implicit linking with the lpsolve static library</u></h5>
 
-						<p>The lpsolve code is in a library file. The files are in <b>lpsolve_5.5.2.13_dev.zip</b> for Windows and <b>lp_solve_5.5_dev.gz</b> for Linux.
+						<p>The lpsolve code is in a library file. The files are in <b>lp_solve_5.5.2.13_dev.zip</b> for Windows and <b>lp_solve_5.5_dev.gz</b> for Linux.
 						Under Windows with the Microsoft compiler, this is in a .lib file.
 						Under Unix and under Windows with the cygwin gcc compiler, this is in a .a file.
 						Note for the Microsoft compiler the extension of the file. This is the same as for a dynamic library with implicit linking.

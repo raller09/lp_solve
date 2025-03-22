@@ -93,7 +93,7 @@ Python is required to effect a solution.</p>
 This driver must be put in a directory known to Python and Python can call the lpsolve solver.</p>
 
 <p>This driver calls lpsolve via the lpsolve shared library (lpsolve55.dll under Windows
-and liblpsolve55.so under Unix/Linux) (archive lpsolve_5.5.2.13_dev.zip/lpsolve_5.5.2.13_dev.tar.gz). This has the advantage that the lpsolve driver doesn't have to
+and liblpsolve55.so under Unix/Linux) (archive lp_solve_5.5.2.13_dev.zip/lp_solve_5.5.2.13_dev.tar.gz). This has the advantage that the lpsolve driver doesn't have to
 be recompiled when an update of lpsolve is provided. The shared library must be somewhere in the Windows path.</p>
 
 <p>So note the difference between the Python lpsolve driver that is called lpsolve and the lpsolve library that implements the
@@ -3058,7 +3058,7 @@ Most of them exist in the lpsolve API with another name.</p>
 
 <p>The lpsolve Python driver is called lpsolve55.pyd (windows) and lpsolve55.so (Unix).<br>
 This driver is an interface to the lpsolve55.dll (windows) and liblpsolve55.so (Unix) lpsolve shared library that contains the implementation of lp_solve.
-lpsolve55.dll/liblpsolve55.so is distributed with the lp_solve package (archive lpsolve_5.5.2.13_dev.zip/lpsolve_5.5.2.13_dev.tar.gz). The lpsolve Python driver is just
+lpsolve55.dll/liblpsolve55.so is distributed with the lp_solve package (archive lp_solve_5.5.2.13_dev.zip/lp_solve_5.5.2.13_dev.tar.gz). The lpsolve Python driver is just
 a wrapper between Python and lp_solve to translate the input/output to/from Python and the lp_solve library.
 </p>
 
@@ -3147,7 +3147,7 @@ and lp_solve.py. Just run lpsolve55-5.5.0.6.win32-py2.4.exe (this installer is i
 
 <p>On other platforms, the lpsolve driver must be compiled as described in the previous section: <a href="#Compile_the_lpsolve_driver">Compile the lpsolve driver</a></p>
 
-<p>Don't forget that lpsolve55.dll (Windows) or liblpsolve55.so (Unix/Linux) is also needed for this (In archive lpsolve_5.5.2.13_dev.zip).</p>
+<p>Don't forget that lpsolve55.dll (Windows) or liblpsolve55.so (Unix/Linux) is also needed for this (In archive lp_solve_5.5.2.13_dev.zip).</p>
 
 <p>See also <a href="MATLAB.htm">Using lpsolve from MATLAB</a>,
             <a href="O-Matrix.htm">Using lpsolve from O-Matrix</a>,

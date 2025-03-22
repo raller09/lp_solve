@@ -67,7 +67,7 @@ This must be done with root privileges: sudo su -
 </p>
 
 <p>This driver calls lpsolve via the lpsolve shared library (lpsolve55.dll under Windows
-and liblpsolve55.so under Unix/Linux) (archive lpsolve_5.5.2.13_dev.zip/lpsolve_5.5.2.13_dev.tar.gz). This has the advantage that the lpsolve driver doesn't have to
+and liblpsolve55.so under Unix/Linux) (archive lp_solve_5.5.2.13_dev.zip/lp_solve_5.5.2.13_dev.tar.gz). This has the advantage that the lpsolve driver doesn't have to
 be recompiled when an update of lpsolve is provided. The shared library must be somewhere in the Windows path.</p>
 
 <p>So note the difference between the PHP lpsolve driver that is called (php_)phplpsolve55 and the lpsolve library that implements the
@@ -3372,7 +3372,7 @@ Most of them exist in the lpsolve API with another name.</p>
 
 <p>The lpsolve PHP driver is called php_phplpsolve55.dll (windows) and phplpsolve55.so (Unix/Linux).<br>
 This driver is an interface to the lpsolve55.dll (windows) and liblpsolve55.so (Unix/Linux) lpsolve shared library that contains the implementation of lp_solve.
-lpsolve55.dll/liblpsolve55.so is distributed with the lp_solve package (archive lpsolve_5.5.2.13_dev.zip/lpsolve_5.5.2.13_dev.tar.gz). The lpsolve PHP driver is just
+lpsolve55.dll/liblpsolve55.so is distributed with the lp_solve package (archive lp_solve_5.5.2.13_dev.zip/lp_solve_5.5.2.13_dev.tar.gz). The lpsolve PHP driver is just
 a wrapper between PHP and lp_solve to translate the input/output to/from PHP and the lp_solve library.
 </p>
 
