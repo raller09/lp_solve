@@ -350,6 +350,7 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
+**/*.lib
 pe.cfg
 *.bak
 a
@@ -361,5 +362,5 @@ extra/man/.gitignore
 # Distribution files
 **/distrib.bat
 distriball.bat
-distribsrc.txt
+**/distribsrc.txt
 distrib/
