@@ -355,8 +355,10 @@ pe.cfg
 a
 *.gz
 *.sq
+**/*.zip
 
 # Distribution files
-distrib.bat
+**/distrib.bat
+distriball.bat
+distribsrc.txt
 distrib/
-
