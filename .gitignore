@@ -354,6 +354,7 @@ pe.cfg
 *.bak
 a
 *.gz
+*.sq
 
 # Distribution files
 distrib.bat
