@@ -549,7 +549,7 @@ xx/xx/xx version 5.5.2.8
 - When the upper bound of a variable is removed and then solve is done again a wrong (or no) solution can be returned
   This happens when the variable is non-basic and on his upper bound.
 
-xx/xx/xx version 5.5.2.13
+22/03/25 version 5.5.2.13
 - lp_solve option -ia / set_print_sol(AUTOMATIC) didn't work anymore.
 - added extra options to lp_solve to relax an infeasible solution:
    -relax

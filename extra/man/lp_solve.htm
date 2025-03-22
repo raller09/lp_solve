@@ -109,6 +109,7 @@ List of options:
                 options for parameter file:
                  -H headername: header name for parameters. By default 'Default'
 -wafter         Write model after solve (useful if presolve used).
+-wafters        Write scaled model after solve (useful to see scaling effect).
 -parse_only     parse input file but do not solve
 -nonames        Ignore variables and constraint names <a href="set_use_names.htm">See set_use_names</a>
 -norownames     Ignore constraint names <a href="set_use_names.htm">See set_use_names</a>
@@ -212,7 +213,6 @@ These scaling rules can be combined with any of the following:
          -improve8: check for primal/dual feasibility at the node level
 -timeout &lt;sec&gt;  Timeout after sec seconds when not solution found. <a href="set_timeout.htm">See set_timeout</a><!--
 -timeoutok      If timeout, take the best yet found solution.
--->
 -ac &lt;accuracy&gt;  Fail when accuracy is less then specified value.
 -bfp &lt;filename&gt; Set basis factorization package. <a href="set_BFP.htm">See set_BFP</a>
 
@@ -293,7 +293,14 @@ These branch-and-bound rules can be combined with any of the following:
 -ia             print all intermediate (only non-zero values) valid solutions. <a href="set_print_sol.htm">See set_print_sol</a>
                 Can give you useful solutions even if the total run time
                 is too long
+-ip             print solution with more precision
 -stat		Print model statistics
+-relax          Relax model
+-relaxnotighten Don't tighten relaxed model
+-relaxexclude rowNr|RowName
+                Exclude row from relaxation
+-checkmultiplesolutions deltaobj deltax
+                Check if multiple solutions
 -S &lt;detail&gt;     Print solution. If detail omitted, then -S2 is used.
          -S0: Print nothing
          -S1: Only objective value <a href="print_objective.htm">See print_objective</a> <a href="get_objective.htm">See get_objective</a>

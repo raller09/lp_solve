@@ -71,6 +71,7 @@ StyleCopReport.xml
 *.ilk
 *.meta
 *.obj
+*.exe
 *.iobj
 *.pch
 *.pdb
@@ -348,3 +349,12 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+pe.cfg
+*.bak
+a
+*.gz
+
+# Distribution files
+distrib.bat
+distrib/
