@@ -1,0 +1,26 @@
+﻿Build started 19-11-10 21:37:56.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\liblpispx.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\liblpispx.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\soplex\src /Isrc /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WITH_ZLIB /D NDEBUG /D ROUNDING_FE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /wd4274 /wd4996 /wd4800 /analyze- /errorReport:prompt src\scip\bitencode.c src\blockmemshell\memory.c src\scip\message.c
+         bitencode.c
+         memory.c
+         message.c
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\soplex\src /Isrc /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WITH_ZLIB /D NDEBUG /D ROUNDING_FE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4274 /wd4996 /wd4800 /analyze- /errorReport:prompt src\scip\lpi_spx.cpp
+         lpi_spx.cpp
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Release\liblpispx.lib) does not match the Library's OutputFile property value (D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\lib\lpspxlib\x86\release\liblpispx.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\\lib\lpspxlib\x86\release\liblpispx.lib" /NOLOGO /LTCG Release\bitencode.obj
+         Release\lpi_spx.obj
+         Release\memory.obj
+         Release\message.obj
+         liblpispx.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Release\liblpispx.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\liblpispx.unsuccessfulbuild".
+         Touching "Release\liblpispx.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\liblpispx.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.57

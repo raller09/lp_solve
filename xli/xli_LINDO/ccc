@@ -1,0 +1,37 @@
+:
+src='lp_LINDO.c lp_rlnd1.c lp_wlnd1.c yacc_read1.c lp_Hash1.c ../../lp_utils.c'
+
+opts='-O3'
+opts=''
+
+if [ "$PLATFORM" = "RS6000" ]
+then opts="$opts"
+     so="-bM:SRE -bE:../xli_lpsolve.exp"
+     #so="$so -e _nostart"
+     so="$so -bnoentry"
+elif [ "$PLATFORM" = "SCO_UNIX" ]
+then
+     opts='-O0'
+     so="-G -dy"
+     opts="$opts -DNOLONGLONG $so"
+else opts="$opts -fpic"
+     so="-shared -Wl,-soname,libxli_LINDO.so"
+fi
+
+c=cc
+
+#determine platform (32/64 bit)
+>/tmp/platform.c
+echo '#include <stdlib.h>'>>/tmp/platform.c
+echo '#include <stdio.h>'>>/tmp/platform.c
+echo 'main(){printf("ux%d", (int) (sizeof(void *)*8));}'>>/tmp/platform.c
+$c /tmp/platform.c -o /tmp/platform
+PLATFORM=`/tmp/platform`
+rm /tmp/platform /tmp/platform.c >/dev/null 2>&1
+
+mkdir bin bin/$PLATFORM >/dev/null 2>&1
+
+$c -s -c $opts -I.. -I../.. -I../../shared -I. -DYY_NEVER_INTERACTIVE $src
+$c $so -o bin/$PLATFORM/libxli_LINDO.so `echo $src|sed s/[.]c/.o/g|sed 's/[^ ]*\///g'` -lc -lm
+
+rm *.o >/dev/null

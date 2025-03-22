@@ -1,0 +1,17 @@
+﻿Build started 19-11-10 21:37:56.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\soplex\libsoplex.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libsoplex.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         libsoplex.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Release\libsoplex.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libsoplex.unsuccessfulbuild".
+         Touching "Release\libsoplex.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\soplex\libsoplex.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.16

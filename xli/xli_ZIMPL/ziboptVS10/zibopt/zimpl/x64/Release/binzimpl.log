@@ -1,0 +1,38 @@
+﻿Build started 19-11-10 21:46:37.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\zimpl\binzimpl.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Release\binzimpl.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\thirdparty\gmp /I..\..\thirdparty\pcre\src /I..\..\thirdparty\zlib /Isrc /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WITH_PCRE /D WIN64 /D _LIB /D SUPPORT_UTF8 /D SUPPORT_UCP /D POSIX_MALLOC_THRESHOLD=10 /D PCRE_STATIC /D _UNICODE /D UNICODE /D __WATCOMC__ /D NDEBUG /D NO_MSHELL /D __NO_MATH_INLINES /D inline=_inline /D popen=_popen /D pclose=_pclose /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc90.pdb" /Gd /TC /wd4996 /wd4146 /errorReport:prompt src\ratlpfwrite.c src\ratlpstore.c src\ratmpswrite.c src\ratmstwrite.c src\ratordwrite.c src\ratpresolve.c src\xlpglue.c src\zimpl.c
+         ratlpfwrite.c
+         ratlpstore.c
+         ratmpswrite.c
+         ratmstwrite.c
+         ratordwrite.c
+         ratpresolve.c
+         xlpglue.c
+         zimpl.c
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Release\binzimpl.exe) does not match the Linker's OutputFile property value (D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Release\binzimpl_x64.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(binzimpl) does not match the Linker's OutputFile property value (binzimpl_x64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Release\binzimpl_x64.exe" /NOLOGO /LIBPATH:..\..\x64\release /LIBPATH:..\..\thirdparty\gmp\lib\x64\release /LIBPATH:..\..\thirdparty\pcre\lib\x64\release /LIBPATH:lib\x64\release /LIBPATH:..\..\thirdparty\zlib\lib\x64\release libgmp.lib libzimpl.lib libz.lib libpcre.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC.LIB /MANIFEST /ManifestFile:"x64\Release\binzimpl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Release\binzimpl.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Release\binzimpl.lib" /MACHINE:X64 x64\Release\ratlpfwrite.obj
+         x64\Release\ratlpstore.obj
+         x64\Release\ratmpswrite.obj
+         x64\Release\ratmstwrite.obj
+         x64\Release\ratordwrite.obj
+         x64\Release\ratpresolve.obj
+         x64\Release\xlpglue.obj
+         x64\Release\zimpl.obj
+         Generating code
+         Finished generating code
+         binzimpl.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Release\binzimpl.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Release\binzimpl_x64.exe;#1" /manifest x64\Release\binzimpl.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\binzimpl.unsuccessfulbuild".
+         Touching "x64\Release\binzimpl.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\zimpl\binzimpl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.30

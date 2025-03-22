@@ -1,0 +1,11 @@
+\ example 1 from Xpress lp_files doc
+Minimize
+ COST:    XONE + 4 YTWO + 9 ZTHREE + 2
+Subject To
+ LIM1:    XONE + YTWO <= 5
+ LIM2:    XONE + ZTHREE >= 10
+ MYEQN:   - YTWO + ZTHREE  = 7
+Bounds
+ 0 <= XONE <= 4
+-1 <= YTWO <= 1
+End

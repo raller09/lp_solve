@@ -1,0 +1,28 @@
+:
+src='lp_XPRESS.c lp_rlpt1.c lp_wlpt1.c yacc_read1.c lp_Hash1.c args.c ../../lp_utils.c'
+
+c=cc
+
+#determine platform (32/64 bit)
+>/tmp/platform.c
+echo '#include <stdlib.h>'>>/tmp/platform.c
+echo '#include <stdio.h>'>>/tmp/platform.c
+echo 'main(){printf("osx%d", (int) (sizeof(void *)*8));}'>>/tmp/platform.c
+$c /tmp/platform.c -o /tmp/platform
+PLATFORM=`/tmp/platform`
+rm /tmp/platform /tmp/platform.c >/dev/null 2>&1
+
+mkdir bin bin/$PLATFORM >/dev/null 2>&1
+
+opts='-idirafter /usr/include/sys -O3 -DINTEGERTIME -Wno-long-double'
+
+$c -s -c $opts -I.. -I../.. -I../../shared -I. -DYY_NEVER_INTERACTIVE $src
+libtool -static -o libxli_XPRESS.a `echo $src|sed s/[.]c/.o/g|sed 's/[^ ]*\///g'`
+
+opts="$opts -fPIC -fno-common"
+so="-dynamiclib"
+
+$c -s -c $opts -I.. -I../.. -I../../colamd -I../../shared -I. -DYY_NEVER_INTERACTIVE $src
+$c $so libxli_XPRESS.a -compatibility_version 5.5.0 -current_version 5.5.0 -o bin/$PLATFORM/libxli_XPRESS.so `echo $src|sed s/[.]c/.o/g|sed 's/[^ ]*\///g'` -lc -lm
+
+rm *.o >/dev/null

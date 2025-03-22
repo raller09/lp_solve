@@ -1,0 +1,110 @@
+﻿Build started 19-11-10 20:52:37.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\pcre\libpcre.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Debug\libpcre.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "x64\Debug\libpcre.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I. /Zi /nologo /W3 /WX- /Od /D WIN64 /D DEBUG /D _LIB /D SUPPORT_UTF8 /D SUPPORT_UCP /D POSIX_MALLOC_THRESHOLD=10 /D PCRE_STATIC /D _UNICODE /D UNICODE /D _WIN32 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\x64\pcre.pdb" /Gd /TC /errorReport:prompt dftables.c pcre_chartables.c pcre_compile.c pcre_config.c pcre_dfa_exec.c pcre_exec.c pcre_fullinfo.c pcre_get.c pcre_globals.c pcre_info.c pcre_maketables.c pcre_newline.c pcre_ord2utf8.c pcre_refcount.c pcre_study.c pcre_tables.c pcre_try_flipped.c pcre_ucd.c pcre_valid_utf8.c pcre_version.c pcre_xclass.c pcredemo.c pcreposix.c pcretest.c
+         pcretest.c
+     1>pcretest.c(1323): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>pcretest.c(1334): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>pcretest.c(1407): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>pcretest.c(1410): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>pcretest.c(1526): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>pcretest.c(2041): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>pcretest.c(2044): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>pcretest.c(2062): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>pcretest.c(2073): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+         pcreposix.c
+     1>pcreposix.c(203): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>pcreposix.c(206): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+         pcredemo.c
+         pcre_xclass.c
+         pcre_version.c
+         pcre_valid_utf8.c
+     1>pcre_valid_utf8.c(86): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(94): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(96): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(100): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(110): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(119): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(129): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(154): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+         pcre_ucd.c
+         pcre_try_flipped.c
+         pcre_tables.c
+         pcre_study.c
+         pcre_refcount.c
+         pcre_ord2utf8.c
+         pcre_newline.c
+         pcre_maketables.c
+         pcre_info.c
+         pcre_globals.c
+         pcre_get.c
+         pcre_fullinfo.c
+         pcre_exec.c
+         pcre_dfa_exec.c
+         Generating Code...
+         Compiling...
+         pcre_config.c
+         pcre_compile.c
+     1>pcre_compile.c(3313): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_compile.c(4002): warning C4244: '=' : conversion from '__int64' to 'uschar', possible loss of data
+     1>pcre_compile.c(4113): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         pcre_chartables.c
+         dftables.c
+     1>dftables.c(87): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\libpcre.lib) does not match the Library's OutputFile property value (D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\pcre\lib\x64\debug\libpcre.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"lib\x64\debug\libpcre.lib" /NOLOGO x64\Debug\dftables.obj
+         x64\Debug\pcre_chartables.obj
+         x64\Debug\pcre_compile.obj
+         x64\Debug\pcre_config.obj
+         x64\Debug\pcre_dfa_exec.obj
+         x64\Debug\pcre_exec.obj
+         x64\Debug\pcre_fullinfo.obj
+         x64\Debug\pcre_get.obj
+         x64\Debug\pcre_globals.obj
+         x64\Debug\pcre_info.obj
+         x64\Debug\pcre_maketables.obj
+         x64\Debug\pcre_newline.obj
+         x64\Debug\pcre_ord2utf8.obj
+         x64\Debug\pcre_refcount.obj
+         x64\Debug\pcre_study.obj
+         x64\Debug\pcre_tables.obj
+         x64\Debug\pcre_try_flipped.obj
+         x64\Debug\pcre_ucd.obj
+         x64\Debug\pcre_valid_utf8.obj
+         x64\Debug\pcre_version.obj
+         x64\Debug\pcre_xclass.obj
+         x64\Debug\pcredemo.obj
+         x64\Debug\pcreposix.obj
+         x64\Debug\pcretest.obj
+     1>pcredemo.obj : warning LNK4006: main already defined in pcretest.obj; second definition ignored
+     1>pcredemo.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>dftables.obj : warning LNK4006: pcre_maketables already defined in pcre_maketables.obj; second definition ignored
+     1>dftables.obj : warning LNK4006: main already defined in pcretest.obj; second definition ignored
+     1>dftables.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         libpcre.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\libpcre.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\libpcre.unsuccessfulbuild".
+         Touching "x64\Debug\libpcre.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\pcre\libpcre.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.84

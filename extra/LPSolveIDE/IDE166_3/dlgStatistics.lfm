@@ -1,0 +1,97 @@
+object StatisticsForm: TStatisticsForm
+  Left = 485
+  Height = 464
+  Top = 231
+  Width = 848
+  ActiveControl = Button1
+  BorderIcons = [biSystemMenu]
+  Caption = 'Statistics'
+  ClientHeight = 464
+  ClientWidth = 848
+  Font.Height = -17
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poMainFormCenter
+  LCLVersion = '0.9.26.2'
+  object Label1: TLabel
+    Left = 16
+    Height = 21
+    Top = 214
+    Width = 53
+    Caption = 'Scaling'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 12
+    Height = 21
+    Width = 58
+    Caption = 'General'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 392
+    Height = 38
+    Top = 408
+    Width = 115
+    Cancel = True
+    Caption = '&OK'
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object Stats: TListView
+    Left = 16
+    Height = 176
+    Top = 24
+    Width = 517
+    Columns = <    
+      item
+        AutoSize = True
+        Width = 220
+      end    
+      item
+        AutoSize = True
+        Caption = 'Value'
+        Width = 250
+      end>
+    TabOrder = 1
+    ViewStyle = vsReport
+  end
+  object Stats2: TListView
+    Left = 16
+    Height = 152
+    Top = 240
+    Width = 824
+    Anchors = [akTop, akLeft, akRight]
+    Columns = <    
+      item
+        AutoSize = True
+        Width = 10
+      end    
+      item
+        AutoSize = True
+        Caption = 'Name'
+        MinWidth = 20
+        Width = 220
+      end    
+      item
+        AutoSize = True
+        Caption = 'Min'
+        Width = 180
+      end    
+      item
+        AutoSize = True
+        Caption = 'Name'
+        Width = 220
+      end    
+      item
+        AutoSize = True
+        Caption = 'Max'
+        Width = 180
+      end    
+      item
+        Width = 3
+      end>
+    TabOrder = 2
+    ViewStyle = vsReport
+  end
+end

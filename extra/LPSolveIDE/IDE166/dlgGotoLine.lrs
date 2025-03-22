@@ -1,0 +1,17 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TGotoLineForm','FORMDATA',[
+  'TPF0'#13'TGotoLineForm'#12'GotoLineForm'#4'Left'#3#20#5#6'Height'#2'^'#3'Top'
+  +#2's'#5'Width'#3'I'#1#13'ActiveControl'#7#9'LineNumer'#11'BorderIcons'#11#12
+  +'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#16'Goto line num'
+  +'ber'#12'ClientHeight'#2'^'#11'ClientWidth'#3'I'#1#11'Font.Height'#2#245#9'F'
+  +'ont.Name'#6#13'MS Sans Serif'#8'OnCreate'#7#10'FormCreate'#10'LCLVersion'#6
+  +#8'0.9.26.2'#0#6'TLabel'#6'Label1'#4'Left'#2#24#6'Height'#2#14#3'Top'#2#24#5
+  +'Width'#2'j'#7'Caption'#6#21'Enter new line number'#11'ParentColor'#8#0#0#7
+  +'TButton'#7'Button1'#4'Left'#2#24#6'Height'#2#25#3'Top'#2'@'#5'Width'#2'K'#7
+  +'Caption'#6#2'OK'#7'OnClick'#7#12'Button1Click'#8'TabOrder'#2#0#0#0#7'TButto'
+  +'n'#7'Button2'#4'Left'#3#232#0#6'Height'#2#25#3'Top'#2'@'#5'Width'#2'K'#6'Ca'
+  +'ncel'#9#7'Caption'#6#6'Cancel'#11'ModalResult'#2#2#8'TabOrder'#2#1#0#0#5'TE'
+  +'dit'#9'LineNumer'#4'Left'#3#184#0#6'Height'#2#21#3'Top'#2#24#5'Width'#2'y'
+  +#10'OnKeyPress'#7#17'LineNumerKeyPress'#8'TabOrder'#2#2#4'Text'#6#1'1'#0#0#0
+]);

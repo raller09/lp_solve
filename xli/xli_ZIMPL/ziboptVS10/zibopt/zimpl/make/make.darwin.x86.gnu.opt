@@ -1,0 +1,4 @@
+CPPFLAGS	+=	-DNDEBUG -DNO_MSHELL -D__NO_MATH_INLINES 
+CFLAGS		=	-O6
+LDFLAGS		=	-Bstatic -lgmp -lz -lm 
+

@@ -1,0 +1,18 @@
+﻿Build started 19-11-10 20:52:01.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\libobjscip.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libobjscip.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\libobjscip.lib) does not match the Library's OutputFile property value (D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\lib\objlib\x86\debug\libobjscip.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         All outputs are up-to-date.
+         libobjscip.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\libobjscip.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\libobjscip.unsuccessfulbuild".
+         Touching "Debug\libobjscip.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\libobjscip.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.15

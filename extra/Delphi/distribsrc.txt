@@ -1,0 +1,5 @@
+lpsolve.pas
+lpsolve.inc
+demo.dpr
+cppc.bat
+lp.lp

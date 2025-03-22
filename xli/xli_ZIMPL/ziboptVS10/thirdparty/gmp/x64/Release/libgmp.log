@@ -1,0 +1,1796 @@
+﻿Build started 11/21/2010 9:21:16 PM.
+Project "Z:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\gmp\libgmp.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "x64\Release\libgmp.lastbuildstate".
+InitializeBuildStatus:
+  Creating "x64\Release\libgmp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Ob1 /D NDEBUG /D WIN64 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D HAVE_STRNLEN /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\mpz/" /Fd"Release\mpz/vc100.pdb" /Gd /TC /errorReport:prompt mpz\abs.c mpz\add.c mpz\add_ui.c mpz\and.c mpz\aorsmul.c mpz\aorsmul_i.c mpz\array_init.c mpz\bin_ui.c mpz\bin_uiui.c mpz\cdiv_q.c mpz\cdiv_q_ui.c mpz\cdiv_qr.c mpz\cdiv_qr_ui.c mpz\cdiv_r.c mpz\cdiv_r_ui.c mpz\cdiv_ui.c mpz\cfdiv_q_2exp.c mpz\cfdiv_r_2exp.c mpz\clear.c mpz\clrbit.c mpz\cmp.c mpz\cmp_d.c mpz\cmp_si.c mpz\cmp_ui.c mpz\cmpabs.c mpz\cmpabs_d.c mpz\cmpabs_ui.c mpz\com.c mpz\cong.c mpz\cong_2exp.c mpz\cong_ui.c mpz\dive_ui.c mpz\divegcd.c mpz\divexact.c mpz\divis.c mpz\divis_2exp.c mpz\divis_ui.c mpz\dump.c mpz\fac_ui.c mpz\fdiv_q.c mpz\fdiv_q_ui.c mpz\fdiv_qr.c mpz\fdiv_qr_ui.c mpz\fdiv_r.c mpz\fdiv_r_ui.c mpz\fdiv_ui.c mpz\fib2_ui.c mpz\fib_ui.c mpz\fits_sint.c mpz\fits_slong.c mpz\fits_sshort.c mpz\fits_uint.c mpz\fits_ulong.c mpz\fits_ushort.c mpz\gcd.c mpz\gcd_ui.c mpz\gcdext.c mpz\get_d.c mpz\get_d_2exp.c mpz\get_si.c mpz\get_str.c mpz\get_ui.c mpz\getlimbn.c mpz\hamdist.c mpz\init.c mpz\init2.c mpz\inp_raw.c mpz\inp_str.c mpz\invert.c mpz\ior.c mpz\iset.c mpz\iset_d.c mpz\iset_si.c mpz\iset_str.c mpz\iset_ui.c mpz\jacobi.c mpz\kronsz.c mpz\kronuz.c mpz\kronzs.c mpz\kronzu.c mpz\lcm.c mpz\lcm_ui.c mpz\lucnum2_ui.c mpz\lucnum_ui.c mpz\millerrabin.c mpz\mod.c mpz\mul.c mpz\mul_2exp.c mpz\mul_si.c mpz\mul_ui.c mpz\n_pow_ui.c mpz\neg.c mpz\nextprime.c mpz\out_raw.c mpz\out_str.c mpz\perfpow.c mpz\perfsqr.c mpz\popcount.c mpz\pow_ui.c mpz\powm.c mpz\powm_ui.c mpz\pprime_p.c mpz\random.c mpz\random2.c mpz\realloc.c mpz\realloc2.c mpz\remove.c mpz\root.c mpn\generic\rootrem.c mpz\rrandomb.c mpz\scan0.c mpz\scan1.c mpz\set.c mpz\set_d.c mpz\set_f.c mpz\set_q.c mpz\set_si.c mpz\set_str.c mpz\set_ui.c mpz\setbit.c mpz\size.c mpz\sizeinbase.c mpz\sqrt.c mpz\sqrtrem.c mpz\sub.c mpz\sub_ui.c mpz\swap.c mpz\tdiv_q.c mpz\tdiv_q_2exp.c mpz\tdiv_q_ui.c mpz\tdiv_qr.c mpz\tdiv_qr_ui.c mpz\tdiv_r.c mpz\tdiv_r_2exp.c mpz\tdiv_r_ui.c mpz\tdiv_ui.c mpz\tstbit.c mpz\ui_pow_ui.c mpz\urandomb.c mpz\urandomm.c mpz\xor.c
+  abs.c
+  add.c
+  add_ui.c
+  and.c
+  aorsmul.c
+  aorsmul_i.c
+mpz\aorsmul_i.c(148): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  array_init.c
+  bin_ui.c
+mpz\bin_ui.c(113): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_ui.c(113): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\bin_ui.c(113): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_ui.c(113): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\bin_ui.c(113): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\bin_ui.c(113): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_ui.c(113): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\bin_ui.c(113): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_ui.c(113): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  bin_uiui.c
+mpz\bin_uiui.c(114): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(114): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(114): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(114): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(114): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(114): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(114): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(114): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(114): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(115): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(115): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(115): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(115): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\bin_uiui.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  cdiv_q.c
+  cdiv_q_ui.c
+  cdiv_qr.c
+  cdiv_qr_ui.c
+  cdiv_r.c
+  cdiv_r_ui.c
+  cdiv_ui.c
+  cfdiv_q_2exp.c
+  cfdiv_r_2exp.c
+  clear.c
+  clrbit.c
+  Generating Code...
+  Compiling...
+  cmp.c
+  cmp_d.c
+  cmp_si.c
+  cmp_ui.c
+  cmpabs.c
+  cmpabs_d.c
+  cmpabs_ui.c
+  com.c
+  cong.c
+mpz\cong.c(90): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\cong.c(91): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\cong.c(101): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\cong.c(101): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\cong.c(118): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\cong.c(118): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\cong.c(118): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\cong.c(136): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\cong.c(136): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\cong.c(136): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  cong_2exp.c
+mpz\cong_2exp.c(58): warning C4018: '<' : signed/unsigned mismatch
+mpz\cong_2exp.c(62): warning C4018: '>' : signed/unsigned mismatch
+mpz\cong_2exp.c(69): warning C4018: '<=' : signed/unsigned mismatch
+mpz\cong_2exp.c(109): warning C4018: '>=' : signed/unsigned mismatch
+mpz\cong_2exp.c(127): warning C4018: '<' : signed/unsigned mismatch
+  cong_ui.c
+mpz\cong_ui.c(76): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\cong_ui.c(76): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\cong_ui.c(98): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\cong_ui.c(101): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\cong_ui.c(101): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\cong_ui.c(101): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  dive_ui.c
+  divegcd.c
+mpz\divegcd.c(95): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\divegcd.c(95): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\divegcd.c(95): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  divexact.c
+mpz\divexact.c(102): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\divexact.c(102): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\divexact.c(102): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  divis.c
+  divis_2exp.c
+mpz\divis_2exp.c(38): warning C4018: '<=' : signed/unsigned mismatch
+  divis_ui.c
+mpz\divis_ui.c(64): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\divis_ui.c(67): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\divis_ui.c(67): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\divis_ui.c(67): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  dump.c
+  fac_ui.c
+mpz\fac_ui.c(137): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\fac_ui.c(137): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\fac_ui.c(137): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\fac_ui.c(137): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\fac_ui.c(137): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\fac_ui.c(137): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\fac_ui.c(137): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\fac_ui.c(137): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\fac_ui.c(137): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\fac_ui.c(180): warning C4013: 'abort' undefined; assuming extern returning int
+  fdiv_q.c
+  Generating Code...
+  Compiling...
+  fdiv_q_ui.c
+  fdiv_qr.c
+  fdiv_qr_ui.c
+  fdiv_r.c
+  fdiv_r_ui.c
+  fdiv_ui.c
+  fib2_ui.c
+  fib_ui.c
+mpz\fib_ui.c(107): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  fits_sint.c
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpz\fits_s.h(38): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  fits_slong.c
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpz\fits_s.h(38): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  fits_sshort.c
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpz\fits_s.h(38): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  fits_uint.c
+  fits_ulong.c
+  fits_ushort.c
+  gcd.c
+mpz\gcd.c(91): warning C4244: '=' : conversion from '__int64' to 'mp_size_t', possible loss of data
+mpz\gcd.c(93): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\gcd.c(93): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\gcd.c(93): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\gcd.c(106): warning C4244: '=' : conversion from '__int64' to 'mp_size_t', possible loss of data
+mpz\gcd.c(108): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\gcd.c(108): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\gcd.c(108): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  gcd_ui.c
+  gcdext.c
+  get_d.c
+mpz\get_d.c(66): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\get_d.c(70): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\get_d.c(70): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\get_d.c(103): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+mpz\get_d.c(49): warning C4101: 'lz' : unreferenced local variable
+  get_d_2exp.c
+mpz\get_d_2exp.c(48): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\get_d_2exp.c(50): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\get_d_2exp.c(51): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\get_d_2exp.c(51): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  get_si.c
+  Generating Code...
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpz\get_d_2exp.c(48): warning C4723: potential divide by 0
+  Compiling...
+  get_str.c
+mpz\get_str.c(61): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\get_str.c(61): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  get_ui.c
+Z:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\gmp\gmp.h(1568): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  getlimbn.c
+  hamdist.c
+mpz\hamdist.c(98): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\hamdist.c(99): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\hamdist.c(100): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\hamdist.c(135): warning C4293: '>>' : shift count negative or too big, undefined behavior
+  init.c
+  init2.c
+  inp_raw.c
+mpz\inp_raw.c(118): warning C4267: '=' : conversion from 'size_t' to 'mp_size_t', possible loss of data
+mpz\inp_raw.c(142): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\inp_raw.c(142): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\inp_raw.c(142): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\inp_raw.c(142): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\inp_raw.c(143): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\inp_raw.c(143): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\inp_raw.c(143): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\inp_raw.c(143): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\inp_raw.c(163): warning C4267: '=' : conversion from 'size_t' to 'mp_size_t', possible loss of data
+  inp_str.c
+  invert.c
+  ior.c
+  iset.c
+  iset_d.c
+  iset_si.c
+  iset_str.c
+  iset_ui.c
+  jacobi.c
+mpz\jacobi.c(131): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\jacobi.c(131): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\jacobi.c(131): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\jacobi.c(167): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\jacobi.c(167): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\jacobi.c(167): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\jacobi.c(297): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\jacobi.c(297): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\jacobi.c(297): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  kronsz.c
+mpz\kronsz.c(78): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\kronsz.c(78): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\kronsz.c(78): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\kronsz.c(96): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\kronsz.c(110): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\kronsz.c(110): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\kronsz.c(110): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  kronuz.c
+mpz\kronuz.c(72): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\kronuz.c(82): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\kronuz.c(82): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\kronuz.c(82): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\kronuz.c(95): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\kronuz.c(95): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\kronuz.c(95): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  kronzs.c
+mpz\kronzs.c(77): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\kronzs.c(77): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\kronzs.c(77): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  kronzu.c
+mpz\kronzu.c(73): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\kronzu.c(73): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\kronzu.c(73): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  Generating Code...
+  Compiling...
+  lcm.c
+  lcm_ui.c
+  lucnum2_ui.c
+  lucnum_ui.c
+  millerrabin.c
+mpz\millerrabin.c(77): warning C4267: 'function' : conversion from 'size_t' to 'unsigned long', possible loss of data
+  mod.c
+  mul.c
+  mul_2exp.c
+  mul_si.c
+  mul_ui.c
+  n_pow_ui.c
+mpz\n_pow_ui.c(202): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\n_pow_ui.c(202): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\n_pow_ui.c(202): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\n_pow_ui.c(224): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\n_pow_ui.c(358): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\n_pow_ui.c(358): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\n_pow_ui.c(407): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\n_pow_ui.c(407): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  neg.c
+  nextprime.c
+  out_raw.c
+mpz\out_raw.c(97): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\out_raw.c(100): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\out_raw.c(118): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\out_raw.c(118): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\out_raw.c(118): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\out_raw.c(118): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\out_raw.c(124): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\out_raw.c(124): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\out_raw.c(163): warning C4244: '=' : conversion from 'mp_limb_t' to 'char', possible loss of data
+mpz\out_raw.c(185): warning C4244: '=' : conversion from 'mp_size_t' to 'char', possible loss of data
+mpz\out_raw.c(186): warning C4244: '=' : conversion from 'mp_size_t' to 'char', possible loss of data
+mpz\out_raw.c(187): warning C4244: '=' : conversion from 'mp_size_t' to 'char', possible loss of data
+  out_str.c
+  perfpow.c
+mpz\perfpow.c(219): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\perfpow.c(219): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\perfpow.c(219): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\perfpow.c(222): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\perfpow.c(222): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\perfpow.c(222): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  perfsqr.c
+  popcount.c
+  pow_ui.c
+  powm.c
+mpz\powm.c(221): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\powm.c(227): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\powm.c(227): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\powm.c(240): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\powm.c(240): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\powm.c(245): warning C4018: '>' : signed/unsigned mismatch
+  Generating Code...
+  Compiling...
+  powm_ui.c
+mpz\powm_ui.c(72): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\powm_ui.c(72): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\powm_ui.c(112): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\powm_ui.c(112): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  pprime_p.c
+mpz\pprime_p.c(105): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+mpz\pprime_p.c(110): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\pprime_p.c(110): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\pprime_p.c(110): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\pprime_p.c(110): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\pprime_p.c(110): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\pprime_p.c(110): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\pprime_p.c(110): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpz\pprime_p.c(110): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\pprime_p.c(110): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  random.c
+  random2.c
+  realloc.c
+  realloc2.c
+  remove.c
+  root.c
+mpz\root.c(65): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\root.c(65): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  rootrem.c
+mpn\generic\rootrem.c(70): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\rootrem.c(70): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  rrandomb.c
+  scan0.c
+mpz\scan0.c(46): warning C4018: '>=' : signed/unsigned mismatch
+mpz\scan0.c(120): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\scan0.c(122): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\scan0.c(122): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\scan0.c(123): warning C4244: 'return' : conversion from '__int64' to 'unsigned long', possible loss of data
+  scan1.c
+mpz\scan1.c(46): warning C4018: '>=' : signed/unsigned mismatch
+mpz\scan1.c(108): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\scan1.c(138): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpz\scan1.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\scan1.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\scan1.c(141): warning C4244: 'return' : conversion from '__int64' to 'unsigned long', possible loss of data
+  set.c
+  set_d.c
+mpz\set_d.c(37): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\set_d.c(40): warning C4244: '=' : conversion from 'double' to 'mp_limb_t', possible loss of data
+mpz\set_d.c(85): warning C4013: 'abort' undefined; assuming extern returning int
+  set_f.c
+  set_q.c
+  set_si.c
+  set_str.c
+  set_ui.c
+  setbit.c
+  Generating Code...
+  Compiling...
+  size.c
+  sizeinbase.c
+mpz\sizeinbase.c(32): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\sizeinbase.c(32): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  sqrt.c
+  sqrtrem.c
+  sub.c
+  sub_ui.c
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpz\aors_ui.h(95): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  swap.c
+  tdiv_q.c
+  tdiv_q_2exp.c
+  tdiv_q_ui.c
+  tdiv_qr.c
+  tdiv_qr_ui.c
+  tdiv_r.c
+  tdiv_r_2exp.c
+  tdiv_r_ui.c
+  tdiv_ui.c
+  tstbit.c
+mpz\tstbit.c(58): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  ui_pow_ui.c
+  urandomb.c
+  urandomm.c
+mpz\urandomm.c(42): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpz\urandomm.c(42): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  Generating Code...
+  Compiling...
+  xor.c
+  Generating Code...
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Ob1 /D NDEBUG /D WIN64 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D HAVE_STRNLEN /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\mpf/" /Fd"Release\mpf/vc100.pdb" /Gd /TC /errorReport:prompt mpf\abs.c mpf\add.c mpf\add_ui.c mpf\ceilfloor.c mpf\clear.c mpf\cmp.c mpf\cmp_d.c mpf\cmp_si.c mpf\cmp_ui.c mpf\div.c mpf\div_2exp.c mpf\div_ui.c mpf\dump.c mpf\eq.c mpf\fits_sint.c mpf\fits_slong.c mpf\fits_sshort.c mpf\fits_uint.c mpf\fits_ulong.c mpf\fits_ushort.c mpf\get_d.c mpf\get_d_2exp.c mpf\get_dfl_prec.c mpf\get_prc.c mpf\get_si.c mpf\get_str.c mpf\get_ui.c mpf\init.c mpf\init2.c mpf\inp_str.c mpf\int_p.c mpf\iset.c mpf\iset_d.c mpf\iset_si.c mpf\iset_str.c mpf\iset_ui.c mpf\mul.c mpf\mul_2exp.c mpf\mul_ui.c mpf\neg.c mpf\out_str.c mpf\pow_ui.c mpf\random2.c mpf\reldiff.c mpf\set.c mpf\set_d.c mpf\set_dfl_prec.c mpf\set_prc.c mpf\set_prc_raw.c mpf\set_q.c mpf\set_si.c mpf\set_str.c mpf\set_ui.c mpf\set_z.c mpf\size.c mpf\sqrt.c mpf\sqrt_ui.c mpf\sub.c mpf\sub_ui.c mpf\swap.c mpf\trunc.c mpf\ui_div.c mpf\ui_sub.c mpf\urandomb.c
+  abs.c
+  add.c
+  add_ui.c
+  ceilfloor.c
+  clear.c
+  cmp.c
+  cmp_d.c
+  cmp_si.c
+  cmp_ui.c
+  div.c
+mpf\div.c(86): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\div.c(92): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\div.c(92): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  div_2exp.c
+  div_ui.c
+  dump.c
+  eq.c
+mpf\eq.c(86): warning C4018: '<' : signed/unsigned mismatch
+mpf\eq.c(92): warning C4018: '<' : signed/unsigned mismatch
+mpf\eq.c(101): warning C4018: '>' : signed/unsigned mismatch
+  fits_sint.c
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpf\fits_s.h(65): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  fits_slong.c
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpf\fits_s.h(65): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  fits_sshort.c
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpf\fits_s.h(65): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  fits_uint.c
+  fits_ulong.c
+  fits_ushort.c
+  Generating Code...
+  Compiling...
+  get_d.c
+mpf\get_d.c(44): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  get_d_2exp.c
+mpf\get_d_2exp.c(48): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_d_2exp.c(50): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_d_2exp.c(51): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_d_2exp.c(51): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  get_dfl_prec.c
+  get_prc.c
+  get_si.c
+  get_str.c
+mpf\get_str.c(138): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_str.c(138): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_str.c(140): warning C4244: '=' : conversion from 'double' to 'mp_exp_t', possible loss of data
+mpf\get_str.c(149): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_str.c(149): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_str.c(173): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_str.c(173): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_str.c(242): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_str.c(242): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_str.c(244): warning C4244: '=' : conversion from 'double' to 'mp_exp_t', possible loss of data
+mpf\get_str.c(256): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_str.c(256): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\get_str.c(356): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+  get_ui.c
+  init.c
+  init2.c
+  inp_str.c
+  int_p.c
+  iset.c
+  iset_d.c
+  iset_si.c
+  iset_str.c
+  iset_ui.c
+  mul.c
+  mul_2exp.c
+  mul_ui.c
+  neg.c
+  Generating Code...
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpf\get_d_2exp.c(48): warning C4723: potential divide by 0
+  Compiling...
+  out_str.c
+  pow_ui.c
+  random2.c
+  reldiff.c
+  set.c
+  set_d.c
+  set_dfl_prec.c
+  set_prc.c
+  set_prc_raw.c
+  set_q.c
+mpf\set_q.c(81): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\set_q.c(87): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\set_q.c(87): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  set_si.c
+  set_str.c
+mpf\set_str.c(188): warning C4267: '=' : conversion from 'size_t' to 'mp_size_t', possible loss of data
+mpf\set_str.c(225): warning C4244: '-=' : conversion from '__int64' to 'long', possible loss of data
+mpf\set_str.c(246): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\set_str.c(246): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\set_str.c(293): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\set_str.c(296): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\set_str.c(296): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  set_ui.c
+  set_z.c
+  size.c
+  sqrt.c
+  sqrt_ui.c
+  sub.c
+mpf\sub.c(342): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpf\sub.c(368): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpf\sub.c(383): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  sub_ui.c
+  swap.c
+  Generating Code...
+  Compiling...
+  trunc.c
+  ui_div.c
+mpf\ui_div.c(72): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\ui_div.c(78): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpf\ui_div.c(78): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  ui_sub.c
+mpf\ui_sub.c(213): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpf\ui_sub.c(232): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpf\ui_sub.c(290): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpf\ui_sub.c(305): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  urandomb.c
+  Generating Code...
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Ob1 /D NDEBUG /D WIN64 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D HAVE_STRNLEN /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\mpq/" /Fd"Release\mpq/vc100.pdb" /Gd /TC /errorReport:prompt mpq\abs.c mpq\aors.c mpq\canonicalize.c mpq\clear.c mpq\cmp.c mpq\cmp_si.c mpq\cmp_ui.c mpq\div.c mpq\equal.c mpq\get_d.c mpq\get_den.c mpq\get_num.c mpq\get_str.c mpq\init.c mpq\inp_str.c mpq\inv.c mpq\md_2exp.c mpq\mul.c mpq\neg.c mpq\out_str.c mpq\set.c mpq\set_d.c mpq\set_den.c mpq\set_f.c mpq\set_num.c mpq\set_si.c mpq\set_str.c mpq\set_ui.c mpq\set_z.c mpq\swap.c
+  abs.c
+  aors.c
+  canonicalize.c
+  clear.c
+  cmp.c
+mpq\cmp.c(75): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\cmp.c(75): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\cmp.c(76): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\cmp.c(76): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\cmp.c(79): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\cmp.c(79): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\cmp.c(80): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\cmp.c(80): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  cmp_si.c
+  cmp_ui.c
+  div.c
+  equal.c
+  get_d.c
+mpq\get_d.c(81): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\get_d.c(87): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\get_d.c(87): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\get_d.c(154): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  get_den.c
+  get_num.c
+  get_str.c
+  init.c
+  inp_str.c
+  inv.c
+  md_2exp.c
+mpq\md_2exp.c(53): warning C4244: '-=' : conversion from '__int64' to 'mp_size_t', possible loss of data
+mpq\md_2exp.c(70): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpq\md_2exp.c(70): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\md_2exp.c(70): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  mul.c
+  neg.c
+  out_str.c
+  Generating Code...
+  Compiling...
+  set.c
+  set_d.c
+mpq\set_d.c(85): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpq\set_d.c(85): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\set_d.c(85): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  set_den.c
+  set_f.c
+mpq\set_f.c(89): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpq\set_f.c(89): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpq\set_f.c(89): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  set_num.c
+  set_si.c
+  set_str.c
+  set_ui.c
+  set_z.c
+  swap.c
+  Generating Code...
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Ob1 /D NDEBUG /D WIN64 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D HAVE_STRNLEN /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\mpn/" /Fd"Release\mpn/vc100.pdb" /Gd /TC /errorReport:prompt mpn\generic\add.c mpn\generic\add_1.c mpn\generic\bdivmod.c mpn\generic\cmp.c mpn\generic\dc_divrem_n.c mpn\generic\dive_1.c mpn\generic\diveby3.c mpn\generic\divis.c mpn\generic\divrem.c mpn\generic\divrem_1.c mpn\generic\divrem_2.c mpn\generic\dump.c mpn\generic\fib2_ui.c mpn\generic\gcd.c mpn\generic\gcd_1.c mpn\generic\gcdext.c mpn\generic\get_str.c mpn\generic\hamdist.c mpn\generic\jacbase.c mpn\generic\lshift.c mpn\generic\mod_1.c mpn\generic\mod_34lsub1.c mpn\generic\mode1o.c mpn\mp_bases.c mpn\generic\mul.c mpn\generic\mul_1.c mpn\generic\mul_basecase.c mpn\generic\mul_fft.c mpn\generic\mul_n.c mpn\generic\perfsqr.c mpn\generic\popcount.c mpn\generic\pre_divrem_1.c mpn\generic\pre_mod_1.c mpn\generic\random.c mpn\generic\random2.c mpn\generic\rshift.c mpn\generic\sb_divrem_mn.c mpn\generic\scan0.c mpn\generic\scan1.c mpn\generic\set_str.c mpn\generic\sqr_basecase.c mpn\generic\sqrtrem.c mpn\generic\sub.c mpn\generic\sub_1.c mpn\generic\tdiv_qr.c
+  add.c
+  add_1.c
+  bdivmod.c
+mpn\generic\bdivmod.c(81): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\bdivmod.c(81): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\bdivmod.c(81): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\bdivmod.c(81): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\bdivmod.c(81): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\bdivmod.c(81): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\bdivmod.c(81): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\bdivmod.c(81): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\bdivmod.c(81): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  cmp.c
+  dc_divrem_n.c
+  dive_1.c
+mpn\generic\dive_1.c(89): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\dive_1.c(89): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(89): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(108): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(108): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(108): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(108): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(108): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(108): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(108): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(108): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(108): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(124): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(124): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(124): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(124): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(124): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(124): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(124): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(124): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(124): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(141): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(141): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(141): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(141): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(141): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(141): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(141): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(141): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\dive_1.c(141): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  diveby3.c
+  divis.c
+mpn\generic\divis.c(110): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\divis.c(122): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\divis.c(122): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divis.c(122): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divis.c(134): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\divis.c(134): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divis.c(134): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  divrem.c
+  divrem_1.c
+mpn\generic\divrem_1.c(112): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\divrem_1.c(124): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(124): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(124): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(124): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(124): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(124): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(124): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(130): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(130): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(130): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(130): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(130): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(130): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(130): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(140): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(140): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\divrem_1.c(140): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\divrem_1.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(140): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(145): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(183): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(183): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(199): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(199): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(199): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(199): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(199): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(199): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(199): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(204): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(204): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(204): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(204): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(204): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(204): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(204): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(210): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(210): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(210): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(210): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(210): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(210): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(210): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(219): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(219): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(219): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\divrem_1.c(219): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\divrem_1.c(219): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(219): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(219): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(219): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(219): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(229): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(234): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_1.c(240): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  divrem_2.c
+mpn\generic\divrem_2.c(103): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(103): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(103): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\divrem_2.c(103): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\divrem_2.c(103): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(103): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(103): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(103): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(103): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(135): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\divrem_2.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(140): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(142): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(142): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(142): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(142): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(142): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(142): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(142): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(144): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(144): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(144): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(144): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(144): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(144): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(144): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(144): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\divrem_2.c(144): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  dump.c
+  fib2_ui.c
+  gcd.c
+mpn\generic\gcd.c(87): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\gcd.c(87): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(87): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(95): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\gcd.c(95): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(95): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(141): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\gcd.c(148): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(164): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(226): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(226): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(229): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(229): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(254): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(257): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\gcd.c(268): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\gcd.c(268): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(268): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(282): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(282): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(302): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(302): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(302): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(302): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(302): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(302): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(302): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(302): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(302): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(321): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(321): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(321): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(321): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(321): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(321): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(321): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(321): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(321): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(329): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\gcd.c(360): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(360): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(363): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(363): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(367): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\gcd.c(386): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\gcd.c(386): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(386): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd.c(429): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  gcd_1.c
+mpn\generic\gcd_1.c(47): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\gcd_1.c(47): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd_1.c(47): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd_1.c(56): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\gcd_1.c(56): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd_1.c(56): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd_1.c(68): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\gcd_1.c(68): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcd_1.c(68): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  gcdext.c
+mpn\generic\gcdext.c(135): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(148): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(161): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(168): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(270): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(270): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(388): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(388): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(388): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(388): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(388): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(388): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(388): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(388): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(388): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(421): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(421): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(421): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(421): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(421): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(421): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(421): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(421): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(421): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(441): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\gcdext.c(441): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  get_str.c
+mpn\generic\get_str.c(215): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(215): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(215): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(215): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(215): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(215): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(215): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(215): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(215): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(216): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+mpn\generic\get_str.c(220): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(220): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(220): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(220): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(220): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(220): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(220): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(220): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(220): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(221): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+mpn\generic\get_str.c(225): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(225): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(225): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(225): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(225): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(225): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(225): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(225): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(225): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(226): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+mpn\generic\get_str.c(230): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(230): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(230): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(230): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(230): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(230): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(230): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(230): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(230): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(231): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+mpn\generic\get_str.c(238): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(239): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+mpn\generic\get_str.c(251): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+mpn\generic\get_str.c(263): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(263): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(282): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(282): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(282): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(282): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(282): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(282): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(282): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(282): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(282): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(283): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+mpn\generic\get_str.c(293): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+mpn\generic\get_str.c(400): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(400): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\get_str.c(432): warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+  hamdist.c
+mpn\generic\hamdist.c(35): warning C4293: '>>' : shift count negative or too big, undefined behavior
+  jacbase.c
+  lshift.c
+  Generating Code...
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpn\generic\divrem_2.c(142): warning C4723: potential divide by 0
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpn\generic\divrem_2.c(142): warning C4723: potential divide by 0
+  Compiling...
+  mod_1.c
+mpn\generic\mod_1.c(92): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(92): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(92): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(92): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(92): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(92): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(92): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(100): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(100): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(100): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\mod_1.c(100): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\mod_1.c(100): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(100): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(100): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(100): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(100): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(104): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(133): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(133): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(147): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(147): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(147): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(147): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(147): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(147): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(147): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(151): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(151): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(158): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(158): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(158): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\mod_1.c(158): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\mod_1.c(158): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(158): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(158): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(158): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(158): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(165): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_1.c(169): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  mod_34lsub1.c
+mpn\generic\mod_34lsub1.c(97): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_34lsub1.c(97): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_34lsub1.c(97): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_34lsub1.c(97): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_34lsub1.c(97): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_34lsub1.c(98): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_34lsub1.c(98): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mod_34lsub1.c(98): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_34lsub1.c(98): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mod_34lsub1.c(98): warning C4293: '>>' : shift count negative or too big, undefined behavior
+  mode1o.c
+mpn\generic\mode1o.c(146): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(146): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(146): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(146): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(146): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(146): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(146): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(146): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(146): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(172): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(172): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(172): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(172): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(172): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(172): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(172): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(172): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mode1o.c(172): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  mp_bases.c
+  mul.c
+  mul_1.c
+mpn\generic\mul_1.c(43): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mul_1.c(43): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mul_1.c(43): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mul_1.c(43): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mul_1.c(43): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mul_1.c(43): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mul_1.c(43): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\mul_1.c(43): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mul_1.c(43): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  mul_basecase.c
+  mul_fft.c
+mpn\generic\mul_fft.c(357): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+mpn\generic\mul_fft.c(621): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  mul_n.c
+mpn\generic\mul_n.c(249): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\mul_n.c(392): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\mul_n.c(711): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mul_n.c(717): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\mul_n.c(723): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  perfsqr.c
+  popcount.c
+mpn\generic\popcount.c(35): warning C4293: '>>' : shift count negative or too big, undefined behavior
+  pre_divrem_1.c
+mpn\generic\pre_divrem_1.c(90): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(90): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(115): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(119): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_divrem_1.c(126): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  pre_mod_1.c
+mpn\generic\pre_mod_1.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\pre_mod_1.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  random.c
+  random2.c
+  rshift.c
+  sb_divrem_mn.c
+mpn\generic\sb_divrem_mn.c(103): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(103): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(103): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\sb_divrem_mn.c(103): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\sb_divrem_mn.c(103): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(103): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(103): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(103): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(103): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(148): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(152): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(152): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(152): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(152): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(152): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(152): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(152): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(156): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(156): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(156): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(156): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(156): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(156): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(156): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(156): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sb_divrem_mn.c(156): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  scan0.c
+mpn\generic\scan0.c(49): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\scan0.c(54): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\scan0.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\scan0.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\scan0.c(55): warning C4244: 'return' : conversion from '__int64' to 'unsigned long', possible loss of data
+  scan1.c
+mpn\generic\scan1.c(49): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\scan1.c(54): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+mpn\generic\scan1.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\scan1.c(54): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\scan1.c(55): warning C4244: 'return' : conversion from '__int64' to 'unsigned long', possible loss of data
+  set_str.c
+mpn\generic\set_str.c(151): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+mpn\generic\set_str.c(159): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+mpn\generic\set_str.c(314): warning C4267: '=' : conversion from 'size_t' to 'mp_size_t', possible loss of data
+  Generating Code...
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpn\generic\sb_divrem_mn.c(152): warning C4723: potential divide by 0
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpn\generic\sb_divrem_mn.c(152): warning C4723: potential divide by 0
+  Compiling...
+  sqr_basecase.c
+mpn\generic\sqr_basecase.c(46): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(46): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(46): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(46): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(46): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(46): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(46): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(46): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(46): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(80): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(80): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(80): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(80): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(80): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(80): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(80): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(80): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqr_basecase.c(80): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  sqrtrem.c
+mpn\generic\sqrtrem.c(73): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sqrtrem.c(76): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sqrtrem.c(142): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqrtrem.c(142): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sqrtrem.c(149): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqrtrem.c(150): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\sqrtrem.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqrtrem.c(151): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqrtrem.c(190): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqrtrem.c(231): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqrtrem.c(233): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\sqrtrem.c(233): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  sub.c
+  sub_1.c
+  tdiv_qr.c
+mpn\generic\tdiv_qr.c(48): warning C4013: 'abort' undefined; assuming extern returning int
+mpn\generic\tdiv_qr.c(75): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(79): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(79): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(118): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(120): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(120): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(244): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(246): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(246): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(291): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(291): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(291): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(291): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(291): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(291): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(291): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(325): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(325): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(325): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(325): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(325): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(325): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(325): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(325): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\tdiv_qr.c(325): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  Generating Code...
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpn\generic\tdiv_qr.c(291): warning C4723: potential divide by 0
+z:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\thirdparty\gmp\mpn\generic\tdiv_qr.c(291): warning C4723: potential divide by 0
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Ob1 /D OPERATION_add_n /D NDEBUG /D WIN64 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D HAVE_STRNLEN /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\mpn/" /Fd"Release\mpn/vc100.pdb" /Gd /TC /errorReport:prompt mpn\generic\add_n.c
+  add_n.c
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Ob1 /D OPERATION_addmul_1 /D NDEBUG /D WIN64 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D HAVE_STRNLEN /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\mpn/" /Fd"Release\mpn/vc100.pdb" /Gd /TC /errorReport:prompt mpn\generic\addmul_1.c
+  addmul_1.c
+mpn\generic\addmul_1.c(44): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\addmul_1.c(44): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\addmul_1.c(44): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\addmul_1.c(44): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\addmul_1.c(44): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\addmul_1.c(44): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\addmul_1.c(44): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\addmul_1.c(44): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\addmul_1.c(44): warning C4293: '<<' : shift count negative or too big, undefined behavior
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Ob1 /D NDEBUG /D WIN64 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D HAVE_STRNLEN /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\x64\Release/" /Fd".\x64\Release/vc100.pdb" /Gd /TC /errorReport:prompt printf\asprintf.c printf\asprntffuns.c assert.c compat.c printf\doprnt.c printf\doprntf.c printf\doprnti.c scanf\doscan.c errno.c "extract-dbl.c" printf\fprintf.c scanf\fscanf.c scanf\fscanffuns.c "insert-dbl.c" memory.c mp_bpl.c mp_clz_tab.c mp_minv_tab.c mp_set_fns.c printf\obprintf.c printf\obprntffuns.c printf\obvprintf.c mpn\generic\pow_1.c printf\printf.c printf\printffuns.c rand.c randclr.c randdef.c randlc.c randlc2s.c randlc2x.c randraw.c rands.c randsd.c randsdui.c "printf\repl-vsnprintf.c" scanf\scanf.c printf\snprintf.c printf\snprntffuns.c printf\sprintf.c printf\sprintffuns.c scanf\sscanf.c scanf\sscanffuns.c printf\vasprintf.c version.c printf\vfprintf.c scanf\vfscanf.c printf\vprintf.c scanf\vscanf.c printf\vsnprintf.c printf\vsprintf.c scanf\vsscanf.c
+  asprintf.c
+  asprntffuns.c
+printf\asprntffuns.c(49): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+  assert.c
+  compat.c
+  doprnt.c
+printf\doprnt.c(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  doprntf.c
+printf\doprntf.c(87): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+printf\doprntf.c(124): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+printf\doprntf.c(270): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+printf\doprntf.c(271): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+printf\doprntf.c(321): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+  doprnti.c
+printf\doprnti.c(66): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+printf\doprnti.c(94): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+printf\doprnti.c(117): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+  doscan.c
+scanf\doscan.c(205): warning C4102: 'store_get_digits' : unreferenced label
+  errno.c
+  extract-dbl.c
+extract-dbl.c(76): warning C4293: '<<' : shift count negative or too big, undefined behavior
+extract-dbl.c(77): warning C4293: '<<' : shift count negative or too big, undefined behavior
+extract-dbl.c(47): warning C4101: 'manh' : unreferenced local variable
+  fprintf.c
+  fscanf.c
+  fscanffuns.c
+scanf\fscanffuns.c(49): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+  insert-dbl.c
+  memory.c
+  mp_bpl.c
+  mp_clz_tab.c
+  mp_minv_tab.c
+  mp_set_fns.c
+  obprintf.c
+  Generating Code...
+  Compiling...
+  obprntffuns.c
+  obvprintf.c
+  pow_1.c
+  printf.c
+  printffuns.c
+printf\printffuns.c(49): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+printf\printffuns.c(65): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+  rand.c
+  randclr.c
+  randdef.c
+  randlc.c
+randlc.c(34): warning C4013: 'abort' undefined; assuming extern returning int
+  randlc2s.c
+  randlc2x.c
+  randraw.c
+randraw.c(146): warning C4018: '<' : signed/unsigned mismatch
+  rands.c
+  randsd.c
+  randsdui.c
+  repl-vsnprintf.c
+printf\repl-vsnprintf.c(289): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+printf\repl-vsnprintf.c(359): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+printf\repl-vsnprintf.c(367): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+printf\repl-vsnprintf.c(382): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+  scanf.c
+  snprintf.c
+  snprntffuns.c
+printf\snprntffuns.c(70): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+printf\snprntffuns.c(124): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+  sprintf.c
+  Generating Code...
+  Compiling...
+  sprintffuns.c
+printf\sprintffuns.c(55): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+printf\sprintffuns.c(56): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+printf\sprintffuns.c(67): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+  sscanf.c
+  sscanffuns.c
+scanf\sscanffuns.c(34): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+  vasprintf.c
+printf\vasprintf.c(85): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+  version.c
+  vfprintf.c
+  vfscanf.c
+  vprintf.c
+  vscanf.c
+  vsnprintf.c
+  vsprintf.c
+  vsscanf.c
+  Generating Code...
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Ob1 /D OPERATION_sub_n /D NDEBUG /D WIN64 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D HAVE_STRNLEN /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\mpn/" /Fd"Release\mpn/vc100.pdb" /Gd /TC /errorReport:prompt mpn\generic\sub_n.c
+  sub_n.c
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Ob1 /D OPERATION_submul_1 /D NDEBUG /D WIN64 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D HAVE_STRNLEN /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\mpn/" /Fd"Release\mpn/vc100.pdb" /Gd /TC /errorReport:prompt mpn\generic\submul_1.c
+  submul_1.c
+mpn\generic\submul_1.c(44): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\submul_1.c(44): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\submul_1.c(44): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\submul_1.c(44): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\submul_1.c(44): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\submul_1.c(44): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\submul_1.c(44): warning C4293: '>>' : shift count negative or too big, undefined behavior
+mpn\generic\submul_1.c(44): warning C4293: '<<' : shift count negative or too big, undefined behavior
+mpn\generic\submul_1.c(44): warning C4293: '<<' : shift count negative or too big, undefined behavior
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(Z:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\gmp\x64\Release\libgmp.lib) does not match the Library's OutputFile property value (Z:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\gmp\lib\x64\release\libgmp.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"lib\x64\release\libgmp.lib" /NOLOGO .\Release\mpz/abs.obj
+  .\Release\mpz/add.obj
+  .\Release\mpz/add_ui.obj
+  .\Release\mpz/and.obj
+  .\Release\mpz/aorsmul.obj
+  .\Release\mpz/aorsmul_i.obj
+  .\Release\mpz/array_init.obj
+  .\Release\mpz/bin_ui.obj
+  .\Release\mpz/bin_uiui.obj
+  .\Release\mpz/cdiv_q.obj
+  .\Release\mpz/cdiv_q_ui.obj
+  .\Release\mpz/cdiv_qr.obj
+  .\Release\mpz/cdiv_qr_ui.obj
+  .\Release\mpz/cdiv_r.obj
+  .\Release\mpz/cdiv_r_ui.obj
+  .\Release\mpz/cdiv_ui.obj
+  .\Release\mpz/cfdiv_q_2exp.obj
+  .\Release\mpz/cfdiv_r_2exp.obj
+  .\Release\mpz/clear.obj
+  .\Release\mpz/clrbit.obj
+  .\Release\mpz/cmp.obj
+  .\Release\mpz/cmp_d.obj
+  .\Release\mpz/cmp_si.obj
+  .\Release\mpz/cmp_ui.obj
+  .\Release\mpz/cmpabs.obj
+  .\Release\mpz/cmpabs_d.obj
+  .\Release\mpz/cmpabs_ui.obj
+  .\Release\mpz/com.obj
+  .\Release\mpz/cong.obj
+  .\Release\mpz/cong_2exp.obj
+  .\Release\mpz/cong_ui.obj
+  .\Release\mpz/dive_ui.obj
+  .\Release\mpz/divegcd.obj
+  .\Release\mpz/divexact.obj
+  .\Release\mpz/divis.obj
+  .\Release\mpz/divis_2exp.obj
+  .\Release\mpz/divis_ui.obj
+  .\Release\mpz/dump.obj
+  .\Release\mpz/fac_ui.obj
+  .\Release\mpz/fdiv_q.obj
+  .\Release\mpz/fdiv_q_ui.obj
+  .\Release\mpz/fdiv_qr.obj
+  .\Release\mpz/fdiv_qr_ui.obj
+  .\Release\mpz/fdiv_r.obj
+  .\Release\mpz/fdiv_r_ui.obj
+  .\Release\mpz/fdiv_ui.obj
+  .\Release\mpz/fib2_ui.obj
+  .\Release\mpz/fib_ui.obj
+  .\Release\mpz/fits_sint.obj
+  .\Release\mpz/fits_slong.obj
+  .\Release\mpz/fits_sshort.obj
+  .\Release\mpz/fits_uint.obj
+  .\Release\mpz/fits_ulong.obj
+  .\Release\mpz/fits_ushort.obj
+  .\Release\mpz/gcd.obj
+  .\Release\mpz/gcd_ui.obj
+  .\Release\mpz/gcdext.obj
+  .\Release\mpz/get_d.obj
+  .\Release\mpz/get_d_2exp.obj
+  .\Release\mpz/get_si.obj
+  .\Release\mpz/get_str.obj
+  .\Release\mpz/get_ui.obj
+  .\Release\mpz/getlimbn.obj
+  .\Release\mpz/hamdist.obj
+  .\Release\mpz/init.obj
+  .\Release\mpz/init2.obj
+  .\Release\mpz/inp_raw.obj
+  .\Release\mpz/inp_str.obj
+  .\Release\mpz/invert.obj
+  .\Release\mpz/ior.obj
+  .\Release\mpz/iset.obj
+  .\Release\mpz/iset_d.obj
+  .\Release\mpz/iset_si.obj
+  .\Release\mpz/iset_str.obj
+  .\Release\mpz/iset_ui.obj
+  .\Release\mpz/jacobi.obj
+  .\Release\mpz/kronsz.obj
+  .\Release\mpz/kronuz.obj
+  .\Release\mpz/kronzs.obj
+  .\Release\mpz/kronzu.obj
+  .\Release\mpz/lcm.obj
+  .\Release\mpz/lcm_ui.obj
+  .\Release\mpz/lucnum2_ui.obj
+  .\Release\mpz/lucnum_ui.obj
+  .\Release\mpz/millerrabin.obj
+  .\Release\mpz/mod.obj
+  .\Release\mpz/mul.obj
+  .\Release\mpz/mul_2exp.obj
+  .\Release\mpz/mul_si.obj
+  .\Release\mpz/mul_ui.obj
+  .\Release\mpz/n_pow_ui.obj
+  .\Release\mpz/neg.obj
+  .\Release\mpz/nextprime.obj
+  .\Release\mpz/out_raw.obj
+  .\Release\mpz/out_str.obj
+  .\Release\mpz/perfpow.obj
+  .\Release\mpz/perfsqr.obj
+  .\Release\mpz/popcount.obj
+  .\Release\mpz/pow_ui.obj
+  .\Release\mpz/powm.obj
+  .\Release\mpz/powm_ui.obj
+  .\Release\mpz/pprime_p.obj
+  .\Release\mpz/random.obj
+  .\Release\mpz/random2.obj
+  .\Release\mpz/realloc.obj
+  .\Release\mpz/realloc2.obj
+  .\Release\mpz/remove.obj
+  .\Release\mpz/root.obj
+  .\Release\mpz/rootrem.obj
+  .\Release\mpz/rrandomb.obj
+  .\Release\mpz/scan0.obj
+  .\Release\mpz/scan1.obj
+  .\Release\mpz/set.obj
+  .\Release\mpz/set_d.obj
+  .\Release\mpz/set_f.obj
+  .\Release\mpz/set_q.obj
+  .\Release\mpz/set_si.obj
+  .\Release\mpz/set_str.obj
+  .\Release\mpz/set_ui.obj
+  .\Release\mpz/setbit.obj
+  .\Release\mpz/size.obj
+  .\Release\mpz/sizeinbase.obj
+  .\Release\mpz/sqrt.obj
+  .\Release\mpz/sqrtrem.obj
+  .\Release\mpz/sub.obj
+  .\Release\mpz/sub_ui.obj
+  .\Release\mpz/swap.obj
+  .\Release\mpz/tdiv_q.obj
+  .\Release\mpz/tdiv_q_2exp.obj
+  .\Release\mpz/tdiv_q_ui.obj
+  .\Release\mpz/tdiv_qr.obj
+  .\Release\mpz/tdiv_qr_ui.obj
+  .\Release\mpz/tdiv_r.obj
+  .\Release\mpz/tdiv_r_2exp.obj
+  .\Release\mpz/tdiv_r_ui.obj
+  .\Release\mpz/tdiv_ui.obj
+  .\Release\mpz/tstbit.obj
+  .\Release\mpz/ui_pow_ui.obj
+  .\Release\mpz/urandomb.obj
+  .\Release\mpz/urandomm.obj
+  .\Release\mpz/xor.obj
+  .\Release\mpf/abs.obj
+  .\Release\mpf/add.obj
+  .\Release\mpf/add_ui.obj
+  .\Release\mpf/ceilfloor.obj
+  .\Release\mpf/clear.obj
+  .\Release\mpf/cmp.obj
+  .\Release\mpf/cmp_d.obj
+  .\Release\mpf/cmp_si.obj
+  .\Release\mpf/cmp_ui.obj
+  .\Release\mpf/div.obj
+  .\Release\mpf/div_2exp.obj
+  .\Release\mpf/div_ui.obj
+  .\Release\mpf/dump.obj
+  .\Release\mpf/eq.obj
+  .\Release\mpf/fits_sint.obj
+  .\Release\mpf/fits_slong.obj
+  .\Release\mpf/fits_sshort.obj
+  .\Release\mpf/fits_uint.obj
+  .\Release\mpf/fits_ulong.obj
+  .\Release\mpf/fits_ushort.obj
+  .\Release\mpf/get_d.obj
+  .\Release\mpf/get_d_2exp.obj
+  .\Release\mpf/get_dfl_prec.obj
+  .\Release\mpf/get_prc.obj
+  .\Release\mpf/get_si.obj
+  .\Release\mpf/get_str.obj
+  .\Release\mpf/get_ui.obj
+  .\Release\mpf/init.obj
+  .\Release\mpf/init2.obj
+  .\Release\mpf/inp_str.obj
+  .\Release\mpf/int_p.obj
+  .\Release\mpf/iset.obj
+  .\Release\mpf/iset_d.obj
+  .\Release\mpf/iset_si.obj
+  .\Release\mpf/iset_str.obj
+  .\Release\mpf/iset_ui.obj
+  .\Release\mpf/mul.obj
+  .\Release\mpf/mul_2exp.obj
+  .\Release\mpf/mul_ui.obj
+  .\Release\mpf/neg.obj
+  .\Release\mpf/out_str.obj
+  .\Release\mpf/pow_ui.obj
+  .\Release\mpf/random2.obj
+  .\Release\mpf/reldiff.obj
+  .\Release\mpf/set.obj
+  .\Release\mpf/set_d.obj
+  .\Release\mpf/set_dfl_prec.obj
+  .\Release\mpf/set_prc.obj
+  .\Release\mpf/set_prc_raw.obj
+  .\Release\mpf/set_q.obj
+  .\Release\mpf/set_si.obj
+  .\Release\mpf/set_str.obj
+  .\Release\mpf/set_ui.obj
+  .\Release\mpf/set_z.obj
+  .\Release\mpf/size.obj
+  .\Release\mpf/sqrt.obj
+  .\Release\mpf/sqrt_ui.obj
+  .\Release\mpf/sub.obj
+  .\Release\mpf/sub_ui.obj
+  .\Release\mpf/swap.obj
+  .\Release\mpf/trunc.obj
+  .\Release\mpf/ui_div.obj
+  .\Release\mpf/ui_sub.obj
+  .\Release\mpf/urandomb.obj
+  .\Release\mpq/abs.obj
+  .\Release\mpq/aors.obj
+  .\Release\mpq/canonicalize.obj
+  .\Release\mpq/clear.obj
+  .\Release\mpq/cmp.obj
+  .\Release\mpq/cmp_si.obj
+  .\Release\mpq/cmp_ui.obj
+  .\Release\mpq/div.obj
+  .\Release\mpq/equal.obj
+  .\Release\mpq/get_d.obj
+  .\Release\mpq/get_den.obj
+  .\Release\mpq/get_num.obj
+  .\Release\mpq/get_str.obj
+  .\Release\mpq/init.obj
+  .\Release\mpq/inp_str.obj
+  .\Release\mpq/inv.obj
+  .\Release\mpq/md_2exp.obj
+  .\Release\mpq/mul.obj
+  .\Release\mpq/neg.obj
+  .\Release\mpq/out_str.obj
+  .\Release\mpq/set.obj
+  .\Release\mpq/set_d.obj
+  .\Release\mpq/set_den.obj
+  .\Release\mpq/set_f.obj
+  .\Release\mpq/set_num.obj
+  .\Release\mpq/set_si.obj
+  .\Release\mpq/set_str.obj
+  .\Release\mpq/set_ui.obj
+  .\Release\mpq/set_z.obj
+  .\Release\mpq/swap.obj
+  .\Release\mpn/add.obj
+  .\Release\mpn/add_1.obj
+  .\Release\mpn/add_n.obj
+  .\Release\mpn/addmul_1.obj
+  .\Release\mpn/bdivmod.obj
+  .\Release\mpn/cmp.obj
+  .\Release\mpn/dc_divrem_n.obj
+  .\Release\mpn/dive_1.obj
+  .\Release\mpn/diveby3.obj
+  .\Release\mpn/divis.obj
+  .\Release\mpn/divrem.obj
+  .\Release\mpn/divrem_1.obj
+  .\Release\mpn/divrem_2.obj
+  .\Release\mpn/dump.obj
+  .\Release\mpn/fib2_ui.obj
+  .\Release\mpn/gcd.obj
+  .\Release\mpn/gcd_1.obj
+  .\Release\mpn/gcdext.obj
+  .\Release\mpn/get_str.obj
+  .\Release\mpn/hamdist.obj
+  .\Release\mpn/jacbase.obj
+  .\Release\mpn/lshift.obj
+  .\Release\mpn/mod_1.obj
+  .\Release\mpn/mod_34lsub1.obj
+  .\Release\mpn/mode1o.obj
+  .\Release\mpn/mp_bases.obj
+  .\Release\mpn/mul.obj
+  .\Release\mpn/mul_1.obj
+  .\Release\mpn/mul_basecase.obj
+  .\Release\mpn/mul_fft.obj
+  .\Release\mpn/mul_n.obj
+  .\Release\mpn/perfsqr.obj
+  .\Release\mpn/popcount.obj
+  .\Release\mpn/pre_divrem_1.obj
+  .\Release\mpn/pre_mod_1.obj
+  .\Release\mpn/random.obj
+  .\Release\mpn/random2.obj
+  .\Release\mpn/rshift.obj
+  .\Release\mpn/sb_divrem_mn.obj
+  .\Release\mpn/scan0.obj
+  .\Release\mpn/scan1.obj
+  .\Release\mpn/set_str.obj
+  .\Release\mpn/sqr_basecase.obj
+  .\Release\mpn/sqrtrem.obj
+  .\Release\mpn/sub.obj
+  .\Release\mpn/sub_1.obj
+  .\Release\mpn/sub_n.obj
+  .\Release\mpn/submul_1.obj
+  .\Release\mpn/tdiv_qr.obj
+  .\x64\Release/asprintf.obj
+  .\x64\Release/asprntffuns.obj
+  .\x64\Release/assert.obj
+  .\x64\Release/compat.obj
+  .\x64\Release/doprnt.obj
+  .\x64\Release/doprntf.obj
+  .\x64\Release/doprnti.obj
+  .\x64\Release/doscan.obj
+  .\x64\Release/errno.obj
+  ".\x64\Release/extract-dbl.obj"
+  .\x64\Release/fprintf.obj
+  .\x64\Release/fscanf.obj
+  .\x64\Release/fscanffuns.obj
+  ".\x64\Release/insert-dbl.obj"
+  .\x64\Release/memory.obj
+  .\x64\Release/mp_bpl.obj
+  .\x64\Release/mp_clz_tab.obj
+  .\x64\Release/mp_minv_tab.obj
+  .\x64\Release/mp_set_fns.obj
+  .\x64\Release/obprintf.obj
+  .\x64\Release/obprntffuns.obj
+  .\x64\Release/obvprintf.obj
+  .\x64\Release/pow_1.obj
+  .\x64\Release/printf.obj
+  .\x64\Release/printffuns.obj
+  .\x64\Release/rand.obj
+  .\x64\Release/randclr.obj
+  .\x64\Release/randdef.obj
+  .\x64\Release/randlc.obj
+  .\x64\Release/randlc2s.obj
+  .\x64\Release/randlc2x.obj
+  .\x64\Release/randraw.obj
+  .\x64\Release/rands.obj
+  .\x64\Release/randsd.obj
+  .\x64\Release/randsdui.obj
+  ".\x64\Release/repl-vsnprintf.obj"
+  .\x64\Release/scanf.obj
+  .\x64\Release/snprintf.obj
+  .\x64\Release/snprntffuns.obj
+  .\x64\Release/sprintf.obj
+  .\x64\Release/sprintffuns.obj
+  .\x64\Release/sscanf.obj
+  .\x64\Release/sscanffuns.obj
+  .\x64\Release/vasprintf.obj
+  .\x64\Release/version.obj
+  .\x64\Release/vfprintf.obj
+  .\x64\Release/vfscanf.obj
+  .\x64\Release/vprintf.obj
+  .\x64\Release/vscanf.obj
+  .\x64\Release/vsnprintf.obj
+  .\x64\Release/vsprintf.obj
+  .\x64\Release/vsscanf.obj
+  libgmp.vcxproj -> Z:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\gmp\x64\Release\libgmp.lib
+FinalizeBuildStatus:
+  Deleting file "x64\Release\libgmp.unsuccessfulbuild".
+  Touching "x64\Release\libgmp.lastbuildstate".
+Done Building Project "Z:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\gmp\libgmp.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:56.81

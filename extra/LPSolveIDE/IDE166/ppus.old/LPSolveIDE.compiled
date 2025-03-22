@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="c:\lazarus\fpc\2.2.2\bin\i386-win32\fpc.exe" Date="980252257"/>
+  <Params Value=" -MObjFPC -Sghi -O1 -TWin32 -gl -vewnhi -FiC:\LAAzProj\IDE16\ppus\ -FiC:\Lazarus\lcl\include\ -FiC:\Lazarus\fpc\2.2.2\source\rtl\objpas\sysutils\ -FuC:\Lazarus\components\synedit\ -FuC:\Lazarus\components\virtualtreeview\ -FuC:\Lazarus\fpc\2.2.2\source\packages\winunits-jedi\src\ -Fuc:\lazarus\lcl\units\i386-win32\ -Fuc:\lazarus\components\synedit\units\i386-win32\ -FuC:\Lazarus\components\virtualtreeview\windows\lib\i386-win32\ -Fuc:\lazarus\lcl\units\i386-win32\win32\ -Fuc:\lazarus\packager\units\i386-win32\ -FuC:\LAAzProj\IDE16\ -Fu. -FUC:\LAAzProj\IDE16\ppus\ -oC:\LAAzProj\IDE16\ppus\LPSolveIDE.exe -dLCL -dLCLwin32 LPSolveIDE.dpr"/>
+</CONFIG>

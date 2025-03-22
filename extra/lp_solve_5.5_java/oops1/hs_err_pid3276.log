@@ -1,0 +1,124 @@
+#
+# An unexpected error has been detected by HotSpot Virtual Machine:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x02caf14e, pid=3276, tid=2868
+#
+# Java VM: Java HotSpot(TM) Client VM (1.5.0_06-b05 mixed mode, sharing)
+# Problematic frame:
+# C  [lpsolve55.dll+0x1f14e]
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00036768):  JavaThread "main" [_thread_in_native, id=2868]
+
+siginfo: ExceptionCode=0xc0000005, writing address 0x0000019c
+
+Registers:
+EAX=0x0000019c, EBX=0x00000067, ECX=0x00000001, EDX=0x00000000
+ESP=0x0007f944, EBP=0x0007f958, ESI=0x00a91d30, EDI=0x0007f988
+EIP=0x02caf14e, EFLAGS=0x00010206
+
+Top of Stack: (sp=0x0007f944)
+0x0007f944:   00a84d70 00a84d70 00000001 0007f988
+0x0007f954:   0007f988 0007f97c 02ca1d37 00a91d30
+0x0007f964:   00000067 00000001 00000000 00a84d70
+0x0007f974:   00a85144 00a84d70 0007f9b0 02ca2fa6
+0x0007f984:   00a84d70 00000067 00000001 00000000
+0x0007f994:   00a84d70 00000001 02ca30d1 00a84d70
+0x0007f9a4:   00000001 00acf798 00036828 0007fa50
+0x0007f9b4:   02ca31d3 00a84d70 00000000 00acf798 
+
+Instructions: (pc=0x02caf14e)
+0x02caf13e:   85 c9 0f 8e f3 01 00 00 8b c3 c1 e0 02 8b 56 30
+0x02caf14e:   83 24 02 00 83 c0 04 49 75 f3 e9 dc 01 00 00 8b 
+
+
+Stack: [0x00040000,0x00080000),  sp=0x0007f944,  free space=254k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [lpsolve55.dll+0x1f14e]
+C  [lpsolve55.dll+0x11d37]
+C  [lpsolve55.dll+0x12fa6]
+C  [lpsolve55.dll+0x131d3]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  lpsolve.LpSolve.addConstraint([DID)V+0
+j  TestIt.min_search([D[D)[D+872
+j  TestIt.main([Ljava/lang/String;)V+34
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00a6ee18 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=3240]
+  0x00a6d8a8 JavaThread "CompilerThread0" daemon [_thread_blocked, id=240]
+  0x00a6cb48 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=3236]
+  0x00a47de8 JavaThread "Finalizer" daemon [_thread_blocked, id=2768]
+  0x0003f8c0 JavaThread "Reference Handler" daemon [_thread_blocked, id=3684]
+=>0x00036768 JavaThread "main" [_thread_in_native, id=2868]
+
+Other Threads:
+  0x00a39008 VMThread [id=3380]
+  0x00a70030 WatcherThread [id=1964]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 576K, used 355K [0x22b80000, 0x22c20000, 0x23060000)
+  eden space 512K,  56% used [0x22b80000, 0x22bc8c38, 0x22c00000)
+  from space 64K,  99% used [0x22c10000, 0x22c1fff8, 0x22c20000)
+  to   space 64K,   0% used [0x22c00000, 0x22c00000, 0x22c10000)
+ tenured generation   total 1408K, used 68K [0x23060000, 0x231c0000, 0x26b80000)
+   the space 1408K,   4% used [0x23060000, 0x23071380, 0x23071400, 0x231c0000)
+ compacting perm gen  total 8192K, used 83K [0x26b80000, 0x27380000, 0x2ab80000)
+   the space 8192K,   1% used [0x26b80000, 0x26b94ff8, 0x26b95000, 0x27380000)
+    ro space 8192K,  63% used [0x2ab80000, 0x2b08b178, 0x2b08b200, 0x2b380000)
+    rw space 12288K,  46% used [0x2b380000, 0x2b919fa8, 0x2b91a000, 0x2bf80000)
+
+Dynamic libraries:
+0x00400000 - 0x0040c000 	C:\WINDOWS\system32\java.exe
+0x7c900000 - 0x7c9b0000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c8f4000 	C:\WINDOWS\system32\kernel32.dll
+0x77dd0000 - 0x77e6b000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e70000 - 0x77f01000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77c10000 - 0x77c68000 	C:\WINDOWS\system32\MSVCRT.dll
+0x6d670000 - 0x6d804000 	C:\Program Files\Java\jre1.5.0_06\bin\client\jvm.dll
+0x77d40000 - 0x77dd0000 	C:\WINDOWS\system32\USER32.dll
+0x77f10000 - 0x77f57000 	C:\WINDOWS\system32\GDI32.dll
+0x76b40000 - 0x76b6d000 	C:\WINDOWS\system32\WINMM.dll
+0x76390000 - 0x763ad000 	C:\WINDOWS\system32\IMM32.DLL
+0x629c0000 - 0x629c9000 	C:\WINDOWS\system32\LPK.DLL
+0x74d90000 - 0x74dfb000 	C:\WINDOWS\system32\USP10.dll
+0x6d280000 - 0x6d288000 	C:\Program Files\Java\jre1.5.0_06\bin\hpi.dll
+0x76bf0000 - 0x76bfb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d640000 - 0x6d64c000 	C:\Program Files\Java\jre1.5.0_06\bin\verify.dll
+0x6d300000 - 0x6d31d000 	C:\Program Files\Java\jre1.5.0_06\bin\java.dll
+0x6d660000 - 0x6d66f000 	C:\Program Files\Java\jre1.5.0_06\bin\zip.dll
+0x10000000 - 0x1001b000 	F:\lp_solve_5.5\extra\lp_solve_5.5_java\lib\win32\lpsolve55j.dll
+0x02c90000 - 0x02cf3000 	C:\WINDOWS\system32\lpsolve55.dll
+
+VM Arguments:
+java_command: TestIt
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+CLASSPATH=D:\lindo\Lindoapi41\lib\lindo4_1.jar
+PATH=F:\lp_solve_5.5;F:\lp_solve_5.5\lpsolve55;F:\lp_solve_5.5\extra\lp_solve_5.5_java\lib\win32;C:\Python24\.;C:\Program Files\Common Files\Fujitsu\COBOL;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Microsoft SQL Server\80\Tools\BINN;D:\usr\local\wbin;d:\util;d:\util\upx;C:\cygwin\bin;C:\Program Files\Compuware\DevPartner Studio\Analysis;C:\Program Files\Common Files\Compuware\NMShared;C:\Program Files\HTML Help Workshop;C:\Program Files\ATI Technologies\ATI Control Panel;C:\Sun\AppServer\jdk\bin;C:\Program Files\ZipGenius 6\;F:\gnuplot\bin;D:\lindo\Lindoapi41\bin\win32
+USERNAME=peno
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 15 Model 2 Stepping 4, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 2
+
+CPU:total 1 family 15, cmov, cx8, fxsr, mmx, sse, sse2, ht
+
+Memory: 4k page, physical 523760k(138780k free), swap 1278440k(762132k free)
+
+vm_info: Java HotSpot(TM) Client VM (1.5.0_06-b05) for windows-x86, built on Nov 10 2005 11:12:14 by "java_re" with MS VC++ 6.0
+

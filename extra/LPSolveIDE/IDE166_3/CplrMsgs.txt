@@ -1,0 +1,61 @@
+Hint: Start of reading config file c:\lazarus\fpc\2.2.2\bin\i386-win32\fpc.cfg
+Hint: End of reading config file c:\lazarus\fpc\2.2.2\bin\i386-win32\fpc.cfg
+Free Pascal Compiler version 2.2.2 [2009/03/13] for i386
+Copyright (c) 1993-2008 by Florian Klaempfl
+Target OS: Win32 for i386
+Compiling LPSolveIDE.dpr
+Compiling dlgSearchText.pas
+dlgSearchText.pas(25,30) Hint: Parameter "Sender" not used
+dlgSearchText.pas(25,51) Hint: Parameter "CanClose" not used
+dlgSearchText.pas(26,26) Hint: Parameter "Sender" not used
+dlgSearchText.pas(8,62) Hint: Unit "LMessages" not used in dlgSearchText
+Compiling dlgGotoLine.pas
+Compiling main.pas
+main.pas(705,19) Error: Identifier not found "LoadLibrary"
+main.pas(707,37) Error: Identifier not found "GetProcAddress"
+main.pas(708,14) Error: Identifier not found "FreeLibrary"
+main.pas(730,19) Error: Identifier not found "LoadLibrary"
+main.pas(732,37) Error: Identifier not found "GetProcAddress"
+main.pas(733,14) Error: Identifier not found "FreeLibrary"
+main.pas(928,64) Hint: Local variable "xliindex" does not seem to be initialized
+main.pas(988,11) Error: identifier idents no member "Clear"
+main.pas(989,16) Error: identifier idents no member "Clear"
+main.pas(1053,10) Error: identifier idents no member "Clear"
+main.pas(1219,14) Error: identifier idents no member "GotoLineAndCenter"
+main.pas(1285,13) Error: identifier idents no member "SetAsHandle"
+main.pas(1292,13) Error: identifier idents no member "Clear"
+main.pas(1293,18) Error: identifier idents no member "Clear"
+main.pas(1409,42) Hint: Local variable "e" does not seem to be initialized
+main.pas(1953,46) Warning: Constructing a class "TLPHighlighter" with abstract methods
+synedithighlighter.pp(270,15) Hint: Found abstract method: TSynCustomHighlighter.GetTokenEx(< TSynCustomHighlighter>,var PChar,var LongInt)
+main.pas(2111,37) Error: identifier idents no member "WordAtCursor"
+main.pas(2154,14) Error: identifier idents no member "BufferToDisplayPos"
+main.pas(2155,20) Error: Identifier not found "BufferCoord"
+main.pas(2183,10) Error: identifier idents no member "Clear"
+main.pas(2240,14) Error: identifier idents no member "Clear"
+main.pas(2290,37) Error: Identifier not found "TStringListChangeEvent"
+main.pas(2290,37) Error: Error in type definition
+main.pas(2291,38) Error: Identifier not found "TStringListChangeEvent"
+main.pas(2291,38) Error: Error in type definition
+main.pas(2292,36) Error: Identifier not found "TStringListChangeEvent"
+main.pas(2292,36) Error: Error in type definition
+main.pas(2300,30) Error: Identifier not found "OnDeleted"
+main.pas(2301,32) Error: Identifier not found "OnInserted"
+main.pas(2302,28) Error: Identifier not found "OnPutted"
+main.pas(2306,17) Error: Identifier not found "OnDeleted"
+main.pas(2307,18) Error: Identifier not found "OnInserted"
+main.pas(2308,16) Error: Identifier not found "OnPutted"
+main.pas(2311,26) Error: identifier idents no member "SaveToStrings"
+main.pas(2318,19) Error: Identifier not found "OnDeleted"
+main.pas(2319,20) Error: Identifier not found "OnInserted"
+main.pas(2320,18) Error: Identifier not found "OnPutted"
+main.pas(2392,39) Error: Identifier not found "TSynExporterHTML"
+main.pas(2393,27) Error: Identifier not found "TSynExporterHTML"
+main.pas(2395,42) Error: Identifier not found "TSynExporterRTF"
+main.pas(2396,42) Error: Identifier not found "TSynExporterTeX"
+main.pas(2515,13) Error: identifier idents no member "SetAsHandle"
+main.pas(2520,13) Error: identifier idents no member "SetAsHandle"
+main.pas(3101,28) Error: identifier idents no member "Handle"
+main.pas(3227,20) Error: Identifier not found "SetThreadPriority"
+main.pas(3227,37) Error: Identifier not found "GetCurrentThread"
+main.pas(3305, stopping

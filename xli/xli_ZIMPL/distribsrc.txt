@@ -1,0 +1,14 @@
+lp_solve_5.5/xli/lp_XLI.def
+lp_solve_5.5/xli/lp_XLI.h
+lp_solve_5.5/xli/lp_XLI1.c
+lp_solve_5.5/xli/lp_XLI2.c
+lp_solve_5.5/xli/xli_ZIMPL/readme.txt
+lp_solve_5.5/xli/xli_ZIMPL/lp_ZIMPL.c
+lp_solve_5.5/xli/xli_ZIMPL/lp_ZIMPL.h
+lp_solve_5.5/xli/xli_ZIMPL/xli_ZIMPL.c
+lp_solve_5.5/xli/xli_ZIMPL/xli_ZIMPL.h
+lp_solve_5.5/xli/xli_ZIMPL/xli_ZIMPL.vcproj
+lp_solve_5.5/xli/xli_ZIMPL/xli_ZIMPL.sln
+lp_solve_5.5/xli/xli_ZIMPL/cvc6.bat
+lp_solve_5.5/xli/xli_ZIMPL/cvc8msvcrt.bat
+lp_solve_5.5/xli/xli_ZIMPL/cvc8NOmsvcrt.bat

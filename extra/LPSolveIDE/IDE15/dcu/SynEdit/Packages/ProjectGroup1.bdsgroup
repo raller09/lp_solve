@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{CE27D4C9-F6EA-4E93-A56A-FA6CCC382372}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="SynEdit_R2006.bpl">SynEdit_R2006.bdsproj</Projects>
+      <Projects Name="SynEdit_D2006.bpl">SynEdit_D2006.bdsproj</Projects>
+      <Projects Name="LpSolveIDE.exe">..\..\..\..\LPIDE\LpSolveIDE.bdsproj</Projects>
+      <Projects Name="Targets">SynEdit_R2006.bpl SynEdit_D2006.bpl LpSolveIDE.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

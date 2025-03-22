@@ -1,0 +1,5 @@
+#--- $Id: make.linux.x86.gnu.opt,v 1.7 2004/04/14 11:56:40 bzfkocht Exp $
+CC		=	tcc
+CPPFLAGS	+=	-DNDEBUG -DNO_MSHELL 
+CFLAGS		=	
+LDFLAGS		=	-lgmp -lz -lm -static

@@ -1,0 +1,22 @@
+﻿Build started 19-11-10 20:51:59.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\liblpispx.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\liblpispx.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\liblpispx.lib) does not match the Library's OutputFile property value (D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\lib\lpspxlib\x86\debug\liblpispx.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\\lib\lpspxlib\x86\debug\liblpispx.lib" /NOLOGO Debug\bitencode.obj
+         Debug\lpi_spx.obj
+         Debug\memory.obj
+         Debug\message.obj
+         liblpispx.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\liblpispx.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\liblpispx.unsuccessfulbuild".
+         Touching "Debug\liblpispx.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\liblpispx.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28

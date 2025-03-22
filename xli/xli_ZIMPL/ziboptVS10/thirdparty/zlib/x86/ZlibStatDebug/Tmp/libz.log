@@ -1,0 +1,17 @@
+﻿Build started 2010-11-17 19:46:32.
+     1>Project "C:\ziboptVS10\thirdparty\zlib\libz.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x86\ZlibStatDebug\Tmp\libz.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         libz.vcxproj -> C:\ziboptVS10\thirdparty\zlib\x86\ZlibStatDebug\libz.lib
+       FinalizeBuildStatus:
+         Deleting file "x86\ZlibStatDebug\Tmp\libz.unsuccessfulbuild".
+         Touching "x86\ZlibStatDebug\Tmp\libz.lastbuildstate".
+     1>Done Building Project "C:\ziboptVS10\thirdparty\zlib\libz.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.05

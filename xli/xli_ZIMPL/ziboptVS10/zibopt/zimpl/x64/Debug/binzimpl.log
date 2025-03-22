@@ -1,0 +1,156 @@
+﻿Build started 19-11-10 20:57:14.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\zimpl\binzimpl.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\binzimpl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\thirdparty\gmp /I..\..\thirdparty\pcre\src /I..\..\thirdparty\zlib /Isrc /Zi /nologo /W3 /WX- /Od /D WITH_PCRE /D WIN32 /D _LIB /D SUPPORT_UTF8 /D SUPPORT_UCP /D POSIX_MALLOC_THRESHOLD=10 /D PCRE_STATIC /D _UNICODE /D UNICODE /D __WATCOMC__ /D FREEMEM /D __NO_MATH_INLINES /D inline=_inline /D popen=_popen /D pclose=_pclose /D _MBCS /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\x64\zimplExe" /Gd /TC /errorReport:prompt src\ratlpfwrite.c src\ratlpstore.c src\ratmpswrite.c src\ratmstwrite.c src\ratordwrite.c src\ratpresolve.c src\xlpglue.c src\zimpl.c
+         ratlpfwrite.c
+         ratlpstore.c
+     1>src\ratlpstore.c(1959): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>src\ratlpstore.c(1972): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>src\ratlpstore.c(1977): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>src\ratlpstore.c(1984): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+         ratmpswrite.c
+         ratmstwrite.c
+         ratordwrite.c
+         ratpresolve.c
+         xlpglue.c
+         zimpl.c
+     1>src\zimpl.c(124): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>src\zimpl.c(127): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>src\zimpl.c(200): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>src\zimpl.c(418): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>src\zimpl.c(440): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>src\zimpl.c(461): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>src\zimpl.c(480): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>src\zimpl.c(499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\binzimpl.exe) does not match the Linker's OutputFile property value (D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\binzimpl_x64.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(binzimpl) does not match the Linker's OutputFile property value (binzimpl_x64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\binzimpl_x64.exe" /NOLOGO /LIBPATH:..\..\x64\debug /LIBPATH:..\..\thirdparty\gmp\lib\x64\debug /LIBPATH:..\..\thirdparty\pcre\lib\x64\debug /LIBPATH:lib\x64\debug /LIBPATH:..\..\thirdparty\zlib\lib\x64\debug libgmp.lib libzimpl.lib libz.lib libpcre.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC.LIB /NODEFAULTLIB:LIBCMTD.lib /MANIFEST /ManifestFile:"x64\Debug\binzimpl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\binzimpl.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\binzimpl.lib" /MACHINE:X64 x64\Debug\ratlpfwrite.obj
+         x64\Debug\ratlpstore.obj
+         x64\Debug\ratmpswrite.obj
+         x64\Debug\ratmstwrite.obj
+         x64\Debug\ratordwrite.obj
+         x64\Debug\ratpresolve.obj
+         x64\Debug\xlpglue.obj
+         x64\Debug\zimpl.obj
+         LINK : D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\binzimpl_x64.exe not found or not built by the last incremental link; performing full link
+     1>libgmp.lib(add.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(add.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(add_ui.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(add_ui.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(cdiv_q.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(cdiv_q.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(clear.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(clear.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(cmp_ui.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(cmp_ui.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(divegcd.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(divegcd.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(divexact.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(divexact.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(fac_ui.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(fac_ui.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(fdiv_q.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(fdiv_q.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(fits_sint.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(fits_sint.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(gcd.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(gcd.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(get_si.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(get_si.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(init.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(init.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mod.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mod.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mul.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mul.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(out_str.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(out_str.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(realloc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(realloc.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(set.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(set.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(set_str.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(set_str.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(sub.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(sub.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(sub_ui.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(sub_ui.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(tdiv_q.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(tdiv_q.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(tdiv_q_2exp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(tdiv_q_2exp.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(tdiv_qr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(tdiv_qr.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(tdiv_r.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(tdiv_r.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(clear.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(clear.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(get_str.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(get_str.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(init.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(init.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(out_str.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(out_str.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(set_dfl_prec.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(set_dfl_prec.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(set_q.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(set_q.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(abs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(abs.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(aors.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(aors.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(canonicalize.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(canonicalize.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(clear.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(clear.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(cmp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(cmp.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(div.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(div.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(equal.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(equal.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(get_d.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(get_d.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(init.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(init.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(inv.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(inv.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mul.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mul.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(neg.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(neg.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(out_str.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(out_str.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(set.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(set.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(set_d.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(set_d.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(set_si.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(set_si.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(set_str.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(set_str.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(set_ui.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(set_ui.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(set_z.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(set_z.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(add.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(add.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(add_1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(add_1.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(add_n.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(add_n.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(addmul_1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(addmul_1.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(bdivmod.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(bdivmod.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(cmp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(cmp.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(dc_divrem_n.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(dc_divrem_n.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(dive_1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(dive_1.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(diveby3.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(diveby3.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(divrem.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(divrem.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(divrem_1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(divrem_1.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(divrem_2.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(divrem_2.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(gcd.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(gcd.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(gcd_1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(gcd_1.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(get_str.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(get_str.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(lshift.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(lshift.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mod_1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mod_1.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mode1o.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mode1o.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mp_bases.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mp_bases.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mul.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mul.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mul_1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mul_1.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mul_basecase.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mul_basecase.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mul_fft.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mul_fft.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mul_n.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mul_n.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(pre_divrem_1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(pre_divrem_1.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(rshift.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(rshift.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(sb_divrem_mn.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(sb_divrem_mn.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(set_str.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(set_str.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(sqr_basecase.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(sqr_basecase.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(sub.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(sub.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(sub_1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(sub_1.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(sub_n.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(sub_n.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(submul_1.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(submul_1.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(tdiv_qr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(tdiv_qr.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(assert.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(assert.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(errno.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(errno.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(extract-dbl.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(extract-dbl.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(insert-dbl.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(insert-dbl.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(memory.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(memory.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mp_bpl.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mp_bpl.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mp_clz_tab.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mp_clz_tab.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mp_minv_tab.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mp_minv_tab.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(mp_set_fns.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(mp_set_fns.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>libgmp.lib(version.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libgmp.lib(version.obj)' or at 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\vc100.pdb'; linking object as if no debug info
+         binzimpl.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\binzimpl.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Debug\binzimpl_x64.exe;#1" /manifest x64\Debug\binzimpl.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\binzimpl.unsuccessfulbuild".
+         Touching "x64\Debug\binzimpl.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\zimpl\binzimpl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.06

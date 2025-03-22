@@ -1,0 +1,21 @@
+﻿Build started 19-11-10 20:52:02.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\binscip.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\binscip.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\binscip.exe" /NOLOGO /LIBPATH:..\..\debug /LIBPATH:..\..\thirdparty\gmp\lib\x86\debug /LIBPATH:..\..\thirdparty\pcre\lib\x86\debug /LIBPATH:..\..\thirdparty\zlib\x86 /LIBPATH:lib\x86\debug /LIBPATH:lib\lpspxlib\x86\debug /LIBPATH:..\..\thirdparty\zlib\lib\x86\debug /LIBPATH:..\soplex\lib\x86\debug /LIBPATH:..\zimpl\lib\x86\debug /LIBPATH:lib\nlplib\x86\debug /LIBPATH:lib\objlib\x86\debug /LIBPATH:lib\sciplib\x86\debug libgmp.lib libzimpl.lib libz.lib libpcre.lib libsoplex.lib liblpispx.lib libnlpi.lib libscip.lib libobjscip.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\binscip.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\binscip.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\binscip.lib" /MACHINE:X86 Debug\cppmain.obj
+         LINK : D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\binscip.exe not found or not built by the last incremental link; performing full link
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'libcmtd.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         binscip.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\binscip.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\binscip.exe;#1" /manifest Debug\binscip.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\binscip.unsuccessfulbuild".
+         Touching "Debug\binscip.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\binscip.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.50

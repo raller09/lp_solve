@@ -1,0 +1,31 @@
+object XLIParametersForm: TXLIParametersForm
+  Left = 1238
+  Height = 175
+  Top = 265
+  Width = 435
+  Caption = 'XLI Parameters'
+  ClientHeight = 175
+  ClientWidth = 419
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  LCLVersion = '0.9.26.2'
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 152
+    Width = 75
+    Caption = '&OK'
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 336
+    Height = 25
+    Top = 152
+    Width = 75
+    Cancel = True
+    Caption = '&Cancel'
+    ModalResult = 2
+    TabOrder = 1
+  end
+end

@@ -1,0 +1,885 @@
+﻿Build started 2010-11-17 19:26:18.
+     1>Project "C:\ziboptVS10\thirdparty\gmp\libgmp.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x86\Debug\libgmp.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "x86\Debug\libgmp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DEBUG /D WIN32 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\mpz/" /Fd"Debug\mpz/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt mpz\abs.c mpz\add.c mpz\add_ui.c mpz\and.c mpz\aorsmul.c mpz\aorsmul_i.c mpz\array_init.c mpz\bin_ui.c mpz\bin_uiui.c mpz\cdiv_q.c mpz\cdiv_q_ui.c mpz\cdiv_qr.c mpz\cdiv_qr_ui.c mpz\cdiv_r.c mpz\cdiv_r_ui.c mpz\cdiv_ui.c mpz\cfdiv_q_2exp.c mpz\cfdiv_r_2exp.c mpz\clear.c mpz\clrbit.c mpz\cmp.c mpz\cmp_d.c mpz\cmp_si.c mpz\cmp_ui.c mpz\cmpabs.c mpz\cmpabs_d.c mpz\cmpabs_ui.c mpz\com.c mpz\cong.c mpz\cong_2exp.c mpz\cong_ui.c mpz\dive_ui.c mpz\divegcd.c mpz\divexact.c mpz\divis.c mpz\divis_2exp.c mpz\divis_ui.c mpz\dump.c mpz\fac_ui.c mpz\fdiv_q.c mpz\fdiv_q_ui.c mpz\fdiv_qr.c mpz\fdiv_qr_ui.c mpz\fdiv_r.c mpz\fdiv_r_ui.c mpz\fdiv_ui.c mpz\fib2_ui.c mpz\fib_ui.c mpz\fits_sint.c mpz\fits_slong.c mpz\fits_sshort.c mpz\fits_uint.c mpz\fits_ulong.c mpz\fits_ushort.c mpz\gcd.c mpz\gcd_ui.c mpz\gcdext.c mpz\get_d.c mpz\get_d_2exp.c mpz\get_si.c mpz\get_str.c mpz\get_ui.c mpz\getlimbn.c mpz\hamdist.c mpz\init.c mpz\init2.c mpz\inp_raw.c mpz\inp_str.c mpz\invert.c mpz\ior.c mpz\iset.c mpz\iset_d.c mpz\iset_si.c mpz\iset_str.c mpz\iset_ui.c mpz\jacobi.c mpz\kronsz.c mpz\kronuz.c mpz\kronzs.c mpz\kronzu.c mpz\lcm.c mpz\lcm_ui.c mpz\lucnum2_ui.c mpz\lucnum_ui.c mpz\millerrabin.c mpz\mod.c mpz\mul.c mpz\mul_2exp.c mpz\mul_si.c mpz\mul_ui.c mpz\n_pow_ui.c mpz\neg.c mpz\nextprime.c mpz\out_raw.c mpz\out_str.c mpz\perfpow.c mpz\perfsqr.c mpz\popcount.c mpz\pow_ui.c mpz\powm.c mpz\powm_ui.c mpz\pprime_p.c mpz\random.c mpz\random2.c mpz\realloc.c mpz\realloc2.c mpz\remove.c mpz\root.c mpn\generic\rootrem.c mpz\rrandomb.c mpz\scan0.c mpz\scan1.c mpz\set.c mpz\set_d.c mpz\set_f.c mpz\set_q.c mpz\set_si.c mpz\set_str.c mpz\set_ui.c mpz\setbit.c mpz\size.c mpz\sizeinbase.c mpz\sqrt.c mpz\sqrtrem.c mpz\sub.c mpz\sub_ui.c mpz\swap.c mpz\tdiv_q.c mpz\tdiv_q_2exp.c mpz\tdiv_q_ui.c mpz\tdiv_qr.c mpz\tdiv_qr_ui.c mpz\tdiv_r.c mpz\tdiv_r_2exp.c mpz\tdiv_r_ui.c mpz\tdiv_ui.c mpz\tstbit.c mpz\ui_pow_ui.c mpz\urandomb.c mpz\urandomm.c mpz\xor.c
+         abs.c
+         add.c
+         add_ui.c
+         and.c
+         aorsmul.c
+         aorsmul_i.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\aorsmul_i.c(148): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         array_init.c
+         bin_ui.c
+         bin_uiui.c
+         cdiv_q.c
+         cdiv_q_ui.c
+         cdiv_qr.c
+         cdiv_qr_ui.c
+         cdiv_r.c
+         cdiv_r_ui.c
+         cdiv_ui.c
+         cfdiv_q_2exp.c
+         cfdiv_r_2exp.c
+         clear.c
+         clrbit.c
+         Generating Code...
+         Compiling...
+         cmp.c
+         cmp_d.c
+         cmp_si.c
+         cmp_ui.c
+         cmpabs.c
+         cmpabs_d.c
+         cmpabs_ui.c
+         com.c
+         cong.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\cong.c(90): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\cong.c(91): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\cong.c(118): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\cong.c(136): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         cong_2exp.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\cong_2exp.c(58): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\cong_2exp.c(62): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\cong_2exp.c(69): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\cong_2exp.c(109): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\cong_2exp.c(127): warning C4018: '<' : signed/unsigned mismatch
+         cong_ui.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\cong_ui.c(98): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\cong_ui.c(101): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         dive_ui.c
+         divegcd.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\divegcd.c(95): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         divexact.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\divexact.c(102): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         divis.c
+         divis_2exp.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\divis_2exp.c(38): warning C4018: '<=' : signed/unsigned mismatch
+         divis_ui.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\divis_ui.c(64): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\divis_ui.c(67): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         dump.c
+         fac_ui.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\fac_ui.c(180): warning C4013: 'abort' undefined; assuming extern returning int
+         fdiv_q.c
+         Generating Code...
+         Compiling...
+         fdiv_q_ui.c
+         fdiv_qr.c
+         fdiv_qr_ui.c
+         fdiv_r.c
+         fdiv_r_ui.c
+         fdiv_ui.c
+         fib2_ui.c
+         fib_ui.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\fib_ui.c(107): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         fits_sint.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\fits_s.h(38): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         fits_slong.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\fits_s.h(38): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         fits_sshort.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\fits_s.h(38): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         fits_uint.c
+         fits_ulong.c
+         fits_ushort.c
+         gcd.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\gcd.c(93): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\gcd.c(108): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         gcd_ui.c
+         gcdext.c
+         get_d.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\get_d.c(81): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\get_d.c(82): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+         get_d_2exp.c
+         get_si.c
+         Generating Code...
+         Compiling...
+         get_str.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\get_str.c(96): warning C4018: '<' : signed/unsigned mismatch
+         get_ui.c
+     1>c:\ziboptvs10\thirdparty\gmp\gmp.h(1568): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         getlimbn.c
+         hamdist.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\hamdist.c(98): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\hamdist.c(99): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         init.c
+         init2.c
+         inp_raw.c
+         inp_str.c
+         invert.c
+         ior.c
+         iset.c
+         iset_d.c
+         iset_si.c
+         iset_str.c
+         iset_ui.c
+         jacobi.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\jacobi.c(131): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\jacobi.c(167): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\jacobi.c(297): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         kronsz.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\kronsz.c(78): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\kronsz.c(110): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         kronuz.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\kronuz.c(82): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\kronuz.c(95): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         kronzs.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\kronzs.c(77): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         kronzu.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\kronzu.c(73): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         Generating Code...
+         Compiling...
+         lcm.c
+         lcm_ui.c
+         lucnum2_ui.c
+         lucnum_ui.c
+         millerrabin.c
+         mod.c
+         mul.c
+         mul_2exp.c
+         mul_si.c
+         mul_ui.c
+         n_pow_ui.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\n_pow_ui.c(202): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         neg.c
+         nextprime.c
+         out_raw.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\out_raw.c(97): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\out_raw.c(100): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\out_raw.c(163): warning C4244: '=' : conversion from 'mp_limb_t' to 'char', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\out_raw.c(185): warning C4244: '=' : conversion from 'mp_size_t' to 'char', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\out_raw.c(186): warning C4244: '=' : conversion from 'mp_size_t' to 'char', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\out_raw.c(187): warning C4244: '=' : conversion from 'mp_size_t' to 'char', possible loss of data
+         out_str.c
+         perfpow.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\perfpow.c(219): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\perfpow.c(222): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         perfsqr.c
+         popcount.c
+         pow_ui.c
+         powm.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\powm.c(221): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\powm.c(245): warning C4018: '>' : signed/unsigned mismatch
+         Generating Code...
+         Compiling...
+         powm_ui.c
+         pprime_p.c
+         random.c
+         random2.c
+         realloc.c
+         realloc2.c
+         remove.c
+         root.c
+         rootrem.c
+         rrandomb.c
+         scan0.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\scan0.c(46): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\scan0.c(120): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         scan1.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\scan1.c(46): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\scan1.c(108): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\scan1.c(138): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         set.c
+         set_d.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\set_d.c(40): warning C4244: '=' : conversion from 'double' to 'mp_limb_t', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\set_d.c(71): warning C4013: 'abort' undefined; assuming extern returning int
+         set_f.c
+         set_q.c
+         set_si.c
+         set_str.c
+         set_ui.c
+         setbit.c
+         Generating Code...
+         Compiling...
+         size.c
+         sizeinbase.c
+         sqrt.c
+         sqrtrem.c
+         sub.c
+         sub_ui.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\aors_ui.h(95): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         swap.c
+         tdiv_q.c
+         tdiv_q_2exp.c
+         tdiv_q_ui.c
+         tdiv_qr.c
+         tdiv_qr_ui.c
+         tdiv_r.c
+         tdiv_r_2exp.c
+         tdiv_r_ui.c
+         tdiv_ui.c
+         tstbit.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpz\tstbit.c(58): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         ui_pow_ui.c
+         urandomb.c
+         urandomm.c
+         Generating Code...
+         Compiling...
+         xor.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DEBUG /D WIN32 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\mpf/" /Fd"Debug\mpf/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt mpf\abs.c mpf\add.c mpf\add_ui.c mpf\ceilfloor.c mpf\clear.c mpf\cmp.c mpf\cmp_d.c mpf\cmp_si.c mpf\cmp_ui.c mpf\div.c mpf\div_2exp.c mpf\div_ui.c mpf\dump.c mpf\eq.c mpf\fits_sint.c mpf\fits_slong.c mpf\fits_sshort.c mpf\fits_uint.c mpf\fits_ulong.c mpf\fits_ushort.c mpf\get_d.c mpf\get_d_2exp.c mpf\get_dfl_prec.c mpf\get_prc.c mpf\get_si.c mpf\get_str.c mpf\get_ui.c mpf\init.c mpf\init2.c mpf\inp_str.c mpf\int_p.c mpf\iset.c mpf\iset_d.c mpf\iset_si.c mpf\iset_str.c mpf\iset_ui.c mpf\mul.c mpf\mul_2exp.c mpf\mul_ui.c mpf\neg.c mpf\out_str.c mpf\pow_ui.c mpf\random2.c mpf\reldiff.c mpf\set.c mpf\set_d.c mpf\set_dfl_prec.c mpf\set_prc.c mpf\set_prc_raw.c mpf\set_q.c mpf\set_si.c mpf\set_str.c mpf\set_ui.c mpf\set_z.c mpf\size.c mpf\sqrt.c mpf\sqrt_ui.c mpf\sub.c mpf\sub_ui.c mpf\swap.c mpf\trunc.c mpf\ui_div.c mpf\ui_sub.c mpf\urandomb.c
+         abs.c
+         add.c
+         add_ui.c
+         ceilfloor.c
+         clear.c
+         cmp.c
+         cmp_d.c
+         cmp_si.c
+         cmp_ui.c
+         div.c
+         div_2exp.c
+         div_ui.c
+         dump.c
+         eq.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\eq.c(86): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\eq.c(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\eq.c(101): warning C4018: '>' : signed/unsigned mismatch
+         fits_sint.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\fits_s.h(65): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         fits_slong.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\fits_s.h(65): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         fits_sshort.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\fits_s.h(65): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         fits_uint.c
+         fits_ulong.c
+         fits_ushort.c
+         Generating Code...
+         Compiling...
+         get_d.c
+         get_d_2exp.c
+         get_dfl_prec.c
+         get_prc.c
+         get_si.c
+         get_str.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\get_str.c(140): warning C4244: '=' : conversion from 'double' to 'mp_exp_t', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\get_str.c(244): warning C4244: '=' : conversion from 'double' to 'mp_exp_t', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\get_str.c(356): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+         get_ui.c
+         init.c
+         init2.c
+         inp_str.c
+         int_p.c
+         iset.c
+         iset_d.c
+         iset_si.c
+         iset_str.c
+         iset_ui.c
+         mul.c
+         mul_2exp.c
+         mul_ui.c
+         neg.c
+         Generating Code...
+         Compiling...
+         out_str.c
+         pow_ui.c
+         random2.c
+         reldiff.c
+         set.c
+         set_d.c
+         set_dfl_prec.c
+         set_prc.c
+         set_prc_raw.c
+         set_q.c
+         set_si.c
+         set_str.c
+         set_ui.c
+         set_z.c
+         size.c
+         sqrt.c
+         sqrt_ui.c
+         sub.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\sub.c(342): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\sub.c(368): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\sub.c(383): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         sub_ui.c
+         swap.c
+         Generating Code...
+         Compiling...
+         trunc.c
+         ui_div.c
+         ui_sub.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\ui_sub.c(213): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\ui_sub.c(232): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\ui_sub.c(290): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpf\ui_sub.c(305): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         urandomb.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DEBUG /D WIN32 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\mpq/" /Fd"Debug\mpq/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt mpq\abs.c mpq\aors.c mpq\canonicalize.c mpq\clear.c mpq\cmp.c mpq\cmp_si.c mpq\cmp_ui.c mpq\div.c mpq\equal.c mpq\get_d.c mpq\get_den.c mpq\get_num.c mpq\get_str.c mpq\init.c mpq\inp_str.c mpq\inv.c mpq\md_2exp.c mpq\mul.c mpq\neg.c mpq\out_str.c mpq\set.c mpq\set_d.c mpq\set_den.c mpq\set_f.c mpq\set_num.c mpq\set_si.c mpq\set_str.c mpq\set_ui.c mpq\set_z.c mpq\swap.c
+         abs.c
+         aors.c
+         canonicalize.c
+         clear.c
+         cmp.c
+         cmp_si.c
+         cmp_ui.c
+         div.c
+         equal.c
+         get_d.c
+         get_den.c
+         get_num.c
+         get_str.c
+         init.c
+         inp_str.c
+         inv.c
+         md_2exp.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpq\md_2exp.c(70): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         mul.c
+         neg.c
+         out_str.c
+         Generating Code...
+         Compiling...
+         set.c
+         set_d.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpq\set_d.c(85): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         set_den.c
+         set_f.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpq\set_f.c(89): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         set_num.c
+         set_si.c
+         set_str.c
+         set_ui.c
+         set_z.c
+         swap.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DEBUG /D WIN32 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\mpn/" /Fd"Debug\mpn/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt mpn\generic\add.c mpn\generic\add_1.c mpn\generic\bdivmod.c mpn\generic\cmp.c mpn\generic\dc_divrem_n.c mpn\generic\dive_1.c mpn\generic\diveby3.c mpn\generic\divis.c mpn\generic\divrem.c mpn\generic\divrem_1.c mpn\generic\divrem_2.c mpn\generic\dump.c mpn\generic\fib2_ui.c mpn\generic\gcd.c mpn\generic\gcd_1.c mpn\generic\gcdext.c mpn\generic\get_str.c mpn\generic\hamdist.c mpn\generic\jacbase.c mpn\generic\lshift.c mpn\generic\mod_1.c mpn\generic\mod_34lsub1.c mpn\generic\mode1o.c mpn\mp_bases.c mpn\generic\mul.c mpn\generic\mul_1.c mpn\generic\mul_basecase.c mpn\generic\mul_fft.c mpn\generic\mul_n.c mpn\generic\perfsqr.c mpn\generic\popcount.c mpn\generic\pre_divrem_1.c mpn\generic\pre_mod_1.c mpn\generic\random.c mpn\generic\random2.c mpn\generic\rshift.c mpn\generic\sb_divrem_mn.c mpn\generic\scan0.c mpn\generic\scan1.c mpn\generic\set_str.c mpn\generic\sqr_basecase.c mpn\generic\sqrtrem.c mpn\generic\sub.c mpn\generic\sub_1.c mpn\generic\tdiv_qr.c
+         add.c
+         add_1.c
+         bdivmod.c
+         cmp.c
+         dc_divrem_n.c
+         dive_1.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\dive_1.c(89): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         diveby3.c
+         divis.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\divis.c(110): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\divis.c(122): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\divis.c(134): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         divrem.c
+         divrem_1.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\divrem_1.c(112): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\divrem_1.c(140): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\divrem_1.c(140): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\divrem_1.c(219): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\divrem_1.c(219): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         divrem_2.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\divrem_2.c(103): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\divrem_2.c(103): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\divrem_2.c(135): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         dump.c
+         fib2_ui.c
+         gcd.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\gcd.c(87): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\gcd.c(95): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\gcd.c(141): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\gcd.c(257): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\gcd.c(268): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\gcd.c(329): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\gcd.c(367): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\gcd.c(386): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\gcd.c(429): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         gcd_1.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\gcd_1.c(47): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\gcd_1.c(56): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\gcd_1.c(68): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         gcdext.c
+         get_str.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\get_str.c(216): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\get_str.c(221): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\get_str.c(226): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\get_str.c(231): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\get_str.c(239): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\get_str.c(251): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\get_str.c(283): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\get_str.c(293): warning C4244: '=' : conversion from 'mp_limb_t' to 'unsigned char', possible loss of data
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\get_str.c(432): warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+         hamdist.c
+         jacbase.c
+         lshift.c
+         Generating Code...
+         Compiling...
+         mod_1.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\mod_1.c(100): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\mod_1.c(100): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\mod_1.c(158): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\mod_1.c(158): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         mod_34lsub1.c
+         mode1o.c
+         mp_bases.c
+         mul.c
+         mul_1.c
+         mul_basecase.c
+         mul_fft.c
+         mul_n.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\mul_n.c(249): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\mul_n.c(392): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         perfsqr.c
+         popcount.c
+         pre_divrem_1.c
+         pre_mod_1.c
+         random.c
+         random2.c
+         rshift.c
+         sb_divrem_mn.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\sb_divrem_mn.c(103): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\sb_divrem_mn.c(103): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         scan0.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\scan0.c(49): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\scan0.c(54): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         scan1.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\scan1.c(49): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\scan1.c(54): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         set_str.c
+         Generating Code...
+         Compiling...
+         sqr_basecase.c
+         sqrtrem.c
+         sub.c
+         sub_1.c
+         tdiv_qr.c
+     1>c:\ziboptvs10\thirdparty\gmp\mpn\generic\tdiv_qr.c(48): warning C4013: 'abort' undefined; assuming extern returning int
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D OPERATION_add_n /D _DEBUG /D DEBUG /D WIN32 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\mpn/" /Fd"Debug\mpn/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt mpn\generic\add_n.c
+         add_n.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D OPERATION_addmul_1 /D _DEBUG /D DEBUG /D WIN32 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\mpn/" /Fd"Debug\mpn/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt mpn\generic\addmul_1.c
+         addmul_1.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D DEBUG /D WIN32 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\x86\Debug\\" /Fd".\x86\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt printf\asprintf.c printf\asprntffuns.c assert.c compat.c printf\doprnt.c printf\doprntf.c printf\doprnti.c scanf\doscan.c errno.c "extract-dbl.c" printf\fprintf.c scanf\fscanf.c scanf\fscanffuns.c "insert-dbl.c" memory.c mp_bpl.c mp_clz_tab.c mp_minv_tab.c mp_set_fns.c printf\obprintf.c printf\obprntffuns.c printf\obvprintf.c mpn\generic\pow_1.c printf\printf.c printf\printffuns.c rand.c randclr.c randdef.c randlc.c randlc2s.c randlc2x.c randraw.c rands.c randsd.c randsdui.c "printf\repl-vsnprintf.c" scanf\scanf.c printf\snprintf.c printf\snprntffuns.c printf\sprintf.c printf\sprintffuns.c scanf\sscanf.c scanf\sscanffuns.c printf\vasprintf.c version.c printf\vfprintf.c scanf\vfscanf.c printf\vprintf.c scanf\vscanf.c printf\vsnprintf.c printf\vsprintf.c scanf\vsscanf.c
+         asprintf.c
+         asprntffuns.c
+         assert.c
+         compat.c
+         doprnt.c
+     1>c:\ziboptvs10\thirdparty\gmp\printf\doprnt.c(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         doprntf.c
+     1>c:\ziboptvs10\thirdparty\gmp\printf\doprntf.c(270): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         doprnti.c
+         doscan.c
+     1>c:\ziboptvs10\thirdparty\gmp\scanf\doscan.c(205): warning C4102: 'store_get_digits' : unreferenced label
+         errno.c
+         extract-dbl.c
+         fprintf.c
+         fscanf.c
+         fscanffuns.c
+     1>c:\ziboptvs10\thirdparty\gmp\scanf\fscanffuns.c(49): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+         insert-dbl.c
+         memory.c
+     1>c:\ziboptvs10\thirdparty\gmp\memory.c(57): warning C4307: '+' : integral constant overflow
+     1>c:\ziboptvs10\thirdparty\gmp\memory.c(59): warning C4307: '+' : integral constant overflow
+     1>c:\ziboptvs10\thirdparty\gmp\memory.c(77): warning C4307: '+' : integral constant overflow
+     1>c:\ziboptvs10\thirdparty\gmp\memory.c(83): warning C4307: '+' : integral constant overflow
+     1>c:\ziboptvs10\thirdparty\gmp\memory.c(105): warning C4307: '+' : integral constant overflow
+     1>c:\ziboptvs10\thirdparty\gmp\memory.c(107): warning C4307: '+' : integral constant overflow
+     1>c:\ziboptvs10\thirdparty\gmp\memory.c(122): warning C4307: '+' : integral constant overflow
+     1>c:\ziboptvs10\thirdparty\gmp\memory.c(128): warning C4307: '+' : integral constant overflow
+         mp_bpl.c
+         mp_clz_tab.c
+         mp_minv_tab.c
+         mp_set_fns.c
+         obprintf.c
+         Generating Code...
+         Compiling...
+         obprntffuns.c
+         obvprintf.c
+         pow_1.c
+         printf.c
+         printffuns.c
+         rand.c
+         randclr.c
+         randdef.c
+         randlc.c
+     1>c:\ziboptvs10\thirdparty\gmp\randlc.c(34): warning C4013: 'abort' undefined; assuming extern returning int
+         randlc2s.c
+         randlc2x.c
+         randraw.c
+     1>c:\ziboptvs10\thirdparty\gmp\randraw.c(146): warning C4018: '<' : signed/unsigned mismatch
+         rands.c
+         randsd.c
+         randsdui.c
+         repl-vsnprintf.c
+     1>c:\ziboptvs10\thirdparty\gmp\printf\repl-vsnprintf.c(359): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>c:\ziboptvs10\thirdparty\gmp\printf\repl-vsnprintf.c(367): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'vsprintf'
+         scanf.c
+         snprintf.c
+         snprntffuns.c
+     1>c:\ziboptvs10\thirdparty\gmp\printf\snprntffuns.c(137): warning C4018: '<' : signed/unsigned mismatch
+         sprintf.c
+         Generating Code...
+         Compiling...
+         sprintffuns.c
+     1>c:\ziboptvs10\thirdparty\gmp\printf\sprintffuns.c(55): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'vsprintf'
+         sscanf.c
+         sscanffuns.c
+     1>c:\ziboptvs10\thirdparty\gmp\scanf\sscanffuns.c(34): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+         vasprintf.c
+     1>c:\ziboptvs10\thirdparty\gmp\printf\vasprintf.c(89): warning C4018: '<' : signed/unsigned mismatch
+         version.c
+         vfprintf.c
+         vfscanf.c
+         vprintf.c
+         vscanf.c
+         vsnprintf.c
+         vsprintf.c
+         vsscanf.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D OPERATION_sub_n /D _DEBUG /D DEBUG /D WIN32 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\mpn/" /Fd"Debug\mpn/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt mpn\generic\sub_n.c
+         sub_n.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D OPERATION_submul_1 /D _DEBUG /D DEBUG /D WIN32 /D _LIB /D __STDC__=0 /D HAVE_CONFIG_H /D quad_t=__int64 /D intmax_t=__int64 /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\mpn/" /Fd"Debug\mpn/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt mpn\generic\submul_1.c
+         submul_1.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\ziboptVS10\thirdparty\gmp\x86\Debug\libgmp.lib) does not match the Library's OutputFile property value (C:\ziboptVS10\thirdparty\gmp\lib\x86\debug\libgmp.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\x86\debug\libgmp.lib" /NOLOGO .\Debug\mpz/abs.obj
+         .\Debug\mpz/add.obj
+         .\Debug\mpz/add_ui.obj
+         .\Debug\mpz/and.obj
+         .\Debug\mpz/aorsmul.obj
+         .\Debug\mpz/aorsmul_i.obj
+         .\Debug\mpz/array_init.obj
+         .\Debug\mpz/bin_ui.obj
+         .\Debug\mpz/bin_uiui.obj
+         .\Debug\mpz/cdiv_q.obj
+         .\Debug\mpz/cdiv_q_ui.obj
+         .\Debug\mpz/cdiv_qr.obj
+         .\Debug\mpz/cdiv_qr_ui.obj
+         .\Debug\mpz/cdiv_r.obj
+         .\Debug\mpz/cdiv_r_ui.obj
+         .\Debug\mpz/cdiv_ui.obj
+         .\Debug\mpz/cfdiv_q_2exp.obj
+         .\Debug\mpz/cfdiv_r_2exp.obj
+         .\Debug\mpz/clear.obj
+         .\Debug\mpz/clrbit.obj
+         .\Debug\mpz/cmp.obj
+         .\Debug\mpz/cmp_d.obj
+         .\Debug\mpz/cmp_si.obj
+         .\Debug\mpz/cmp_ui.obj
+         .\Debug\mpz/cmpabs.obj
+         .\Debug\mpz/cmpabs_d.obj
+         .\Debug\mpz/cmpabs_ui.obj
+         .\Debug\mpz/com.obj
+         .\Debug\mpz/cong.obj
+         .\Debug\mpz/cong_2exp.obj
+         .\Debug\mpz/cong_ui.obj
+         .\Debug\mpz/dive_ui.obj
+         .\Debug\mpz/divegcd.obj
+         .\Debug\mpz/divexact.obj
+         .\Debug\mpz/divis.obj
+         .\Debug\mpz/divis_2exp.obj
+         .\Debug\mpz/divis_ui.obj
+         .\Debug\mpz/dump.obj
+         .\Debug\mpz/fac_ui.obj
+         .\Debug\mpz/fdiv_q.obj
+         .\Debug\mpz/fdiv_q_ui.obj
+         .\Debug\mpz/fdiv_qr.obj
+         .\Debug\mpz/fdiv_qr_ui.obj
+         .\Debug\mpz/fdiv_r.obj
+         .\Debug\mpz/fdiv_r_ui.obj
+         .\Debug\mpz/fdiv_ui.obj
+         .\Debug\mpz/fib2_ui.obj
+         .\Debug\mpz/fib_ui.obj
+         .\Debug\mpz/fits_sint.obj
+         .\Debug\mpz/fits_slong.obj
+         .\Debug\mpz/fits_sshort.obj
+         .\Debug\mpz/fits_uint.obj
+         .\Debug\mpz/fits_ulong.obj
+         .\Debug\mpz/fits_ushort.obj
+         .\Debug\mpz/gcd.obj
+         .\Debug\mpz/gcd_ui.obj
+         .\Debug\mpz/gcdext.obj
+         .\Debug\mpz/get_d.obj
+         .\Debug\mpz/get_d_2exp.obj
+         .\Debug\mpz/get_si.obj
+         .\Debug\mpz/get_str.obj
+         .\Debug\mpz/get_ui.obj
+         .\Debug\mpz/getlimbn.obj
+         .\Debug\mpz/hamdist.obj
+         .\Debug\mpz/init.obj
+         .\Debug\mpz/init2.obj
+         .\Debug\mpz/inp_raw.obj
+         .\Debug\mpz/inp_str.obj
+         .\Debug\mpz/invert.obj
+         .\Debug\mpz/ior.obj
+         .\Debug\mpz/iset.obj
+         .\Debug\mpz/iset_d.obj
+         .\Debug\mpz/iset_si.obj
+         .\Debug\mpz/iset_str.obj
+         .\Debug\mpz/iset_ui.obj
+         .\Debug\mpz/jacobi.obj
+         .\Debug\mpz/kronsz.obj
+         .\Debug\mpz/kronuz.obj
+         .\Debug\mpz/kronzs.obj
+         .\Debug\mpz/kronzu.obj
+         .\Debug\mpz/lcm.obj
+         .\Debug\mpz/lcm_ui.obj
+         .\Debug\mpz/lucnum2_ui.obj
+         .\Debug\mpz/lucnum_ui.obj
+         .\Debug\mpz/millerrabin.obj
+         .\Debug\mpz/mod.obj
+         .\Debug\mpz/mul.obj
+         .\Debug\mpz/mul_2exp.obj
+         .\Debug\mpz/mul_si.obj
+         .\Debug\mpz/mul_ui.obj
+         .\Debug\mpz/n_pow_ui.obj
+         .\Debug\mpz/neg.obj
+         .\Debug\mpz/nextprime.obj
+         .\Debug\mpz/out_raw.obj
+         .\Debug\mpz/out_str.obj
+         .\Debug\mpz/perfpow.obj
+         .\Debug\mpz/perfsqr.obj
+         .\Debug\mpz/popcount.obj
+         .\Debug\mpz/pow_ui.obj
+         .\Debug\mpz/powm.obj
+         .\Debug\mpz/powm_ui.obj
+         .\Debug\mpz/pprime_p.obj
+         .\Debug\mpz/random.obj
+         .\Debug\mpz/random2.obj
+         .\Debug\mpz/realloc.obj
+         .\Debug\mpz/realloc2.obj
+         .\Debug\mpz/remove.obj
+         .\Debug\mpz/root.obj
+         .\Debug\mpz/rootrem.obj
+         .\Debug\mpz/rrandomb.obj
+         .\Debug\mpz/scan0.obj
+         .\Debug\mpz/scan1.obj
+         .\Debug\mpz/set.obj
+         .\Debug\mpz/set_d.obj
+         .\Debug\mpz/set_f.obj
+         .\Debug\mpz/set_q.obj
+         .\Debug\mpz/set_si.obj
+         .\Debug\mpz/set_str.obj
+         .\Debug\mpz/set_ui.obj
+         .\Debug\mpz/setbit.obj
+         .\Debug\mpz/size.obj
+         .\Debug\mpz/sizeinbase.obj
+         .\Debug\mpz/sqrt.obj
+         .\Debug\mpz/sqrtrem.obj
+         .\Debug\mpz/sub.obj
+         .\Debug\mpz/sub_ui.obj
+         .\Debug\mpz/swap.obj
+         .\Debug\mpz/tdiv_q.obj
+         .\Debug\mpz/tdiv_q_2exp.obj
+         .\Debug\mpz/tdiv_q_ui.obj
+         .\Debug\mpz/tdiv_qr.obj
+         .\Debug\mpz/tdiv_qr_ui.obj
+         .\Debug\mpz/tdiv_r.obj
+         .\Debug\mpz/tdiv_r_2exp.obj
+         .\Debug\mpz/tdiv_r_ui.obj
+         .\Debug\mpz/tdiv_ui.obj
+         .\Debug\mpz/tstbit.obj
+         .\Debug\mpz/ui_pow_ui.obj
+         .\Debug\mpz/urandomb.obj
+         .\Debug\mpz/urandomm.obj
+         .\Debug\mpz/xor.obj
+         .\Debug\mpf/abs.obj
+         .\Debug\mpf/add.obj
+         .\Debug\mpf/add_ui.obj
+         .\Debug\mpf/ceilfloor.obj
+         .\Debug\mpf/clear.obj
+         .\Debug\mpf/cmp.obj
+         .\Debug\mpf/cmp_d.obj
+         .\Debug\mpf/cmp_si.obj
+         .\Debug\mpf/cmp_ui.obj
+         .\Debug\mpf/div.obj
+         .\Debug\mpf/div_2exp.obj
+         .\Debug\mpf/div_ui.obj
+         .\Debug\mpf/dump.obj
+         .\Debug\mpf/eq.obj
+         .\Debug\mpf/fits_sint.obj
+         .\Debug\mpf/fits_slong.obj
+         .\Debug\mpf/fits_sshort.obj
+         .\Debug\mpf/fits_uint.obj
+         .\Debug\mpf/fits_ulong.obj
+         .\Debug\mpf/fits_ushort.obj
+         .\Debug\mpf/get_d.obj
+         .\Debug\mpf/get_d_2exp.obj
+         .\Debug\mpf/get_dfl_prec.obj
+         .\Debug\mpf/get_prc.obj
+         .\Debug\mpf/get_si.obj
+         .\Debug\mpf/get_str.obj
+         .\Debug\mpf/get_ui.obj
+         .\Debug\mpf/init.obj
+         .\Debug\mpf/init2.obj
+         .\Debug\mpf/inp_str.obj
+         .\Debug\mpf/int_p.obj
+         .\Debug\mpf/iset.obj
+         .\Debug\mpf/iset_d.obj
+         .\Debug\mpf/iset_si.obj
+         .\Debug\mpf/iset_str.obj
+         .\Debug\mpf/iset_ui.obj
+         .\Debug\mpf/mul.obj
+         .\Debug\mpf/mul_2exp.obj
+         .\Debug\mpf/mul_ui.obj
+         .\Debug\mpf/neg.obj
+         .\Debug\mpf/out_str.obj
+         .\Debug\mpf/pow_ui.obj
+         .\Debug\mpf/random2.obj
+         .\Debug\mpf/reldiff.obj
+         .\Debug\mpf/set.obj
+         .\Debug\mpf/set_d.obj
+         .\Debug\mpf/set_dfl_prec.obj
+         .\Debug\mpf/set_prc.obj
+         .\Debug\mpf/set_prc_raw.obj
+         .\Debug\mpf/set_q.obj
+         .\Debug\mpf/set_si.obj
+         .\Debug\mpf/set_str.obj
+         .\Debug\mpf/set_ui.obj
+         .\Debug\mpf/set_z.obj
+         .\Debug\mpf/size.obj
+         .\Debug\mpf/sqrt.obj
+         .\Debug\mpf/sqrt_ui.obj
+         .\Debug\mpf/sub.obj
+         .\Debug\mpf/sub_ui.obj
+         .\Debug\mpf/swap.obj
+         .\Debug\mpf/trunc.obj
+         .\Debug\mpf/ui_div.obj
+         .\Debug\mpf/ui_sub.obj
+         .\Debug\mpf/urandomb.obj
+         .\Debug\mpq/abs.obj
+         .\Debug\mpq/aors.obj
+         .\Debug\mpq/canonicalize.obj
+         .\Debug\mpq/clear.obj
+         .\Debug\mpq/cmp.obj
+         .\Debug\mpq/cmp_si.obj
+         .\Debug\mpq/cmp_ui.obj
+         .\Debug\mpq/div.obj
+         .\Debug\mpq/equal.obj
+         .\Debug\mpq/get_d.obj
+         .\Debug\mpq/get_den.obj
+         .\Debug\mpq/get_num.obj
+         .\Debug\mpq/get_str.obj
+         .\Debug\mpq/init.obj
+         .\Debug\mpq/inp_str.obj
+         .\Debug\mpq/inv.obj
+         .\Debug\mpq/md_2exp.obj
+         .\Debug\mpq/mul.obj
+         .\Debug\mpq/neg.obj
+         .\Debug\mpq/out_str.obj
+         .\Debug\mpq/set.obj
+         .\Debug\mpq/set_d.obj
+         .\Debug\mpq/set_den.obj
+         .\Debug\mpq/set_f.obj
+         .\Debug\mpq/set_num.obj
+         .\Debug\mpq/set_si.obj
+         .\Debug\mpq/set_str.obj
+         .\Debug\mpq/set_ui.obj
+         .\Debug\mpq/set_z.obj
+         .\Debug\mpq/swap.obj
+         .\Debug\mpn/add.obj
+         .\Debug\mpn/add_1.obj
+         .\Debug\mpn/add_n.obj
+         .\Debug\mpn/addmul_1.obj
+         .\Debug\mpn/bdivmod.obj
+         .\Debug\mpn/cmp.obj
+         .\Debug\mpn/dc_divrem_n.obj
+         .\Debug\mpn/dive_1.obj
+         .\Debug\mpn/diveby3.obj
+         .\Debug\mpn/divis.obj
+         .\Debug\mpn/divrem.obj
+         .\Debug\mpn/divrem_1.obj
+         .\Debug\mpn/divrem_2.obj
+         .\Debug\mpn/dump.obj
+         .\Debug\mpn/fib2_ui.obj
+         .\Debug\mpn/gcd.obj
+         .\Debug\mpn/gcd_1.obj
+         .\Debug\mpn/gcdext.obj
+         .\Debug\mpn/get_str.obj
+         .\Debug\mpn/hamdist.obj
+         .\Debug\mpn/jacbase.obj
+         .\Debug\mpn/lshift.obj
+         .\Debug\mpn/mod_1.obj
+         .\Debug\mpn/mod_34lsub1.obj
+         .\Debug\mpn/mode1o.obj
+         .\Debug\mpn/mp_bases.obj
+         .\Debug\mpn/mul.obj
+         .\Debug\mpn/mul_1.obj
+         .\Debug\mpn/mul_basecase.obj
+         .\Debug\mpn/mul_fft.obj
+         .\Debug\mpn/mul_n.obj
+         .\Debug\mpn/perfsqr.obj
+         .\Debug\mpn/popcount.obj
+         .\Debug\mpn/pre_divrem_1.obj
+         .\Debug\mpn/pre_mod_1.obj
+         .\Debug\mpn/random.obj
+         .\Debug\mpn/random2.obj
+         .\Debug\mpn/rshift.obj
+         .\Debug\mpn/sb_divrem_mn.obj
+         .\Debug\mpn/scan0.obj
+         .\Debug\mpn/scan1.obj
+         .\Debug\mpn/set_str.obj
+         .\Debug\mpn/sqr_basecase.obj
+         .\Debug\mpn/sqrtrem.obj
+         .\Debug\mpn/sub.obj
+         .\Debug\mpn/sub_1.obj
+         .\Debug\mpn/sub_n.obj
+         .\Debug\mpn/submul_1.obj
+         .\Debug\mpn/tdiv_qr.obj
+         .\x86\Debug\asprintf.obj
+         .\x86\Debug\asprntffuns.obj
+         .\x86\Debug\assert.obj
+         .\x86\Debug\compat.obj
+         .\x86\Debug\doprnt.obj
+         .\x86\Debug\doprntf.obj
+         .\x86\Debug\doprnti.obj
+         .\x86\Debug\doscan.obj
+         .\x86\Debug\errno.obj
+         ".\x86\Debug\extract-dbl.obj"
+         .\x86\Debug\fprintf.obj
+         .\x86\Debug\fscanf.obj
+         .\x86\Debug\fscanffuns.obj
+         ".\x86\Debug\insert-dbl.obj"
+         .\x86\Debug\memory.obj
+         .\x86\Debug\mp_bpl.obj
+         .\x86\Debug\mp_clz_tab.obj
+         .\x86\Debug\mp_minv_tab.obj
+         .\x86\Debug\mp_set_fns.obj
+         .\x86\Debug\obprintf.obj
+         .\x86\Debug\obprntffuns.obj
+         .\x86\Debug\obvprintf.obj
+         .\x86\Debug\pow_1.obj
+         .\x86\Debug\printf.obj
+         .\x86\Debug\printffuns.obj
+         .\x86\Debug\rand.obj
+         .\x86\Debug\randclr.obj
+         .\x86\Debug\randdef.obj
+         .\x86\Debug\randlc.obj
+         .\x86\Debug\randlc2s.obj
+         .\x86\Debug\randlc2x.obj
+         .\x86\Debug\randraw.obj
+         .\x86\Debug\rands.obj
+         .\x86\Debug\randsd.obj
+         .\x86\Debug\randsdui.obj
+         ".\x86\Debug\repl-vsnprintf.obj"
+         .\x86\Debug\scanf.obj
+         .\x86\Debug\snprintf.obj
+         .\x86\Debug\snprntffuns.obj
+         .\x86\Debug\sprintf.obj
+         .\x86\Debug\sprintffuns.obj
+         .\x86\Debug\sscanf.obj
+         .\x86\Debug\sscanffuns.obj
+         .\x86\Debug\vasprintf.obj
+         .\x86\Debug\version.obj
+         .\x86\Debug\vfprintf.obj
+         .\x86\Debug\vfscanf.obj
+         .\x86\Debug\vprintf.obj
+         .\x86\Debug\vscanf.obj
+         .\x86\Debug\vsnprintf.obj
+         .\x86\Debug\vsprintf.obj
+         .\x86\Debug\vsscanf.obj
+         libgmp.vcxproj -> C:\ziboptVS10\thirdparty\gmp\x86\Debug\libgmp.lib
+       FinalizeBuildStatus:
+         Deleting file "x86\Debug\libgmp.unsuccessfulbuild".
+         Touching "x86\Debug\libgmp.lastbuildstate".
+     1>Done Building Project "C:\ziboptVS10\thirdparty\gmp\libgmp.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.37

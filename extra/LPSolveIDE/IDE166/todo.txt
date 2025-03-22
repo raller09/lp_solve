@@ -1,0 +1,40 @@
+todo:  oct 10, 2009
+
+OK: load, solve, save, log window msgwindo, stderr to console.
+
+
+ok	stat dialog.
+	goto linenum in search menu acGotoline execute trouble - visible not set>
+	  TMenu.Create(self); //.Active := true;  menu not quite good enough>
+	  	check dlgSearch  which works.
+	 almost remains to setcarretxy or cursor
+	 
+	view as mps - segv on thread pointer - use _tmpfile instead
+		like dialg statistics for xli.
+ok	status bar
+ok	virtual trees
+	XLI loads and unix compat loadeModule.
+	simpler Beep - just pull from some example.
+
+	Many more test of copy to clipboard - big often faults - even in the IDE itself.
+
+	See if threading is important or free with Gui for our case?
+	We only really neeed it to browse Mip better and source while waiting on solve
+		Mostly to push the abort button.
+
+
+50%	Sync up last col of options advanced with releast v15 - integer only FreeMPS
+	re import about dialog lfm from v15 - remove synedit and virt trees add lazuras.
+	Turn off stdout to console.
+
+oct 21
+        matrix pull header to resize column gives exception in virtual trees.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+﻿Build started 19-11-10 21:38:59.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\zimpl\libzimpl.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libzimpl.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\libzimpl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\thirdparty\gmp /I..\..\thirdparty\pcre /I..\..\thirdparty\zlib /Isrc /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WITH_PCRE /D WIN32 /D _lint /D PCRE_STATIC /D __WATCOMC__ /D NDEBUG /D NO_MSHELL /D __NO_MATH_INLINES /D inline=_inline /D popen=_popen /D pclose=_pclose /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\zimpllib.pdb" /Gd /TC /wd4274 /wd4006 /wd4996 /wd4273 /analyze- /errorReport:prompt src\blkmem.c src\bound.c src\code.c src\conname.c src\define.c src\elem.c src\entry.c src\getopt.c src\gmpmisc.c src\hash.c src\heap.c src\idxset.c src\inst.c src\iread.c src\list.c src\load.c src\local.c src\metaio.c src\mmlparse2.c src\mmlscan.c src\mono.c src\mshell.c src\numbgmp.c src\prog.c src\random.c src\rdefpar.c src\set4.c src\setempty.c src\setlist.c src\setmulti.c src\setprod.c src\setpseudo.c src\setrange.c src\source.c src\stmt.c src\strstore2.c src\symbol.c src\term2.c src\tuple.c src\vinst.c src\zimpllib.c
+         blkmem.c
+         bound.c
+         code.c
+         conname.c
+         define.c
+         elem.c
+         entry.c
+         getopt.c
+         gmpmisc.c
+         hash.c
+         heap.c
+         idxset.c
+         inst.c
+         iread.c
+         list.c
+         load.c
+         local.c
+         metaio.c
+         mmlparse2.c
+     1>src/mmlparse2.c(2599): warning C4013: 'yylex' undefined; assuming extern returning int
+         mmlscan.c
+     1>src/mmlscan.c(1899): warning C4003: not enough actual parameters for macro 'yywrap'
+     1>src/mmlscan.c(2230): warning C4003: not enough actual parameters for macro 'yywrap'
+     1>src/mmlscan.l(354): warning C4090: 'function' : different 'const' qualifiers
+         Compiling...
+         mono.c
+         mshell.c
+         numbgmp.c
+         prog.c
+         random.c
+         rdefpar.c
+         set4.c
+         setempty.c
+         setlist.c
+         setmulti.c
+         setprod.c
+         setpseudo.c
+         setrange.c
+         source.c
+         stmt.c
+         strstore2.c
+         symbol.c
+         term2.c
+         tuple.c
+         vinst.c
+         Compiling...
+         zimpllib.c
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Release\libzimpl.lib" /NOLOGO /LTCG Release\blkmem.obj
+         Release\bound.obj
+         Release\code.obj
+         Release\conname.obj
+         Release\define.obj
+         Release\elem.obj
+         Release\entry.obj
+         Release\getopt.obj
+         Release\gmpmisc.obj
+         Release\hash.obj
+         Release\heap.obj
+         Release\idxset.obj
+         Release\inst.obj
+         Release\iread.obj
+         Release\list.obj
+         Release\load.obj
+         Release\local.obj
+         Release\metaio.obj
+         Release\mmlparse2.obj
+         Release\mmlscan.obj
+         Release\mono.obj
+         Release\mshell.obj
+         Release\numbgmp.obj
+         Release\prog.obj
+         Release\random.obj
+         Release\rdefpar.obj
+         Release\set4.obj
+         Release\setempty.obj
+         Release\setlist.obj
+         Release\setmulti.obj
+         Release\setprod.obj
+         Release\setpseudo.obj
+         Release\setrange.obj
+         Release\source.obj
+         Release\stmt.obj
+         Release\strstore2.obj
+         Release\symbol.obj
+         Release\term2.obj
+         Release\tuple.obj
+         Release\vinst.obj
+         Release\zimpllib.obj
+         libzimpl.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Release\libzimpl.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libzimpl.unsuccessfulbuild".
+         Touching "Release\libzimpl.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\zimpl\libzimpl.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.36

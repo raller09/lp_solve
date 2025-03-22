@@ -1,0 +1,65 @@
+﻿Build started 19-11-10 20:51:59.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\libnlpi.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\libnlpi.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isrc /ZI /nologo /W3 /WX- /Od /Oy- /D WITH_ZLIB /D WIN32 /D NO_SIGACTION /D NO_RAND_R /D NO_STRTOK_R /D NO_STRERROR_R /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\x86\scipNLPLib.pdb" /Gd /TC /wd4274 /analyze- /errorReport:prompt src\blockmemshell\memory.c src\scip\message.c
+         message.c
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(98): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(108): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(131): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(132): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(352): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(368): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(383): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(403): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(419): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(433): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(492): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(506): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(566): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(580): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(654): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\scip\message.c(668): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_vsnprintf'
+         memory.c
+     1>d:\lp_solve_5.5\xli\xli_zimpl\ziboptvs10\zibopt\scip\src\blockmemshell\memory.c(129): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\libnlpi.lib) does not match the Library's OutputFile property value (D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\lib\nlplib\x86\debug\libnlpi.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\\lib\nlplib\x86\debug\libnlpi.lib" /NOLOGO Debug\exprinterpret_none.obj
+         Debug\nlpiexpression.obj
+         Debug\interrupt.obj
+         Debug\intervalarith.obj
+         Debug\memory.obj
+         Debug\message.obj
+         Debug\misc.obj
+         Debug\nlpi.obj
+         Debug\nlpi_ipopt_dummy.obj
+         Debug\nlpioracle.obj
+         libnlpi.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\libnlpi.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\libnlpi.unsuccessfulbuild".
+         Touching "Debug\libnlpi.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\scip\libnlpi.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.83

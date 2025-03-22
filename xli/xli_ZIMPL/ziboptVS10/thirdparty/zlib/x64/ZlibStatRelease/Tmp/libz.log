@@ -1,0 +1,54 @@
+﻿Build started 19-11-10 21:43:31.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\libz.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\ZlibStatRelease\Tmp\libz.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\.. /Icontrib\masmx64 /I. /Zi /nologo /W3 /WX- /O2 /Ob1 /D ZLIB_WINAPI /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_WARNINGS /D DDASMV /D DDASMINF /D WIN64 /GF /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\ZlibStatRelease\Tmp\\" /Fd"x64\ZlibStatRelease\vc100.pdb" /Gd /TC /errorReport:prompt adler32.c compress.c crc32.c deflate.c gzclose.c gzlib.c gzread.c gzwrite.c infback.c inffast.c inflate.c inftrees.c trees.c uncompr.c contrib\minizip\unzip.c contrib\minizip\zip.c zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         unzip.c
+         zip.c
+         zutil.c
+         Generating Code...
+       MakeDirsForLib:
+         Creating directory "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\lib\x64\release".
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\x64\ZlibStatRelease\libz.lib) does not match the Library's OutputFile property value (D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\lib\x64\release\libz.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"lib\x64\release\libz.lib" /NOLOGO x64\ZlibStatRelease\Tmp\adler32.obj
+         x64\ZlibStatRelease\Tmp\compress.obj
+         x64\ZlibStatRelease\Tmp\crc32.obj
+         x64\ZlibStatRelease\Tmp\deflate.obj
+         x64\ZlibStatRelease\Tmp\gzclose.obj
+         x64\ZlibStatRelease\Tmp\gzlib.obj
+         x64\ZlibStatRelease\Tmp\gzread.obj
+         x64\ZlibStatRelease\Tmp\gzwrite.obj
+         x64\ZlibStatRelease\Tmp\infback.obj
+         x64\ZlibStatRelease\Tmp\inffast.obj
+         x64\ZlibStatRelease\Tmp\inflate.obj
+         x64\ZlibStatRelease\Tmp\inftrees.obj
+         x64\ZlibStatRelease\Tmp\trees.obj
+         x64\ZlibStatRelease\Tmp\uncompr.obj
+         x64\ZlibStatRelease\Tmp\unzip.obj
+         x64\ZlibStatRelease\Tmp\zip.obj
+         x64\ZlibStatRelease\Tmp\zutil.obj /MACHINE:AMD64 /NODEFAULTLIB 
+         libz.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\x64\ZlibStatRelease\libz.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\ZlibStatRelease\Tmp\libz.unsuccessfulbuild".
+         Touching "x64\ZlibStatRelease\Tmp\libz.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\libz.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.93

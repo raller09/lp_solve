@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <Title Value="LPSolveIDE"/>
+      <Icon Value="0"/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <CurrentVersionNr Value="5"/>
+      <CurrentMajorRevNr Value="5"/>
+      <CurrentBuildNr Value="15"/>
+      <ProjectVersion Value="5.5.0.15"/>
+      <InternalName Value="LPsolveIDE55"/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="virtualtreeslcl"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="SynEdit"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="21">
+      <Unit0>
+        <Filename Value="LPSolveIDE.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LPSolveIDE"/>
+        <CursorPos X="17" Y="17"/>
+        <TopLine Value="15"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="110"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="main"/>
+        <CursorPos X="51" Y="157"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="55"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ResultArray.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ResultArray"/>
+        <CursorPos X="35" Y="86"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="110"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="lpsolve.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="lpsolve"/>
+        <CursorPos X="67" Y="46"/>
+        <TopLine Value="1026"/>
+        <UsageCount Value="110"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="lpobject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="lpobject"/>
+        <CursorPos X="54" Y="150"/>
+        <TopLine Value="130"/>
+        <UsageCount Value="110"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="LPHighlighter.pas"/>
+        <UnitName Value="LPHighlighter"/>
+        <CursorPos X="38" Y="738"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="6"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="dlgSearchText.pas"/>
+        <ComponentName Value="TextSearchDialog"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="dlgSearchText"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="110"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="dlgSearchText.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="110"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="dlgSearchText.lrs"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="1"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="dlgReplaceText.lfm"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="8"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="dlgReplaceText.pas"/>
+        <ComponentName Value="TextReplaceDialog"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="dlgReplaceText"/>
+        <CursorPos X="87" Y="32"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="8"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\Lazarus\components\virtualtreeview\virtualtrees.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VirtualTrees"/>
+        <CursorPos X="45" Y="6520"/>
+        <TopLine Value="6500"/>
+        <UsageCount Value="100"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="SynHighlighterXML.pas"/>
+        <UnitName Value="SynHighlighterXML"/>
+        <CursorPos X="50" Y="312"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="4"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="LPSynedit.pas"/>
+        <UnitName Value="LPSynedit"/>
+        <CursorPos X="51" Y="43"/>
+        <TopLine Value="40"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="53"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\Lazarus\components\synedit\synedit.pp"/>
+        <UnitName Value="SynEdit"/>
+        <CursorPos X="1" Y="660"/>
+        <TopLine Value="640"/>
+        <UsageCount Value="1"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\Lazarus\components\synedit\syneditregexsearch.pas"/>
+        <UnitName Value="SynEditRegexSearch"/>
+        <CursorPos X="87" Y="33"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="6"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\Lazarus\components\synedit\synhighlighterxml.pas"/>
+        <UnitName Value="SynHighlighterXML"/>
+        <CursorPos X="32" Y="883"/>
+        <TopLine Value="846"/>
+        <UsageCount Value="4"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\Lazarus\components\virtualtreeview\windows\virtualtreeslcl.pas"/>
+        <UnitName Value="virtualtreeslcl"/>
+        <CursorPos X="10" Y="22"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="50"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="xpmenu.pas"/>
+        <UnitName Value="XPMenu"/>
+        <CursorPos X="27" Y="824"/>
+        <TopLine Value="810"/>
+        <UsageCount Value="48"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\Lazarus\lcl\menus.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Menus"/>
+        <CursorPos X="22" Y="180"/>
+        <TopLine Value="177"/>
+        <UsageCount Value="42"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\Lazarus\lcl\fileutil.pas"/>
+        <UnitName Value="FileUtil"/>
+        <CursorPos X="2" Y="237"/>
+        <TopLine Value="220"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+    </Units>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="dlgSearchText.pas"/>
+        <Caret Line="18" Column="78" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="dlgSearchText.pas"/>
+        <Caret Line="10" Column="25" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="dlgSearchText.pas"/>
+        <Caret Line="202" Column="10" TopLine="180"/>
+      </Position3>
+      <Position4>
+        <Filename Value="dlgSearchText.pas"/>
+        <Caret Line="25" Column="51" TopLine="9"/>
+      </Position4>
+      <Position5>
+        <Filename Value="dlgSearchText.pas"/>
+        <Caret Line="6" Column="38" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="dlgSearchText.pas"/>
+        <Caret Line="10" Column="25" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="dlgSearchText.pas"/>
+        <Caret Line="202" Column="4" TopLine="180"/>
+      </Position7>
+      <Position8>
+        <Filename Value="dlgSearchText.pas"/>
+        <Caret Line="10" Column="29" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="dlgSearchText.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position9>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)\;C:\Lazarus\lcl\include\"/>
+      <OtherUnitFiles Value="C:\Lazarus\components\synedit\"/>
+      <UnitOutputDirectory Value="C:\LAAzProj\IDE14\ppus"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <CStyleOperator Value="False"/>
+        <UseAnsiStrings Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <WriteFPCLogo Value="False"/>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

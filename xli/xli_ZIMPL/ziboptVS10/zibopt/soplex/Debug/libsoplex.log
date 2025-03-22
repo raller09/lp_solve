@@ -1,0 +1,158 @@
+﻿Build started 19-11-10 20:47:43.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\soplex\libsoplex.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libsoplex.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\thirdparty\zlib /ZI /nologo /W3 /WX- /Od /Oy- /D WITH_ZLIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\x86\SoPlexLib.pdb" /Gd /TP /wd4996 /wd4274 /wd4068 /analyze- /errorReport:prompt src\changesoplex.cpp src\didxset.cpp src\dsvector.cpp src\dvector.cpp src\enter.cpp src\factor.cpp src\forest.cpp src\gzstream.cpp src\idxset.cpp src\leave.cpp src\lpcolset.cpp src\lprow.cpp src\lprowset.cpp src\message.cpp src\mpsinput.cpp src\nameset.cpp src\slufactor.cpp src\solve.cpp src\soplex.cpp src\spxbasis.cpp src\spxbounds.cpp src\spxchangebasis.cpp src\spxdantzigpr.cpp src\spxdefaultrt.cpp src\spxdefines.cpp src\spxdesc.cpp src\spxdevexpr.cpp src\spxequilisc.cpp src\spxfastrt.cpp src\spxfileio.cpp src\spxgeometsc.cpp src\spxharrisrt.cpp src\spxhybridpr.cpp src\spxid.cpp src\spxio.cpp src\spxlp.cpp src\spxlpfread.cpp src\spxlpfwrite.cpp src\spxmainsm.cpp src\spxmpsread.cpp src\spxmpswrite.cpp src\spxout.cpp src\spxparmultpr.cpp src\spxproof.cpp src\spxquality.cpp src\spxscaler.cpp src\spxshift.cpp src\spxsolve.cpp src\spxsolver.cpp src\spxstarter.cpp src\spxsteeppr.cpp src\spxsumst.cpp src\spxvecs.cpp src\spxvectorst.cpp src\spxweightpr.cpp src\spxweightst.cpp src\spxwritestate.cpp src\ssvector.cpp src\svector.cpp src\svset.cpp src\timer.cpp src\tracemethod.cpp src\unitvector.cpp src\update.cpp src\updatevector.cpp src\vector.cpp src\vsolve.cpp
+         vsolve.cpp
+         vector.cpp
+         updatevector.cpp
+         update.cpp
+         unitvector.cpp
+         tracemethod.cpp
+         timer.cpp
+         svset.cpp
+         svector.cpp
+         ssvector.cpp
+         spxwritestate.cpp
+         spxweightst.cpp
+         spxweightpr.cpp
+         spxvectorst.cpp
+         spxvecs.cpp
+         spxsumst.cpp
+         spxsteeppr.cpp
+         spxstarter.cpp
+         spxsolver.cpp
+         spxsolve.cpp
+         Generating Code...
+         Compiling...
+         spxshift.cpp
+         spxscaler.cpp
+         spxquality.cpp
+         spxproof.cpp
+         spxparmultpr.cpp
+         spxout.cpp
+         spxmpswrite.cpp
+         spxmpsread.cpp
+         spxmainsm.cpp
+         spxlpfwrite.cpp
+         spxlpfread.cpp
+         spxlp.cpp
+         spxio.cpp
+         spxid.cpp
+         spxhybridpr.cpp
+         spxharrisrt.cpp
+         spxgeometsc.cpp
+         spxfileio.cpp
+         spxfastrt.cpp
+         spxequilisc.cpp
+         Generating Code...
+         Compiling...
+         spxdevexpr.cpp
+         spxdesc.cpp
+         spxdefines.cpp
+         spxdefaultrt.cpp
+         spxdantzigpr.cpp
+         spxchangebasis.cpp
+         spxbounds.cpp
+         spxbasis.cpp
+         soplex.cpp
+         solve.cpp
+         slufactor.cpp
+         nameset.cpp
+         mpsinput.cpp
+         message.cpp
+         lprowset.cpp
+         lprow.cpp
+         lpcolset.cpp
+         leave.cpp
+         idxset.cpp
+         gzstream.cpp
+         Generating Code...
+         Compiling...
+         forest.cpp
+         factor.cpp
+         enter.cpp
+         dvector.cpp
+         dsvector.cpp
+         didxset.cpp
+         changesoplex.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\libsoplex.lib" /NOLOGO Debug\changesoplex.obj
+         Debug\didxset.obj
+         Debug\dsvector.obj
+         Debug\dvector.obj
+         Debug\enter.obj
+         Debug\factor.obj
+         Debug\forest.obj
+         Debug\gzstream.obj
+         Debug\idxset.obj
+         Debug\leave.obj
+         Debug\lpcolset.obj
+         Debug\lprow.obj
+         Debug\lprowset.obj
+         Debug\message.obj
+         Debug\mpsinput.obj
+         Debug\nameset.obj
+         Debug\slufactor.obj
+         Debug\solve.obj
+         Debug\soplex.obj
+         Debug\spxbasis.obj
+         Debug\spxbounds.obj
+         Debug\spxchangebasis.obj
+         Debug\spxdantzigpr.obj
+         Debug\spxdefaultrt.obj
+         Debug\spxdefines.obj
+         Debug\spxdesc.obj
+         Debug\spxdevexpr.obj
+         Debug\spxequilisc.obj
+         Debug\spxfastrt.obj
+         Debug\spxfileio.obj
+         Debug\spxgeometsc.obj
+         Debug\spxharrisrt.obj
+         Debug\spxhybridpr.obj
+         Debug\spxid.obj
+         Debug\spxio.obj
+         Debug\spxlp.obj
+         Debug\spxlpfread.obj
+         Debug\spxlpfwrite.obj
+         Debug\spxmainsm.obj
+         Debug\spxmpsread.obj
+         Debug\spxmpswrite.obj
+         Debug\spxout.obj
+         Debug\spxparmultpr.obj
+         Debug\spxproof.obj
+         Debug\spxquality.obj
+         Debug\spxscaler.obj
+         Debug\spxshift.obj
+         Debug\spxsolve.obj
+         Debug\spxsolver.obj
+         Debug\spxstarter.obj
+         Debug\spxsteeppr.obj
+         Debug\spxsumst.obj
+         Debug\spxvecs.obj
+         Debug\spxvectorst.obj
+         Debug\spxweightpr.obj
+         Debug\spxweightst.obj
+         Debug\spxwritestate.obj
+         Debug\ssvector.obj
+         Debug\svector.obj
+         Debug\svset.obj
+         Debug\timer.obj
+         Debug\tracemethod.obj
+         Debug\unitvector.obj
+         Debug\update.obj
+         Debug\updatevector.obj
+         Debug\vector.obj
+         Debug\vsolve.obj
+     1>tracemethod.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         libsoplex.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\libsoplex.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\libsoplex.unsuccessfulbuild".
+         Touching "Debug\libsoplex.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\soplex\libsoplex.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:48.17

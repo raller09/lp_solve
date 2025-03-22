@@ -1,0 +1,60 @@
+﻿Build started 19-11-10 20:52:02.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\zimpl\binzimpl.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\binzimpl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\thirdparty\gmp /I..\..\thirdparty\pcre\src /I..\..\thirdparty\zlib /Isrc /Zi /nologo /W3 /WX- /Od /Oy- /D WITH_PCRE /D WIN32 /D _LIB /D SUPPORT_UTF8 /D SUPPORT_UCP /D POSIX_MALLOC_THRESHOLD=10 /D PCRE_STATIC /D _UNICODE /D UNICODE /D __WATCOMC__ /D FREEMEM /D __NO_MATH_INLINES /D inline=_inline /D popen=_popen /D pclose=_pclose /D _WINDLL /D _MBCS /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\x86\zimplExe" /Gd /TC /analyze- /errorReport:prompt src\ratlpfwrite.c src\ratlpstore.c src\ratmpswrite.c src\ratmstwrite.c src\ratordwrite.c src\ratpresolve.c src\xlpglue.c src\zimpl.c
+         ratlpfwrite.c
+         ratlpstore.c
+     1>src\ratlpstore.c(1959): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>src\ratlpstore.c(1972): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>src\ratlpstore.c(1977): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>src\ratlpstore.c(1984): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+         ratmpswrite.c
+         ratmstwrite.c
+         ratordwrite.c
+         ratpresolve.c
+         xlpglue.c
+         zimpl.c
+     1>src\zimpl.c(124): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>src\zimpl.c(127): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>src\zimpl.c(200): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>src\zimpl.c(418): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>src\zimpl.c(440): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>src\zimpl.c(461): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>src\zimpl.c(480): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>src\zimpl.c(499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\binzimpl.dll" /NOLOGO /LIBPATH:..\..\debug /LIBPATH:..\..\thirdparty\gmp\lib\x86\debug /LIBPATH:..\..\thirdparty\pcre\lib\x86\debug /LIBPATH:lib\x86\debug /LIBPATH:..\..\thirdparty\zlib\lib\x86\debug libgmp.lib libzimpl.lib libz.lib libpcre.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC.LIB /NODEFAULTLIB:LIBCMTD.lib /MANIFEST /ManifestFile:"Debug\binzimpl.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\binzimpl.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\binzimpl.lib" /MACHINE:X86 /DLL Debug\ratlpfwrite.obj
+         Debug\ratlpstore.obj
+         Debug\ratmpswrite.obj
+         Debug\ratmstwrite.obj
+         Debug\ratordwrite.obj
+         Debug\ratpresolve.obj
+         Debug\xlpglue.obj
+         Debug\zimpl.obj
+         LINK : D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\binzimpl.dll not found or not built by the last incremental link; performing full link
+         binzimpl.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\binzimpl.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\binzimpl.dll;#2" /manifest Debug\binzimpl.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\binzimpl.unsuccessfulbuild".
+         Touching "Debug\binzimpl.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\zimpl\binzimpl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.73

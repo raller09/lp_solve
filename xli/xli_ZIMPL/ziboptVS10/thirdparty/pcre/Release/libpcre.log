@@ -1,0 +1,71 @@
+﻿Build started 19-11-10 21:03:41.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\pcre\libpcre.vcxproj" on node 3 (rebuild target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Release\".
+       InitializeBuildStatus:
+         Creating "Release\libpcre.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _LIB /D SUPPORT_UTF8 /D SUPPORT_UCP /D POSIX_MALLOC_THRESHOLD=10 /D PCRE_STATIC /D _UNICODE /D UNICODE /D _WIN32 /D NDEBUG /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt dftables.c pcre_chartables.c pcre_compile.c pcre_config.c pcre_dfa_exec.c pcre_exec.c pcre_fullinfo.c pcre_get.c pcre_globals.c pcre_info.c pcre_maketables.c pcre_newline.c pcre_ord2utf8.c pcre_refcount.c pcre_study.c pcre_tables.c pcre_try_flipped.c pcre_ucd.c pcre_valid_utf8.c pcre_version.c pcre_xclass.c pcredemo.c pcreposix.c pcretest.c
+         dftables.c
+         pcre_chartables.c
+         pcre_compile.c
+     1>pcre_compile.c(876): warning C4065: switch statement contains 'default' but no 'case' labels
+         pcre_config.c
+         pcre_dfa_exec.c
+         pcre_exec.c
+         pcre_fullinfo.c
+         pcre_get.c
+         pcre_globals.c
+         pcre_info.c
+         pcre_maketables.c
+         pcre_newline.c
+         pcre_ord2utf8.c
+         pcre_refcount.c
+         pcre_study.c
+         pcre_tables.c
+         pcre_try_flipped.c
+         pcre_ucd.c
+         pcre_valid_utf8.c
+         pcre_version.c
+         Compiling...
+         pcre_xclass.c
+         pcredemo.c
+         pcreposix.c
+         pcretest.c
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Release\libpcre.lib" /NOLOGO /LTCG Release\dftables.obj
+         Release\pcre_chartables.obj
+         Release\pcre_compile.obj
+         Release\pcre_config.obj
+         Release\pcre_dfa_exec.obj
+         Release\pcre_exec.obj
+         Release\pcre_fullinfo.obj
+         Release\pcre_get.obj
+         Release\pcre_globals.obj
+         Release\pcre_info.obj
+         Release\pcre_maketables.obj
+         Release\pcre_newline.obj
+         Release\pcre_ord2utf8.obj
+         Release\pcre_refcount.obj
+         Release\pcre_study.obj
+         Release\pcre_tables.obj
+         Release\pcre_try_flipped.obj
+         Release\pcre_ucd.obj
+         Release\pcre_valid_utf8.obj
+         Release\pcre_version.obj
+         Release\pcre_xclass.obj
+         Release\pcredemo.obj
+         Release\pcreposix.obj
+         Release\pcretest.obj
+     1>pcredemo.obj : warning LNK4006: _main already defined in pcretest.obj; second definition ignored
+     1>dftables.obj : warning LNK4006: _main already defined in pcretest.obj; second definition ignored
+     1>dftables.obj : warning LNK4006: _pcre_maketables already defined in pcre_maketables.obj; second definition ignored
+         libpcre.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Release\libpcre.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libpcre.unsuccessfulbuild".
+         Touching "Release\libpcre.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\pcre\libpcre.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.16

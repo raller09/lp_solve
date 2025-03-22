@@ -1,0 +1,16 @@
+TITLE lp
+
+! Objective function
+MAXIMIZE
+ -x1 +2 x2
+
+! Constraints
+SUBJECT TO
+ C1) +2 x1 +x2 <= 5
+ -4 x1 +4 x2 <= 5
+
+END
+
+! Integer definitions
+GIN x1
+GIN x2

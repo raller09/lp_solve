@@ -1,0 +1,38 @@
+[FORMS.PP] ExceptionOccurred
+  Sender=EClassNotFound
+  Exception=Class "TSynEdit" not found
+  Stack trace:
+  $004541A5
+  $004527B6
+  $00452D59
+  $0044E6EB
+  $00452D59
+  $0044E6EB
+  $00452A71
+  $00452D59
+  $0044E6EB
+  $0041631E  INITCOMPONENT,  line 2974 of lresources.pp
+  $0041619F  INITLAZRESOURCECOMPONENT,  line 2994 of lresources.pp
+  $00415687  INITRESOURCECOMPONENT,  line 708 of lresources.pp
+  $0041D21D  TCUSTOMFORM__CREATE,  line 1442 of ./include/customform.inc
+  $0041E976  TFORM__CREATE,  line 2202 of ./include/customform.inc
+  $00423288  TAPPLICATION__CREATEFORM,  line 1837 of ./include/application.inc
+  $0040311F  main,  line 44 of LPSolveIDE.dpr
+TApplication.HandleException Class "TSynEdit" not found
+  Stack trace:
+  $004541A5
+  $004527B6
+  $00452D59
+  $0044E6EB
+  $00452D59
+  $0044E6EB
+  $00452A71
+  $00452D59
+  $0044E6EB
+  $0041631E  INITCOMPONENT,  line 2974 of lresources.pp
+  $0041619F  INITLAZRESOURCECOMPONENT,  line 2994 of lresources.pp
+  $00415687  INITRESOURCECOMPONENT,  line 708 of lresources.pp
+  $0041D21D  TCUSTOMFORM__CREATE,  line 1442 of ./include/customform.inc
+  $0041E976  TFORM__CREATE,  line 2202 of ./include/customform.inc
+  $00423288  TAPPLICATION__CREATEFORM,  line 1837 of ./include/application.inc
+  $0040311F  main,  line 44 of LPSolveIDE.dpr

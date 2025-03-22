@@ -1,0 +1,8 @@
+
+Fortify: f:\lp_solve_5.5\lp_matrix.c.1635
+         Memory overrun detected after block
+         (02DF1284,408,f:\lp_solve_5.5\lp_matrix.c.126)
+Address     Offset Data
+02DF141C        0 00 00 00 00 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5    "                "
+
+Last Verified point: f:\lp_solve_5.5\lp_lib.c.4591

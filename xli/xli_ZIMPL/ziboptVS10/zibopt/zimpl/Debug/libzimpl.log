@@ -1,0 +1,17 @@
+﻿Build started 19-11-10 20:52:01.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\zimpl\libzimpl.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libzimpl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         libzimpl.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\Debug\libzimpl.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\libzimpl.unsuccessfulbuild".
+         Touching "Debug\libzimpl.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\zibopt\zimpl\libzimpl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.37

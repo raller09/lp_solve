@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="zlibstat2008">
+</Property><Property Name="Solution File" Value="D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\zlibstat2008.sln">
+</Property><Property Name="Date" Value="Sunday, November 21, 2010">
+</Property><Property Name="Time" Value="19:29">
+</Property></Properties><Event ErrorLevel="0" Project="zlibstat" Source="zlibstat.vcproj" Description="Converting project file 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\zlibstat.vcproj'.">
+</Event><Event ErrorLevel="0" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="Converting propertysheet file 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' for configuration 'Debug|Win32'.">
+</Event><Event ErrorLevel="2" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="File 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' was not found.">
+</Event><Event ErrorLevel="1" Project="zlibstat" Source="zlibstat.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="zlibstat" Source="zlibstat.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="Converting propertysheet file 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' for configuration 'Debug|x64'.">
+</Event><Event ErrorLevel="2" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="File 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' was not found.">
+</Event><Event ErrorLevel="1" Project="zlibstat" Source="zlibstat.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="Converting propertysheet file 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' for configuration 'Debug|Itanium'.">
+</Event><Event ErrorLevel="2" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="File 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' was not found.">
+</Event><Event ErrorLevel="1" Project="zlibstat" Source="zlibstat.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="Converting propertysheet file 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' for configuration 'Release|Win32'.">
+</Event><Event ErrorLevel="2" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="File 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' was not found.">
+</Event><Event ErrorLevel="0" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="Converting propertysheet file 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' for configuration 'Release|x64'.">
+</Event><Event ErrorLevel="2" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="File 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' was not found.">
+</Event><Event ErrorLevel="0" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="Converting propertysheet file 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' for configuration 'Release|Itanium'.">
+</Event><Event ErrorLevel="2" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="File 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' was not found.">
+</Event><Event ErrorLevel="0" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="Converting propertysheet file 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' for configuration 'ReleaseWithoutAsm|Win32'.">
+</Event><Event ErrorLevel="2" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="File 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' was not found.">
+</Event><Event ErrorLevel="0" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="Converting propertysheet file 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' for configuration 'ReleaseWithoutAsm|x64'.">
+</Event><Event ErrorLevel="2" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="File 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' was not found.">
+</Event><Event ErrorLevel="0" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="Converting propertysheet file 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' for configuration 'ReleaseWithoutAsm|Itanium'.">
+</Event><Event ErrorLevel="2" Project="zlibstat" Source="UpgradeFromVC70.vsprops" Description="File 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\UpgradeFromVC70.vsprops' was not found.">
+</Event><Event ErrorLevel="0" Project="zlibstat" Source="zlibstat.vcproj" Description="Done converting to new project file 'D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\zlibstat.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="zlibstat" Source="zlibstat.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="zlibstat2008.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="zlibstat2008.sln" Description="Converted">
+</Event></UpgradeLog>

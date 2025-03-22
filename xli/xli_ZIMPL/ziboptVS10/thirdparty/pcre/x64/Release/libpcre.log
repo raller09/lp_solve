@@ -1,0 +1,83 @@
+﻿Build started 19-11-10 21:41:57.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\pcre\libpcre.vcxproj" on node 3 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\libpcre.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I. /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN64 /D _LIB /D SUPPORT_UTF8 /D SUPPORT_UCP /D POSIX_MALLOC_THRESHOLD=10 /D PCRE_STATIC /D _UNICODE /D UNICODE /D _WIN32 /D NDEBUG /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /wd4996 /errorReport:prompt dftables.c pcre_chartables.c pcre_compile.c pcre_config.c pcre_dfa_exec.c pcre_exec.c pcre_fullinfo.c pcre_get.c pcre_globals.c pcre_info.c pcre_maketables.c pcre_newline.c pcre_ord2utf8.c pcre_refcount.c pcre_study.c pcre_tables.c pcre_try_flipped.c pcre_ucd.c pcre_valid_utf8.c pcre_version.c pcre_xclass.c pcredemo.c pcreposix.c pcretest.c
+         dftables.c
+         pcre_chartables.c
+         pcre_compile.c
+     1>pcre_compile.c(876): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>pcre_compile.c(3313): warning C4244: '+=' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_compile.c(4002): warning C4244: '=' : conversion from '__int64' to 'uschar', possible loss of data
+     1>pcre_compile.c(4113): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         pcre_config.c
+         pcre_dfa_exec.c
+         pcre_exec.c
+         pcre_fullinfo.c
+         pcre_get.c
+         pcre_globals.c
+         pcre_info.c
+         pcre_maketables.c
+         pcre_newline.c
+         pcre_ord2utf8.c
+         pcre_refcount.c
+         pcre_study.c
+         pcre_tables.c
+         pcre_try_flipped.c
+         pcre_ucd.c
+         pcre_valid_utf8.c
+     1>pcre_valid_utf8.c(86): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(94): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(96): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(100): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(110): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(119): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(129): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>pcre_valid_utf8.c(154): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+         pcre_version.c
+         Compiling...
+         pcre_xclass.c
+         pcredemo.c
+         pcreposix.c
+         pcretest.c
+       MakeDirsForLib:
+         Creating directory "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\pcre\lib\x64\release".
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Release\libpcre.lib) does not match the Library's OutputFile property value (D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\pcre\lib\x64\release\libpcre.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"lib\x64\release\libpcre.lib" /NOLOGO /LTCG x64\Release\dftables.obj
+         x64\Release\pcre_chartables.obj
+         x64\Release\pcre_compile.obj
+         x64\Release\pcre_config.obj
+         x64\Release\pcre_dfa_exec.obj
+         x64\Release\pcre_exec.obj
+         x64\Release\pcre_fullinfo.obj
+         x64\Release\pcre_get.obj
+         x64\Release\pcre_globals.obj
+         x64\Release\pcre_info.obj
+         x64\Release\pcre_maketables.obj
+         x64\Release\pcre_newline.obj
+         x64\Release\pcre_ord2utf8.obj
+         x64\Release\pcre_refcount.obj
+         x64\Release\pcre_study.obj
+         x64\Release\pcre_tables.obj
+         x64\Release\pcre_try_flipped.obj
+         x64\Release\pcre_ucd.obj
+         x64\Release\pcre_valid_utf8.obj
+         x64\Release\pcre_version.obj
+         x64\Release\pcre_xclass.obj
+         x64\Release\pcredemo.obj
+         x64\Release\pcreposix.obj
+         x64\Release\pcretest.obj
+     1>pcredemo.obj : warning LNK4006: main already defined in pcretest.obj; second definition ignored
+     1>dftables.obj : warning LNK4006: main already defined in pcretest.obj; second definition ignored
+     1>dftables.obj : warning LNK4006: pcre_maketables already defined in pcre_maketables.obj; second definition ignored
+         libpcre.vcxproj -> D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\x64\Release\libpcre.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\libpcre.unsuccessfulbuild".
+         Touching "x64\Release\libpcre.lastbuildstate".
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\pcre\libpcre.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.11

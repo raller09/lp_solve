@@ -1,0 +1,49 @@
+ 
+      The constraint matrix inf-norm is 4, with a dynamic range of 4.
+      Time to load data was 0.204 seconds, presolve used 0.015 seconds,
+       ... 6.219 seconds in simplex solver, in total 6.438 seconds.
+----------------------------------------MapWindowPoints rect
+----------------------------------------MapWindowPoints rect
+TApplication.HandleException Unable to open file "C:\LAAzProj\IDE16\ppus\Testdir
+\mlpg2.lp"
+  Stack trace:
+  $00449336
+  $0044C654
+  $00437F40  TMAINFORM__OPENFILE,  line 2069 of main.pas
+  $00433193  TMAINFORM__ACOPENEXECUTE,  line 1005 of main.pas
+  $0044F6C2
+  $00486C18  TCUSTOMACTION__EXECUTE,  line 252 of ./include/customaction.inc
+  $0044F4C2
+  $00424D80  TMENUITEM__CLICK,  line 73 of ./include/menuitem.inc
+  $004253A0  TMENUITEM__DOCLICKED,  line 265 of ./include/menuitem.inc
+  $0040AF59
+  $7E418734
+  $7E418816
+  $7E4189CD
+  $7E4196C7
+  $005025EE  TWIN32WIDGETSET__APPPROCESSMESSAGES,  line 325 of win32object.inc
+  $00422019  TAPPLICATION__HANDLEMESSAGE,  line 1069 of ./include/application.in
+c
+  $004222EF  TAPPLICATION__RUNLOOP,  line 1180 of ./include/application.inc
+
+
+
+  object SynEdit1: TSynEdit
+    Height = 281
+    Width = 400
+    Align = alClient
+    Font.Height = 12
+    Font.Name = 'courier'
+    Font.Pitch = fpFixed
+    Font.Quality = fqNonAntialiased
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+    Gutter.AutoSize = True
+    Gutter.RightOffset = 0
+    Gutter.LeftOffset = 0
+    Gutter.ShowCodeFolding = True
+    Gutter.ShowChanges = True
+    Gutter.ShowLineNumbers = True
+    Gutter.ShowOnlyLineNumbersMultiplesOf = 2
+    Gutter.DigitCount = 4

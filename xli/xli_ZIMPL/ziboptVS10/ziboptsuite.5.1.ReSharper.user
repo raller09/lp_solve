@@ -1,0 +1,40 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="7CF81C45-765A-4253-BA93-B2CD7CAC36A3/f:bitencode.c" caret="0" fromTop="0" />
+      <File id="D91D5337-8491-432D-AF32-90DE0937A265/f:abs.c" caret="0" fromTop="0" />
+      <File id="5DCCE24E-79F9-4983-8A55-4E1762F1B4D1/f:soplexmain.cpp" caret="0" fromTop="0" />
+      <File id="FD0B60E1-EC22-4AB4-B553-135B8051F7E2/f:numbgmp.c" caret="1975" fromTop="16" />
+      <File id="13102880-EF84-4731-80A4-800DF6474982/f:cons_soc.c" caret="1813" fromTop="3" />
+      <File id="01B4FEC8-D216-44F8-A565-C6B864351BC7/f:pcre_internal.h" caret="3689" fromTop="16" />
+      <File id="13102880-EF84-4731-80A4-800DF6474982/f:reader_zpl.c" caret="1519" fromTop="14" />
+      <File id="FD0B60E1-EC22-4AB4-B553-135B8051F7E2/f:getopt.c" caret="0" fromTop="0" />
+      <File id="FD0B60E1-EC22-4AB4-B553-135B8051F7E2/f:gmp.h/l:..?..?thirdparty?gmp?gmp.h" caret="0" fromTop="0" />
+      <File id="4E302C2C-0B87-4993-B717-85E92642B36B/f:unistd.h" caret="0" fromTop="0" />
+      <File id="FD0B60E1-EC22-4AB4-B553-135B8051F7E2/f:getopt.h" caret="718" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="01B4FEC8-D216-44F8-A565-C6B864351BC7/f:pcre_internal.h" caret="3668" fromTop="14" />
+      <File id="FD0B60E1-EC22-4AB4-B553-135B8051F7E2/f:numbgmp.c" caret="1975" fromTop="16" />
+      <File id="13102880-EF84-4731-80A4-800DF6474982/f:cons_soc.c" caret="1813" fromTop="15" />
+      <File id="13102880-EF84-4731-80A4-800DF6474982/f:reader_zpl.c" caret="2109" fromTop="24" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.4.8\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

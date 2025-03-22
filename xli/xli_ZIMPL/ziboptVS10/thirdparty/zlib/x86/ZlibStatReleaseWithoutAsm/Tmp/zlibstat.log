@@ -1,0 +1,48 @@
+﻿Build started 21-11-10 19:31:23.
+     1>Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\zlibstat.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "x86\ZlibStatReleaseWithoutAsm\Tmp\zlibstat.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\.. /I..\..\masmx86 /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D ZLIB_WINAPI /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86\ZlibStatReleaseWithoutAsm\Tmp\\" /Fd"x86\ZlibStatReleaseWithoutAsm\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\adler32.c ..\..\..\compress.c ..\..\..\crc32.c ..\..\..\deflate.c ..\..\..\gzclose.c ..\..\..\gzlib.c ..\..\..\gzread.c ..\..\..\gzwrite.c ..\..\..\infback.c ..\..\..\inffast.c ..\..\..\inflate.c ..\..\..\inftrees.c ..\..\minizip\ioapi.c ..\..\..\trees.c ..\..\..\uncompr.c ..\..\minizip\unzip.c ..\..\minizip\zip.c ..\..\..\zutil.c
+         adler32.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\adler32.c': No such file or directory
+         compress.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\compress.c': No such file or directory
+         crc32.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\crc32.c': No such file or directory
+         deflate.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\deflate.c': No such file or directory
+         gzclose.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\gzclose.c': No such file or directory
+         gzlib.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\gzlib.c': No such file or directory
+         gzread.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\gzread.c': No such file or directory
+         gzwrite.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\gzwrite.c': No such file or directory
+         infback.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\infback.c': No such file or directory
+         inffast.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\inffast.c': No such file or directory
+         inflate.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\inflate.c': No such file or directory
+         inftrees.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\inftrees.c': No such file or directory
+         ioapi.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\minizip\ioapi.c': No such file or directory
+         trees.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\trees.c': No such file or directory
+         uncompr.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\uncompr.c': No such file or directory
+         unzip.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\minizip\unzip.c': No such file or directory
+         zip.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\minizip\zip.c': No such file or directory
+         zutil.c
+     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\zutil.c': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\lp_solve_5.5\xli\xli_ZIMPL\ziboptVS10\thirdparty\zlib\zlibstat.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.28
