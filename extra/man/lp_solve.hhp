@@ -1,7 +1,7 @@
 [OPTIONS]
 Auto Index=Yes
 Compatibility=1.1 or later
-Compiled file=lp_solve_5.5.2.13.chm
+Compiled file=lpsolve_5.5.2.13.chm
 Contents file=lp_solve.hhc
 Default topic=Intro.htm
 Display compile progress=No

@@ -351,6 +351,8 @@ MigrationBackup/
 .ionide/
 
 **/*.lib
+**/*.exe
+**/*.chm
 **/*.o
 lpsolve.res
 

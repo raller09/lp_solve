@@ -48,7 +48,7 @@
 				BuildCommandLine="run /w hhc.exe lp_solve.hhp"
 				ReBuildCommandLine="run /w hhc.exe lp_solve.hhp"
 				CleanCommandLine="if exist $(Output) del $(Output)"
-				Output="lp_solve_5.5.2.13.chm"
+				Output="lpsolve_5.5.2.13.chm"
 				PreprocessorDefinitions=""
 				IncludeSearchPath=""
 				ForcedIncludes=""

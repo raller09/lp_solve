@@ -92,10 +92,10 @@ scripts that can make things a lot easier. See further in this article.
 <pre>
 Compile and build sclpsolve:
 ----------------------------<OL><LI>Get the needed sources and libraries:
-Archive lp_solve_5.5.2.13_scilab_source.tar.gz contains the sources to build sclpsolve.
+Archive lpsolve_5.5.2.13_scilab_source.tar.gz contains the sources to build sclpsolve.
 Uncompress it to a directory, for example d:\lp_solve. Make sure that the folder structure is kept.
 It will create a directory structure lp_solve_5.5\extra\scilab\lpsolve in that folder.
-Archive lp_solve_5.5.2.13_dev.zip (Windows) or lp_solve_5.5.2.13_dev.tar.gz (Unix) contains
+Archive lpsolve_5.5.2.13_dev.zip (Windows) or lpsolve_5.5.2.13_dev.tar.gz (Unix) contains
 needed libraries and include files to link the sources with.
 Uncompress it to the same folder as for the sources, appended with lp_solve_5.5.
 In this example that would be d:\lp_solve\lp_solve_5.5
@@ -131,7 +131,7 @@ Load the sclpsolve driver in the Scilab memory space:
 -----------------------------------------------------<OL><LI>Under Windows, make sure that the lpsolve55.dll file is somewhere in the path
 Under Unix/Linux, make sure that the liblpsolve55.so shared library is in /usr/lib
 or /lib so that Unix can find it.
-They are in archives lp_solve_5.5.2.13_dev.zip/lp_solve_5.5.2.13_dev.tar.gz and were
+They are in archives lpsolve_5.5.2.13_dev.zip/lpsolve_5.5.2.13_dev.tar.gz and were
 installed in the lp_solve_5.5 directory of step 1 of the previous procedure.</LI>
 <LI>It is required that the sclpsolve driver is first build.
 That must be done only once. So if you haven't taken the steps yet
@@ -153,7 +153,7 @@ example: chdir('/lp_solve/lp_solve_5.5/extra/scilab/lpsolve')</LI>
 This driver must be put in a directory known to Scilab and Scilab can call the sclpsolve solver.</p>
 
 <p>This driver calls lpsolve via the lpsolve shared library (lpsolve55.dll under Windows
-and liblpsolve55.so under Unix/Linux) (in archive lp_solve_5.5.2.13_dev.zip/lp_solve_5.5.2.13_dev.tar.gz). This has the advantage that the sclpsolve driver doesn't have to
+and liblpsolve55.so under Unix/Linux) (in archive lpsolve_5.5.2.13_dev.zip/lpsolve_5.5.2.13_dev.tar.gz). This has the advantage that the sclpsolve driver doesn't have to
 be recompiled when an update of lpsolve is provided.
 For Windows, the lpsolve55.dll file must be somewhere in the path.
 For Unix, the lpsolve shared library (liblpsolve55.so) must be in the /usr/lib or /lib directory.</p>
@@ -3032,7 +3032,7 @@ Most of them exist in the lpsolve API with another name.</p>
 Under Unix/Linux, the sclpsolve Scilab driver is a static library sclpsolve.a<br>
 The library is an interface to the lpsolve55 library that contains the implementation of lp_solve.
 Under windows this is a dll lpsolve55.dll and under Unix/Linux it is a shared library liblpsolve55.so<br>
-They are distributed with the lp_solve package (archive lp_solve_5.5.2.13_dev.zip/lp_solve_5.5.2.13_dev.tar.gz). See at the beginning of this article where these files must be installed.
+They are distributed with the lp_solve package (archive lpsolve_5.5.2.13_dev.zip/lpsolve_5.5.2.13_dev.tar.gz). See at the beginning of this article where these files must be installed.
 The sclpsolve Scilab driver is just
 a wrapper between Scilab and lp_solve to translate the input/output to/from Scilab and the lp_solve library.
 </p>

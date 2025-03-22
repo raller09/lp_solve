@@ -7,7 +7,7 @@ VersionInfoVersion=5.5.2.13
 AppPublisherURL=http://lpsolve.sourceforge.net/5.5/
 OutputBaseFilename=LPSolveIDESetup55
 
-AppCopyright=Copyright (C) 1991, 2022 Free Software Foundation, Inc.
+AppCopyright=Copyright (C) 1991, 2025 Free Software Foundation, Inc.
 
 AppName=LPSolve IDE
 AppPublisher=Free Software Foundation, Inc.
