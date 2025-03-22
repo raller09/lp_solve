@@ -563,4 +563,3 @@ Also we would be pleased to hear about your experiences with the different BFPs 
 Please send reactions to:
 Peter Notebaert: lpsolve@peno.be
 Kjell Eikland: kjell.eikland@broadpark.no
-
