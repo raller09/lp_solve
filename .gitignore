@@ -359,8 +359,8 @@ lpsolve.res
 pe.cfg
 *.bak
 a
-*.gz
-*.sq
+**/*.gz
+**/*.sq
 **/*.zip
 extra/man/.gitignore
 
