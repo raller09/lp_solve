@@ -351,6 +351,9 @@ MigrationBackup/
 .ionide/
 
 **/*.lib
+**/*.o
+lpsolve.res
+
 pe.cfg
 *.bak
 a
