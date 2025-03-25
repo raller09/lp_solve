@@ -313,6 +313,7 @@ const
   TIMEOUT                 =  7;
   RUNNING                 =  8;
   PRESOLVED               =  9;
+  ACCURACYERROR           = 25;
 
 (* Branch & Bound and Lagrangean extra status values *)
   PROCFAIL               = 10;
@@ -770,6 +771,11 @@ function is_use_names(lp: THandle; isrow: boolean): boolean; stdcall;
 procedure set_use_names(lp: THandle; isrow, use_names: boolean); stdcall;
 function is_obj_in_basis(lp: THandle): boolean; stdcall;
 procedure set_obj_in_basis(lp: THandle; obj_in_basis: boolean); stdcall;
+
+function get_accuracy(lp: THandle): double; stdcall;
+function get_break_numeric_accuracy(lp: THandle): double; stdcall;
+procedure set_break_numeric_accuracy(lp: THandle;Value: double); stdcall;
+
 {$ELSE}
 function set_free(lp: THandle; column: integer): boolean; stdcall;
 function is_free(lp: THandle; column: integer): boolean; stdcall;
@@ -1056,6 +1062,9 @@ function is_use_names(lp: THandle; isrow: boolean): boolean; stdcall; external L
 procedure set_use_names(lp: THandle; isrow, use_names: boolean); stdcall; external LPSOLVELIB name 'set_use_names';
 function is_obj_in_basis(lp: THandle): boolean; stdcall; external LPSOLVELIB name 'is_obj_in_basis';
 procedure set_obj_in_basis(lp: THandle; obj_in_basis: boolean); stdcall; external LPSOLVELIB name 'set_obj_in_basis';
+function get_accuracy(lp: THandle): double; stdcall; external LPSOLVELIB name 'get_accuracy';
+function get_break_numeric_accuracy(lp: THandle): double; external LPSOLVELIB name 'get_break_numeric_accuracy';
+procedure set_break_numeric_accuracy(lp: THandle;Value: double); external LPSOLVELIB name 'set_break_numeric_accuracy';
 {$ELSE}
 function set_free(lp: THandle; column: integer): boolean; stdcall; external LPSOLVELIB name 'set_free';
 function is_free(lp: THandle; column: integer): boolean; stdcall; external LPSOLVELIB name 'is_free';
