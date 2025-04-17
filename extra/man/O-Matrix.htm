@@ -68,7 +68,7 @@ Load the omlpsolve driver in the O-Matrix memory space:
 -------------------------------------------------------
 
 1. Under Windows, make sure that the lpsolve55.dll file is somewhere in the path
-   (archive lp_solve_5.5.2.13_dev.zip)
+   (archive lp_solve_5.5.2.14_dev.zip)
 
 2. A precompiled library is provided for Windows (omlpsolve.dll).
 
@@ -131,7 +131,7 @@ So it will appear as if the omlpsolve command is then always available.</p>
 If it gives the following, then everything is ok:</p>
 
 <pre>omlpsolve O-Matrix Interface version 5.5.0.6
-using lpsolve version 5.5.2.13
+using lpsolve version 5.5.2.14
 
 Usage: [ret1, ret2, ...] = omlpsolve("functionname", arg1, arg2, ...)
 </pre>
@@ -475,7 +475,7 @@ with the solution vector. Now take a look at the value of the objective that lps
 
 <a name="Using_string_constants"></a>
 <h3>Using string constants</h3>
-From driver version 5.5.2.13 on, it is possible to use string constants
+From driver version 5.5.2.14 on, it is possible to use string constants
 everywhere an lp_solve constant is needed or returned. This is best shown by an example.
 In the above code we had:
 
@@ -2843,7 +2843,7 @@ Most of them exist in the lpsolve API with another name.</p>
 
 <p>Under Windows, the omlpsolve O-Matrix driver is a dll: omlpsolve.dll<br>
 This dll is an interface to the lpsolve55.dll lpsolve dll that contains the implementation of lp_solve.
-lpsolve55.dll is distributed with the lp_solve package (archive lp_solve_5.5.2.13_dev.zip). The omlpsolve O-Matrix driver dll (omlpsolve.dll) is just
+lpsolve55.dll is distributed with the lp_solve package (archive lp_solve_5.5.2.14_dev.zip). The omlpsolve O-Matrix driver dll (omlpsolve.dll) is just
 a wrapper between O-Matrix and lp_solve to translate the input/output to/from O-Matrix and the lp_solve library.
 </p>
 

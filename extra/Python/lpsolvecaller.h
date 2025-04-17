@@ -4,7 +4,7 @@
 # include "config.h"
 #endif
 
-#define driverVERSION "5.5.2.13"
+#define driverVERSION "5.5.2.14"
 
 #define CheckInterrupted(lpsolvecaller, interrupted)
 

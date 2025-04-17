@@ -48,7 +48,7 @@
 				BuildCommandLine="run /w hhc.exe lp_solve.hhp"
 				ReBuildCommandLine="run /w hhc.exe lp_solve.hhp"
 				CleanCommandLine="if exist $(Output) del $(Output)"
-				Output="lp_solve_5.5.2.13.chm"
+				Output="lp_solve_5.5.2.14.chm"
 				PreprocessorDefinitions=""
 				IncludeSearchPath=""
 				ForcedIncludes=""
@@ -74,7 +74,7 @@
 			>
 		</File>
 		<File
-			RelativePath=".\lp_solve5.5.2.13.chm"
+			RelativePath=".\lp_solve5.5.2.14.chm"
 			>
 		</File>
 	</Files>

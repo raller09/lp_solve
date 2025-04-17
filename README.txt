@@ -557,6 +557,10 @@ xx/xx/xx version 5.5.2.8
    -relaxexclude
 - added option -checkmultiplesolutions to check if there are multiple solutions
 
+14/04/25 version 5.5.2.14
+- In some rare cases a variable value can be returned as a very small negative number instead of 0
+- Delphi/lpsolve.pas: Add Solver status value "ACCURACYERROR = 25;" + get_accuracy, get_break_numeric_accuracy, set_break_numeric_accuracy
+
 We are thrilled to hear from you and your experiences with this new version. The good and the bad.
 Also we would be pleased to hear about your experiences with the different BFPs on your models.
 

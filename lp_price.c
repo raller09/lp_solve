@@ -1284,7 +1284,7 @@ STATIC int rowdual(lprec *lp, REAL *rhvec, MYBOOL forceoutEQ, MYBOOL updateinfea
   return(current.varno);
 } /* rowdual */
 
-
+#if 0
 STATIC void longdual_testset(lprec *lp, int which, int rownr, REAL *prow, int *nzprow,
                                                     REAL *drow, int *nzdrow)
 {
@@ -1337,7 +1337,7 @@ STATIC void longdual_testset(lprec *lp, int which, int rownr, REAL *prow, int *n
     lp->rhs[0] = 6;
   }
 }
-
+#endif
 
 /* Find the dual simplex entering non-basic variable */
 STATIC int coldual(lprec *lp, int row_nr, REAL *prow, int *nzprow,

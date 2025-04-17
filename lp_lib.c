@@ -8826,7 +8826,7 @@ STATIC MYBOOL bb_better(lprec *lp, int target, int mode)
 STATIC void construct_solution(lprec *lp, REAL *target)
 {
   int     i, j, basi;
-  REAL    f, epsvalue = lp->epsprimal;
+  REAL    f, epsvalue;
   REAL    *solution;
   REAL    *value;
   int     *rownr;
@@ -8869,10 +8869,13 @@ STATIC void construct_solution(lprec *lp, REAL *target)
     solution[i] = lp->lowbo[i];
 
   /* Add values of user basic variables. */
+  epsvalue = lp->epsdual;
   for(i = 1; i <= lp->rows; i++) {
     basi = lp->var_basic[i];
     if(basi > lp->rows) {
-      solution[basi] += lp->rhs[i];
+      REAL rhs = lp->rhs[i];
+      if (rhs > 0.0 || rhs < -epsvalue) /* see rowdual, test if((rh < -epsvalue) which means that all values greater than -epsvalue are seen as 0. Normally there should even not be a negative value */
+        solution[basi] += rhs;
     }
   }
 
@@ -8905,6 +8908,8 @@ STATIC void construct_solution(lprec *lp, REAL *target)
         solution[*rownr] += f * unscaled_mat(lp, *value, *rownr, j);
     }
   }
+
+  epsvalue = lp->epsprimal;
 
   /* Do slack precision management and sign reversal if necessary */
   for(i = 0; i <= lp->rows; i++) {

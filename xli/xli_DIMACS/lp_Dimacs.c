@@ -34,8 +34,9 @@
 
 /* Local defines and constants */
 #define  Dimacs_BUFSIZE  256
-/*
+
 static char SpaceChars[3] = {" " "\7"};
+/*
 static char NumChars[14]  = {"0123456789-+."};
 */
 
@@ -50,7 +51,7 @@ typedef struct _GROSSrec {
   int NSISO;
 } GROSSrec;
 
-#if (MAJORVERSION > 5) || (MAJORVERSION == 5 && MINORVERSION > 5) || (MAJORVERSION == 5 && MINORVERSION == 5 && RELEASE > 0)
+#if (MAJORVERSION > 5) || (MAJORVERSION == 5 && MINORVERSION > 5) /* || (MAJORVERSION == 5 && MINORVERSION == 5 && RELEASE > 0)*/
 #  define get_lowbo        lp->lpfunc->get_lowbo
 #  define get_upbo         lp->lpfunc->get_upbo
 #  define get_Ncolumns     lp->lpfunc->get_Ncolumns
@@ -177,7 +178,7 @@ int my_SubStr(char *Target, char *Source, int bpos, int epos)
 }
 int my_ReadRec(FILE *input, char *TextIO, int bufsize)
 {
-  int length;
+  int length = 0;
   bufsize--;
   while (fgets(TextIO, bufsize, input) != NULL) {
     length = (int) strlen(TextIO);
@@ -187,11 +188,10 @@ int my_ReadRec(FILE *input, char *TextIO, int bufsize)
     }
     if((length>0) && (TextIO[0]!='c'))
       break;
+    length = 0;
   }
   if(ferror(input))
     length = -1;
-  else if(feof(input))
-    length = 0;
   else if((length>0) && (TextIO[length-1]=='\n'))
     TextIO[--length] = '\0';
   return( length );

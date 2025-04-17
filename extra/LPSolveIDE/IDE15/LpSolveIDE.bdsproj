@@ -162,13 +162,13 @@
 		<VersionInfoKeys>
 			<VersionInfoKeys Name="CompanyName">Free Software Foundation, Inc.</VersionInfoKeys>
 			<VersionInfoKeys Name="FileDescription">LPSolve IDE</VersionInfoKeys>
-			<VersionInfoKeys Name="FileVersion">5.5.2.13</VersionInfoKeys>
+			<VersionInfoKeys Name="FileVersion">5.5.2.14</VersionInfoKeys>
 			<VersionInfoKeys Name="InternalName"></VersionInfoKeys>
 			<VersionInfoKeys Name="LegalCopyright">Copyright C 1991, 2022 Free Software Foundation, Inc.</VersionInfoKeys>
 			<VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
 			<VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
 			<VersionInfoKeys Name="ProductName">LPSolve IDE</VersionInfoKeys>
-			<VersionInfoKeys Name="ProductVersion">5.5.2.13</VersionInfoKeys>
+			<VersionInfoKeys Name="ProductVersion">5.5.2.14</VersionInfoKeys>
 			<VersionInfoKeys Name="Comments">http://sourceforge.net/projects/lpsolve/files/lpsolve/</VersionInfoKeys>
 		</VersionInfoKeys>  <Excluded_Packages>
       <Excluded_Packages Name="C:\Documents and Settings\MRP\My Documents\Borland Studio Projects\Bpl\SynEdit_R2006.bpl">SynEdit component suite runtime</Excluded_Packages>

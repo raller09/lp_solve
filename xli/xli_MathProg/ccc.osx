@@ -10,20 +10,22 @@ glpk="${glpkdir}/src/glpavl.c ${glpkdir}/src/glpdmp.c ${glpkdir}/src/glpenv01.c 
 
 src="lp_MathProg.c ../../shared/commonlib.c ${glpk}"
 
-c=cc
+c=${CC:-cc}
+
+MYTMP=`mktemp -d "${TMPDIR:-/tmp}"/lp_solve_XXXXXX`
 
 #determine platform (32/64 bit)
->/tmp/platform.c
-echo '#include <stdlib.h>'>>/tmp/platform.c
-echo '#include <stdio.h>'>>/tmp/platform.c
-echo 'main(){printf("osx%d", (int) (sizeof(void *)*8));}'>>/tmp/platform.c
-$c /tmp/platform.c -o /tmp/platform
-PLATFORM=`/tmp/platform`
-rm /tmp/platform /tmp/platform.c >/dev/null 2>&1
+>"$MYTMP"/platform.c
+echo '#include <stdlib.h>'>>"$MYTMP"/platform.c
+echo '#include <stdio.h>'>>"$MYTMP"/platform.c
+echo 'int main(){printf("osx%d", (int) (sizeof(void *)*8)); return 0;}'>>"$MYTMP"/platform.c
+$c "$MYTMP"/platform.c -o "$MYTMP"/platform
+PLATFORM=`"$MYTMP"/platform`
+rm "$MYTMP"/platform "$MYTMP"/platform.c >/dev/null 2>&1
 
 mkdir bin bin/$PLATFORM >/dev/null 2>&1
 
-opts='-idirafter /usr/include/sys -O3 -DINTEGERTIME -Wno-long-double'
+opts='-O3 -DINTEGERTIME'
 
 $c -s -c $opts -I. -I.. -I../.. -I../../shared -I../../colamd -I. -I${glpkdir}/include -I${glpkdir}/src -I/usr/local/include/mysql -DHAVE_CONFIG_H -DHAVE_DLFCN -DMACOSX $src
 libtool -static -o libxli_MathProg.a `echo $src|sed s/[.]c/.o/g|sed 's/[^ ]*\///g'`

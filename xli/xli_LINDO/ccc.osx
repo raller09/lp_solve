@@ -1,20 +1,22 @@
 :
 src='lp_LINDO.c lp_rlnd1.c lp_wlnd1.c yacc_read1.c lp_Hash1.c ../../lp_utils.c'
 
-c=cc
+c=${CC:-cc}
+
+MYTMP=`mktemp -d "${TMPDIR:-/tmp}"/lp_solve_XXXXXX`
 
 #determine platform (32/64 bit)
->/tmp/platform.c
-echo '#include <stdlib.h>'>>/tmp/platform.c
-echo '#include <stdio.h>'>>/tmp/platform.c
-echo 'main(){printf("osx%d", (int) (sizeof(void *)*8));}'>>/tmp/platform.c
-$c /tmp/platform.c -o /tmp/platform
-PLATFORM=`/tmp/platform`
-rm /tmp/platform /tmp/platform.c >/dev/null 2>&1
+>"$MYTMP"/platform.c
+echo '#include <stdlib.h>'>>"$MYTMP"/platform.c
+echo '#include <stdio.h>'>>"$MYTMP"/platform.c
+echo 'int main(){printf("osx%d", (int) (sizeof(void *)*8)); return 0;}'>>"$MYTMP"/platform.c
+$c "$MYTMP"/platform.c -o "$MYTMP"/platform
+PLATFORM=`"$MYTMP"/platform`
+rm "$MYTMP"/platform "$MYTMP"/platform.c >/dev/null 2>&1
 
 mkdir bin bin/$PLATFORM >/dev/null 2>&1
 
-opts='-idirafter /usr/include/sys -O3 -DINTEGERTIME -Wno-long-double'
+opts='-O3 -DINTEGERTIME'
 
 $c -s -c $opts -I.. -I../.. -I../../shared -I. -DYY_NEVER_INTERACTIVE $src
 libtool -static -o libxli_LINDO.a `echo $src|sed s/[.]c/.o/g|sed 's/[^ ]*\///g'`

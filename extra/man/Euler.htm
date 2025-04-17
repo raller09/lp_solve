@@ -54,7 +54,7 @@ Load the eulpsolve driver in the Euler memory space:
 -------------------------------------------------------
 
 1. Under Windows, make sure that the lpsolve55.dll file is somewhere in the path
-   (archive lp_solve_5.5.2.13_dev.zip)
+   (archive lp_solve_5.5.2.14_dev.zip)
 
 2. A precompiled library is provided for Windows (eulpsolve.dll).
 
@@ -136,7 +136,7 @@ If it gives the following, then everything is ok:</p>
 <pre>&gt;eulpsolve();</pre>
 
 <pre>eulpsolve Euler Interface version 5.5.0.7
-using lpsolve version 5.5.2.13
+using lpsolve version 5.5.2.14
 
 Usage: [ret1, ret2, ...] = eulpsolve("functionname", arg1, arg2, ...)
 </pre>
@@ -515,7 +515,7 @@ with the solution vector. Now take a look at the value of the objective that lps
 
 <a name="Using_string_constants"></a>
 <h3>Using string constants</h3>
-From driver version 5.5.2.13 on, it is possible to use string constants
+From driver version 5.5.2.14 on, it is possible to use string constants
 everywhere an lp_solve constant is needed or returned. This is best shown by an example.
 In the above code we had:
 
@@ -2874,7 +2874,7 @@ Most of them exist in the lpsolve API with another name.</p>
 <p>Under Windows, the eulpsolve Euler driver is a dll: eulpsolve.dll<br>
 Under Unix/Linux, the eulpsolve Euler driver is a shared library.: eulpsolve.so<br>
 This driver is an interface to the lpsolve library lpsolve55.dll/liblpsolve55.so that contains the implementation of lp_solve.
-lpsolve55.dll/liblpsolve55.so is distributed with the lp_solve package (archive lp_solve_5.5.2.13_dev.zip/lp_solve_5.5.2.13_dev.tar.gz).
+lpsolve55.dll/liblpsolve55.so is distributed with the lp_solve package (archive lp_solve_5.5.2.14_dev.zip/lp_solve_5.5.2.14_dev.tar.gz).
 The eulpsolve Euler driver is just a wrapper between Euler and lp_solve to translate the input/output to/from Euler and the lp_solve library.
 </p>
 

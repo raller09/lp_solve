@@ -1,9 +1,9 @@
 ; -- LPSolveIDE.iss --
 
 [Setup]
-AppVerName=LPSolve IDE 5.5.2.13
-AppVersion=5.5.2.13
-VersionInfoVersion=5.5.2.13
+AppVerName=LPSolve IDE 5.5.2.14
+AppVersion=5.5.2.14
+VersionInfoVersion=5.5.2.14
 AppPublisherURL=http://lpsolve.sourceforge.net/5.5/
 OutputBaseFilename=LPSolveIDESetup55
 

@@ -818,8 +818,9 @@ static int relax(int argc, char *argv[], lprec *lp)
 
 									if (tighten)
 									{
+                                                                                char tichtened = FALSE;
+
 										printf("Tightening up relaxations ...\n");
-										char tichtened = FALSE;
 										for (i = 0; i < cnt; i++)
 										{
 											ret = set_bounds(lp, n + (relaxed[i] - 1) * 2 + 1, 0.0, 0.0);

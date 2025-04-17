@@ -22,7 +22,7 @@ object AboutForm: TAboutForm
     Top = 16
     Width = 194
     Height = 24
-    Caption = 'LPSolve IDE v5.5.2.13'
+    Caption = 'LPSolve IDE v5.5.2.14'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -20

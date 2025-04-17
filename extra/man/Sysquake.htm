@@ -107,7 +107,7 @@ with the commercial version.
 This driver must be put in a directory known to Sysquake (LMEExt under Windows, sys under Unix/Linux) and Sysquake can call the sqlpsolve solver.</p>
 
 <p>This driver calls lpsolve via the lpsolve shared library (lpsolve55.dll under Windows
-and liblpsolve55.so under Unix/Linux) (archive lp_solve_5.5.2.13_dev.zip/lp_solve_5.5.2.13_dev.tar.gz). This has the advantage that the sqlpsolve driver doesn't have to
+and liblpsolve55.so under Unix/Linux) (archive lp_solve_5.5.2.14_dev.zip/lp_solve_5.5.2.14_dev.tar.gz). This has the advantage that the sqlpsolve driver doesn't have to
 be recompiled when an update of lpsolve is provided. The shared library must be somewhere in the Windows path.</p>
 
 <p>So note the difference between the Sysquake lpsolve driver that is called sqlpsolve, its physical name on disk (sqlpsolvext.*) and the lpsolve library that implements the
@@ -119,7 +119,7 @@ API that is named lpsolve55.* on disk.</p>
 If it gives the following, then everything is ok:</p>
 
 <pre>sqlpsolve Sysquake Interface version 5.5.0.7
-using lpsolve version 5.5.2.13
+using lpsolve version 5.5.2.14
 
 Usage: ret = sqlpsolve('functionname', arg1, arg2, ...)
 </pre>
@@ -635,7 +635,7 @@ ans =
 
 <a name="Using_string_constants"></a>
 <h3>Using string constants</h3>
-From driver version 5.5.2.13 on, it is possible to use string constants
+From driver version 5.5.2.14 on, it is possible to use string constants
 everywhere an lp_solve constant is needed or returned. This is best shown by an example.
 In the above code we had:
 
@@ -3001,7 +3001,7 @@ Most of them exist in the lpsolve API with another name.</p>
 <p>Under Windows, the sqlpsolve Sysquake driver is a dll: sqlpsolvext.dll<br>
 Under Unix/Linux, the sqlpsolve Sysquake driver is a shared library.: sqlpsolvext.so<br>
 This driver is an interface to the lpsolve library lpsolve55.dll/liblpsolve55.so that contains the implementation of lp_solve.
-lpsolve55.dll/liblpsolve55.so is distributed with the lp_solve package (archive lp_solve_5.5.2.13_dev.zip/lp_solve_5.5.2.13_dev.tar.gz).
+lpsolve55.dll/liblpsolve55.so is distributed with the lp_solve package (archive lp_solve_5.5.2.14_dev.zip/lp_solve_5.5.2.14_dev.tar.gz).
 The sqlpsolve Sysquake driver is just a wrapper between Sysquake and lp_solve to translate the input/output to/from Sysquake and the lp_solve library.
 </p>
 

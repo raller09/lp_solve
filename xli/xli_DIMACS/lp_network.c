@@ -8,7 +8,7 @@
 # include "lp_fortify.h"
 #endif
 
-#if (MAJORVERSION > 5) || (MAJORVERSION == 5 && MINORVERSION > 5) || (MAJORVERSION == 5 && MINORVERSION == 5 && RELEASE > 0)
+#if (MAJORVERSION > 5) || (MAJORVERSION == 5 && MINORVERSION > 5) /* || (MAJORVERSION == 5 && MINORVERSION == 5 && RELEASE > 0) */
 #  define get_nonzeros    lp->lpfunc->get_nonzeros
 #  define get_constr_type lp->lpfunc->get_constr_type
 #  define is_maxim        lp->lpfunc->is_maxim
