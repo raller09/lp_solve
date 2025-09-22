@@ -1,4 +1,4 @@
-(*
+﻿(*
  * lp_solve v5.5 API for Delphi 2009 & FPC compiler v1.9.x
  * Licence LGPL
  *
@@ -4539,11 +4539,5 @@ end;
 
 {$ENDIF}
 
-initialization
-
-finalization
-{$IFDEF LPSOLVE_DYNAMIC}
-  UnloadLPSolve;
-{$ENDIF}
 
 end.
